@@ -1,0 +1,28 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+        font-family: 'Lobster', sans-serif;
+        font-weight: normal;
+}
+
+body {
+    font-size: 2em;
+}
+
+h1 {
+    height: 150px;
+    padding-top:  0.8em;
+    text-align: center;
+    font-size: 3em;
+    background: pink url(/static/img/balloonicorn.png) no-repeat right;
+    background-size: 220px 210px;
+}
+
+pre {
+    max-height: 600px;
+    overflow-y: scroll;
+}

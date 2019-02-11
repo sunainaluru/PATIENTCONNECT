@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Afterparties!!!{% endblock %}
+
+{% block content %}
+
+  <div class="row">
+
+    <div class="col-xs-12 col-md-6">
+
+      <h2>Potential events</h2>
+      <ul class="events">
+        {% for event in results %}
+          <li><a href="{{ event.url }}">{{ event.name.text }}</a></li>
+        {% endfor %}
+      </ul>
+
+    </div>
+
+    <div class="col-xs-12 col-md-6">
+
+      <h2>Eventbrite results json</h2>
+
+      <pre>{{ data }}</pre>
+
+    </div>
+
+  </div>
+
+{% endblock %}

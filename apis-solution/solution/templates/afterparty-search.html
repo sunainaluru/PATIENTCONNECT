@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}Find Afterparties{% endblock %}
+
+{% block content %}
+
+  <div class="row">
+
+    <div class="col-xs-12">
+
+      <h2>Search for Afterparties</h2>
+      
+      <form method="GET" action="/afterparties">
+
+        <div class="form-group">
+          <label for="search-term">Search Term</label>
+          <input id="search-term" class="form-control" type="text" name="query">
+        </div>
+
+        <div class="form-group">
+          <label for="event-loc">Location*</label>
+          <input id="event-loc" class="form-control" type="text" name="location" required>
+        </div>
+
+        <div class="form-group">
+          <label for="loc-within">Distance*</label>
+          <input id="loc-within" class="form-control" type="number" name="distance" required>
+          <select class="form-control" name="measurement">
+            <option value="mi">miles</option>
+            <option value="km">kilometers</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="sort-by">Sort by</label>
+          <select id="sort-by" class="form-control" name="sort">
+            <option value="date">Date</option>
+            <option value="distance">Distance</option>
+            <option value="best">Best</option>
+          </select>
+        </div>
+
+        <input type="submit" value="Look for events!" class="btn btn-primary">
+
+      </form>
+
+    </div>
+
+  </div>
+
+{% endblock %}

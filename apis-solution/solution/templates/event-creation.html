@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block title %}Make My Party Happen!{% endblock %}
+
+{% block content %}
+
+  <div class="row">
+
+    <div class="col-xs-12">
+
+      <h2>Create an event for my party!</h2>
+      
+      <form method="POST" action="/create-event">
+
+        <div class="form-group">
+          <label for="event-name">Event Name</label>
+          <input id="event-name" class="form-control" type="text" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="start-time">Event Start Time (UTC)</label>
+          <input id="start-time" class="form-control" type="datetime-local" name="start-time" required>
+        </div>
+
+        <div class="form-group">
+          <label for="end-time">Event End Time (UTC)</label>
+          <input id="end-time" class="form-control" type="datetime-local" name="end-time" required>
+        </div>
+
+        <div class="form-group">
+          <label for="timezone">Timezone</label>
+          <select id="timezone" name="timezone" class="form-control" required>
+            <option value="America/Los_Angeles">Pacific Time</option>
+            <option value="America/Denver">Mountain Time</option>
+            <option value="America/Chicago">Central Time</option>
+            <option value="America/New_York">Eastern Time</option>
+            <option value="UTC">UTC</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="currency">Currency</label>
+          <select id="currency" name="currency" class="form-control" required>
+            <option value="USD">US Dollars</option>
+            <option value="CAD">Canadian Dollars</option>
+            <option value="GBP">British Pounds</option>
+          </select>
+        </div>
+
+        <input type="submit" value="Make my event!" class="btn btn-primary">
+
+      </form>
+
+    </div>
+
+  </div>
+
+{% endblock %}
