@@ -12,9 +12,6 @@ def load_study():
 
     print("Studies Table Added")
 
-    age_range = age.split('(', 1)[0].split(')')[0]
-    age_detail = age.split('(', 1)[1].split(')')[0]
-
     # Delete all rows in table, so if we need to run this a second time,
     # we won't be trying to add duplicate studies
     Study.query.delete()
