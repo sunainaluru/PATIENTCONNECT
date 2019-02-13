@@ -1,4 +1,3 @@
-#Rank    NCT Number  Title   Status  Study Results   Conditions  Interventions   Gender  Age Phases  Enrollment  Study Type  Start Date  Locations   URL
 import csv
 
 
@@ -74,7 +73,7 @@ with open('interventions.tsv', 'w') as tsvfile:
             interventions, gender, age, phase, enrollment, study_type, \
             start_date, locations, url = line.split("\t")
 
-            intervention_detail_split = condition.split('|')
+            intervention_detail_split = interventions.split('|')
             intervention_detail = ''
             for detail in intervention_detail_split:
                 intervention_detail += detail + '\t'
@@ -90,7 +89,7 @@ with open('conditions.tsv', 'w') as tsvfile:
             interventions, gender, age, phase, enrollment, study_type, \
             start_date, locations, url = line.split("\t")
 
-            condition_detail_split = condition.split('|')
+            condition_detail_split = conditions.split('|')
             condition_detail = ''
             for detail in condition_detail_split:
                 condition_detail += detail + '\t'
@@ -106,6 +105,33 @@ with open('sites.tsv', 'w') as tsvfile:
             interventions, gender, age, phase, enrollment, study_type, \
             start_date, locations, url = line.split("\t")
 
+            sites_detail_split = locations.split('|')
+            for detail in sites_detail_split:
+                one_site = detail.split(',') 
+                if len(one_site) == 4:
+                    NCT_number = NCT_number
+                    site_name = one_site[0]
+                    site_city = one_site[1]
+                    site_state = one_site[2]
+                    site_country = one_site[3]
+                elif len(one_site) == 3:
+                    NCT_number = NCT_number
+                    site_name = one_site[0]
+                    site_city = None
+                    site_state = one_site[1]
+                    site_country = one_site[2]
+                elif len(one_site) == 2:
+                    NCT_number = NCT_number
+                    site_name = one_site[0]
+                    site_city = None
+                    site_state = None
+                    site_country = one_site[1]
+                elif len(one_site) == 1:
+                    NCT_number = NCT_number
+                    site_name = one_site[0]
+                    site_city = None
+                    site_state = None
+                    site_country = None
         
-            sitesfile.writerow([NCT_number, locations])
+                sitesfile.writerow([NCT_number, site_name, site_city, site_state, site_country])
 
