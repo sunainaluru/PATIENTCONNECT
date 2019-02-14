@@ -12,39 +12,40 @@ with open('study.tsv', 'w') as tsvfile:
 
             studyfile.writerow([rank, NCT_number, status, study_type, title, start_date, gender, enrollment])
 
-# with open('age.tsv', 'w') as tsvfile:
-#     agefile = csv.writer(tsvfile, delimiter='\t')
-#     with open('rawdata.tsv', 'r') as file:
-#         lines = file.readlines()[1:]
-#         for line in lines:
-#             rank, NCT_number, title, status, study_results, conditions, \
-#             interventions, gender, age, phase, enrollment,  study_type, \
-#             age_split = age.split('(', 1)
-#             start_date, locations, url = line.split("\t")
+with open('age.tsv', 'w') as tsvfile:
+    agefile = csv.writer(tsvfile, delimiter='\t')
+    with open('rawdata.tsv', 'r') as file:
+        lines = file.readlines()[1:]
+        for line in lines:
+            rank, NCT_number, title, status, study_results, conditions, \
+            interventions, gender, age, phase, enrollment,  study_type, \
+            start_date, locations, url = line.split("\t")
 
-#             if len(age_split) > 1:
-#                 age_range = age_split[0]
-#                 age_detail = age_split[1].split(')')[0]
-#             else:
-#                 age_range = None
-#                 age_detail = age_split[0]
+            age_split = age.split('(', 1)
 
-#             age_detail_split = age_detail.split(',')
-#             for detail in age_detail_split:
-#                 if detail == "Child":
-#                     age_detail_child = "Child"
-#                     age_detail_adult = None
-#                     age_detail_older = None
-#                 elif detail == "Adult":
-#                     age_detail_adult = "Adult"
-#                     age_detail_child = None
-#                     age_detail_older = None
-#                 elif detail == "Older Adult":
-#                     age_detail_older = "Older Adult"
-#                     age_detail_adult = None
-#                     age_detail_child = None
+            if len(age_split) > 1:
+                age_range = age_split[0]
+                age_detail = age_split[1].split(')')[0]
+            else:
+                age_range = None
+                age_detail = age_split[0]
 
-#             agefile.writerow([NCT_number, age_range, age_detail_child, age_detail_adult, age_detail_older])
+            age_detail_split = age_detail.split(',')
+            for detail in age_detail_split:
+                if detail == "Child":
+                    age_detail_child = "Child"
+                    age_detail_adult = "null"
+                    age_detail_older = "null"
+                elif detail == "Adult":
+                    age_detail_adult = "Adult"
+                    age_detail_child = "null"
+                    age_detail_older = "null"
+                elif detail == "Older Adult":
+                    age_detail_older = "Older Adult"
+                    age_detail_adult = "null"
+                    age_detail_child = "null"
+
+            agefile.writerow([NCT_number, age_range, age_detail_child, age_detail_adult, age_detail_older])
 
 
 with open('phase.tsv', 'w') as tsvfile:

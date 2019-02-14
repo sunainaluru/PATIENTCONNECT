@@ -5,8 +5,8 @@ from model import Study, Age, Phase, Condition, Site, PhaseXref
 from datetime import datetime as dt
 
 from model import connect_to_db, db
-from flask import Flask
-#from server import app
+from flask import Flask #delete this when you have server.py
+#from server import app #uncomment this when you have server.py
 
 def load_study():
     """Load studies from study.tsv into database."""
@@ -38,6 +38,7 @@ def load_study():
     # Once we're done, we should commit our work
     db.session.commit()
 
+
 def load_age():
     """Load phases from u.studies into database."""
 
@@ -53,6 +54,13 @@ def load_age():
 
         NCT_number, age_range, age_detail_child, age_detail_adult, age_detail_older = row.split("\t")
 
+        if age_detail_child == "null":
+            age_detail_child = None
+        if age_detail_adult == "null":
+            age_detail_adult = None
+        if age_detail_older == "null":
+            age_detail_older = None
+
         age = Age(NCT_number=NCT_number,
                     age_range=age_range,
                     age_detail_child=age_detail_child,
@@ -64,6 +72,7 @@ def load_age():
 
     # Once we're done, we should commit our work
     db.session.commit()
+
 
 def load_phase():
     """Load phases from u.studies into database."""
@@ -82,9 +91,6 @@ def load_phase():
         phase_detail = phase_detail.strip('"')
         phase_detail = phase_detail.split("\t")
 
-
-        print(NCT_number, phase_detail)
-
         for detail in phase_detail:
             detail_query = Phase.query.filter_by(phase_detail = detail).first()
             if detail_query == None:
@@ -97,14 +103,11 @@ def load_phase():
                 # Once we're done, we should commit our work
                 db.session.commit()
 
-                print(detail)
-
                 phasexref = PhaseXref(NCT_number=NCT_number, phase_id=phase.phase_id)
 
                 db.session.add(phasexref)
 
     db.session.commit()
-
 
 
 def load_intervention():
@@ -205,7 +208,7 @@ if __name__ == "__main__":
 
     # Import different types of data
     load_study()
-    # load_age()
+    load_age()
     load_phase()
     # load_sites()
     # load_condition()
