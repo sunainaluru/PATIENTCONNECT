@@ -171,8 +171,6 @@ def load_intervention():
 def load_sites():
     """Load phases from u.studies into database."""
 
-    print("Sites Table Added")
-
     # Delete all rows in table, so if we need to run this a second time,
     # we won't be trying to add duplicate studies
     Site.query.delete()
@@ -194,6 +192,7 @@ def load_sites():
 
     # Once we're done, we should commit our work
     db.session.commit()
+    print("Sites Table Added")
 
 
 # def set_val_user_id():
