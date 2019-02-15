@@ -121,21 +121,17 @@ def load_condition():
 
         for detail in cond_detail:
             condition_query = Condition.query.filter_by(cond_detail = detail).first()
+            study_query = Study.query.get(nct_number)
             if condition_query == None:
                 if len(detail) > 1:
                     condition = Condition(cond_detail=detail)
 
                     # We need to add to the session or it won't ever be stored
+                    study_query.conditions.append(condition)
                     db.session.add(condition)
 
                 # Once we're done, we should commit our work
                 db.session.commit()
-
-                condxref = CondXref(nct_number=nct_number, cond_id=condition.cond_id)
-
-                db.session.add(condxref)
-
-    db.session.commit()
     print("Condition Table Added")
 
 
