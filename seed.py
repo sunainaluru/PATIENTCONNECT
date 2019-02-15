@@ -1,7 +1,7 @@
 """Utility file to seed trials database from ClinicalTrial.gov data in seeddata/"""
 
 from sqlalchemy import func
-from model import Study, Age, Phase, Condition, Site, PhaseXref
+from model import Study, Age, Phase, Condition, Site, PhaseXref, CondXref, InterXref, Inter
 from datetime import datetime as dt
 
 from model import connect_to_db, db
@@ -11,8 +11,6 @@ from flask import Flask #delete this when you have server.py
 def load_study():
     """Load studies from study.tsv into database."""
 
-    print("Study Table Added")
-
     # Delete all rows in table, so if we need to run this a second time,
     # we won't be trying to add duplicate studies
     Study.query.delete()
@@ -21,10 +19,10 @@ def load_study():
     for row in open("data/study.tsv"):
         row = row.rstrip()
 
-        index, NCT_number, status, study_type, title, start_date, gender, enrollment = row.split("\t")
+        index, nct_number, status, study_type, title, start_date, gender, enrollment = row.split("\t")
 
         study = Study(index=index,
-                    NCT_number=NCT_number,
+                    nct_number=nct_number,
                     status=status,
                     study_type=study_type,
                     title=title,
@@ -37,12 +35,11 @@ def load_study():
 
     # Once we're done, we should commit our work
     db.session.commit()
+    print("Study Table Added")
 
 
 def load_age():
     """Load phases from u.studies into database."""
-
-    print("Age Table Added")
 
     # Delete all rows in table, so if we need to run this a second time,
     # we won't be trying to add duplicate studies
@@ -52,7 +49,7 @@ def load_age():
     for row in open("data/age.tsv"):
         row = row.rstrip()
 
-        NCT_number, age_range, age_detail_child, age_detail_adult, age_detail_older = row.split("\t")
+        nct_number, age_range, age_detail_child, age_detail_adult, age_detail_older = row.split("\t")
 
         if age_detail_child == "null":
             age_detail_child = None
@@ -61,7 +58,7 @@ def load_age():
         if age_detail_older == "null":
             age_detail_older = None
 
-        age = Age(NCT_number=NCT_number,
+        age = Age(nct_number=nct_number,
                     age_range=age_range,
                     age_detail_child=age_detail_child,
                     age_detail_adult=age_detail_adult,
@@ -72,12 +69,11 @@ def load_age():
 
     # Once we're done, we should commit our work
     db.session.commit()
+    print("Age Table Added")
 
 
 def load_phase():
     """Load phases from u.studies into database."""
-
-    print("Phase Table Added")
 
     # Delete all rows in table, so if we need to run this a second time,
     # we won't be trying to add duplicate studies
@@ -87,57 +83,29 @@ def load_phase():
     for row in open("data/phase.tsv"):
         row = row.rstrip()  
 
-        NCT_number, phase_detail = row.split("\t", 1)
+        nct_number, phase_detail = row.split("\t", 1)
         phase_detail = phase_detail.strip('"')
         phase_detail = phase_detail.split("\t")
 
         for detail in phase_detail:
             detail_query = Phase.query.filter_by(phase_detail = detail).first()
+            study_query = Study.query.get(nct_number)
             if detail_query == None:
                 if len(detail) > 1:
                     phase = Phase(phase_detail=detail)
 
                 # We need to add to the session or it won't ever be stored
+                study_query.phases.append(phase)
                 db.session.add(phase)
 
                 # Once we're done, we should commit our work
                 db.session.commit()
-
-                phasexref = PhaseXref(NCT_number=NCT_number, phase_id=phase.phase_id)
-
-                db.session.add(phasexref)
-
-    db.session.commit()
+    print("Phase Table Added")
 
 
-def load_intervention():
-    """Load phases from u.studies into database."""
-
-    print("Intervention Table Added")
-
-    # Delete all rows in table, so if we need to run this a second time,
-    # we won't be trying to add duplicate studies
-    Inter.query.delete()
-
-    # Read rawdata file and insert data
-    for row in open("data/interventions.tsv"):
-        row = row.rstrip()
-
-        NCT_number, intervention_detail = row.split("\t")
-
-        inter = Inter(NCT_number=NCT_number,
-                    intervention_detail=intervention_detail)
-
-        # We need to add to the session or it won't ever be stored
-        db.session.add(inter)
-
-    # Once we're done, we should commit our work
-    db.session.commit()
 
 def load_condition():
     """Load phases from u.studies into database."""
-
-    print("Condition Table Added")
 
     # Delete all rows in table, so if we need to run this a second time,
     # we won't be trying to add duplicate studies
@@ -147,16 +115,66 @@ def load_condition():
     for row in open("data/conditions.tsv"):
         row = row.rstrip()
 
-        NCT_number, condition_detail = row.split("\t")
+        nct_number, cond_detail = row.split("\t", 1)
+        cond_detail = cond_detail.strip('"')
+        cond_detail = cond_detail.split("\t")
 
-        condition = Condition(NCT_number=NCT_number,
-                    condition_detail=condition_detail)
+        for detail in cond_detail:
+            condition_query = Condition.query.filter_by(cond_detail = detail).first()
+            if condition_query == None:
+                if len(detail) > 1:
+                    condition = Condition(cond_detail=detail)
 
-        # We need to add to the session or it won't ever be stored
-        db.session.add(condition)
+                    # We need to add to the session or it won't ever be stored
+                    db.session.add(condition)
 
-    # Once we're done, we should commit our work
+                # Once we're done, we should commit our work
+                db.session.commit()
+
+                condxref = CondXref(nct_number=nct_number, cond_id=condition.cond_id)
+
+                db.session.add(condxref)
+
     db.session.commit()
+    print("Condition Table Added")
+
+
+
+def load_intervention():
+    """Load phases from u.studies into database."""
+
+    # Delete all rows in table, so if we need to run this a second time,
+    # we won't be trying to add duplicate studies
+    Inter.query.delete()
+
+    # Read rawdata file and insert data
+    for row in open("data/interventions.tsv"):
+        row = row.rstrip()
+
+        nct_number, inter_detail = row.split("\t", 1)
+        inter_detail = inter_detail.strip('"')
+        inter_detail = inter_detail.split("\t")
+
+        for detail in inter_detail:
+            inter_query = Inter.query.filter_by(inter_detail = detail).first()
+            if inter_query == None:
+                if len(detail) > 1:
+                    inter = Inter(inter_detail=detail)
+
+                    # We need to add to the session or it won't ever be stored
+                    db.session.add(inter)
+
+                # Once we're done, we should commit our work
+                db.session.commit()
+
+                interxref = InterXref(nct_number=nct_number, inter_id=inter.inter_id)
+
+                db.session.add(interxref)
+
+    db.session.commit()
+    print("Interventions Table Added")
+
+
 
 def load_sites():
     """Load phases from u.studies into database."""
@@ -210,7 +228,8 @@ if __name__ == "__main__":
     load_study()
     load_age()
     load_phase()
+    load_condition()
+    load_intervention()
     # load_sites()
-    # load_condition()
-    # load_intervention()
+    
     #set_val_user_id()
