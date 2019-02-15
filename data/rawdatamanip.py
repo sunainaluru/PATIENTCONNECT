@@ -110,29 +110,31 @@ with open('sites.tsv', 'w') as tsvfile:
             for detail in sites_detail_split:
                 one_site = detail.split(',') 
                 if len(one_site) == 4:
-                    NCT_number = NCT_number
                     site_name = one_site[0]
                     site_city = one_site[1]
                     site_state = one_site[2]
                     site_country = one_site[3]
                 elif len(one_site) == 3:
-                    NCT_number = NCT_number
                     site_name = one_site[0]
-                    site_city = None
+                    site_city = "null"
                     site_state = one_site[1]
                     site_country = one_site[2]
                 elif len(one_site) == 2:
-                    NCT_number = NCT_number
                     site_name = one_site[0]
-                    site_city = None
-                    site_state = None
+                    site_city = "null"
+                    site_state = "null"
                     site_country = one_site[1]
                 elif len(one_site) == 1:
-                    NCT_number = NCT_number
                     site_name = one_site[0]
-                    site_city = None
-                    site_state = None
-                    site_country = None
+                    site_city = "null"
+                    site_state = "null"
+                    site_country = "null"
+                elif len(one_site) == 0:
+                    site_name = "null"
+                    site_city = "null"
+                    site_state = "null"
+                    site_country = "null"
+
         
                 sitesfile.writerow([NCT_number, site_name, site_city, site_state, site_country])
 

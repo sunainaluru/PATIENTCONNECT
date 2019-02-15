@@ -1,7 +1,7 @@
 """Utility file to seed trials database from ClinicalTrial.gov data in seeddata/"""
 
 from sqlalchemy import func
-from model import Study, Age, Phase, Condition, Site, PhaseXref, CondXref, InterXref, Inter
+from model import Study, Age, Phase, Condition, Site, PhaseXref, CondXref, InterXref, Inter, SiteXref
 from datetime import datetime as dt
 
 from model import connect_to_db, db
@@ -179,10 +179,20 @@ def load_sites():
     for row in open("data/sites.tsv"):
         row = row.rstrip()
 
-        NCT_number, site_name, site_city, site_state, site_country = row.split("\t")
+        print(row.split('\t'))
 
-        site = Site(NCT_number=NCT_number,
-                    site_name=site_name,
+        nct_number, site_name, site_city, site_state, site_country = row.split("\t")
+
+        if site_name =="null":
+            site_name = None
+        if site_city == "null":
+            site_city = None
+        if site_state == "null":
+            site_state = None
+        if site_country == "null":
+            site_country = None
+
+        site = Site(site_name=site_name,
                     site_city=site_city,
                     site_state=site_state,
                     site_country=site_country)
@@ -221,6 +231,6 @@ if __name__ == "__main__":
     load_phase()
     load_condition()
     load_intervention()
-    # load_sites()
+    load_sites()
     
     #set_val_user_id()
