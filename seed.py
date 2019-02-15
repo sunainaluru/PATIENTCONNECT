@@ -153,21 +153,17 @@ def load_intervention():
 
         for detail in inter_detail:
             inter_query = Inter.query.filter_by(inter_detail = detail).first()
+            study_query = Study.query.get(nct_number)
             if inter_query == None:
                 if len(detail) > 1:
                     inter = Inter(inter_detail=detail)
 
                     # We need to add to the session or it won't ever be stored
+                    study_query.inters.append(inter)
                     db.session.add(inter)
 
                 # Once we're done, we should commit our work
                 db.session.commit()
-
-                interxref = InterXref(nct_number=nct_number, inter_id=inter.inter_id)
-
-                db.session.add(interxref)
-
-    db.session.commit()
     print("Interventions Table Added")
 
 
