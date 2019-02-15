@@ -179,8 +179,6 @@ def load_sites():
     for row in open("data/sites.tsv"):
         row = row.rstrip()
 
-        print(row.split('\t'))
-
         nct_number, site_name, site_city, site_state, site_country = row.split("\t")
 
         if site_name =="null":
@@ -192,17 +190,25 @@ def load_sites():
         if site_country == "null":
             site_country = None
 
+        study_query = Study.query.get(nct_number)
         site = Site(site_name=site_name,
                     site_city=site_city,
                     site_state=site_state,
                     site_country=site_country)
 
         # We need to add to the session or it won't ever be stored
+        study_query.sites.append(site)
         db.session.add(site)
 
     # Once we're done, we should commit our work
     db.session.commit()
     print("Sites Table Added")
+
+
+def clean_sites()
+
+
+
 
 
 # def set_val_user_id():

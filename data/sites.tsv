@@ -31,16 +31,16 @@ NCT03653546	China site 0129	 Kunming	 Yunnan	 China
 NCT03653546	China site 0136	 Hangzhou	 Zhejiang	 China
 NCT03653546	China site 0137	 Hangzhou	 Zhejiang	 China
 NCT03653546	China site 0115	 Hangzhou	 Zhejiang	 China
-NCT03653546	China site 0102		 Beijing	 China
-NCT03653546	China site 0133		 Beijing	 China
-NCT03653546	China site 0105		 Beijing	 China
-NCT03653546	China site 0130		 Beijing	 China
-NCT03653546	China site 0106		 Chongqing	 China
-NCT03653546	China site 0120		 Chongqing	 China
-NCT03653546	China site 0134		 Chongqing	 China
-NCT03653546	China site 0103		 Shanghai	 China
-NCT03653546	China site 0107		 Shanghai	 China
-NCT03653546	China site 0139		 Tianjin	 China
+NCT03653546	China site 0102	null	 Beijing	 China
+NCT03653546	China site 0133	null	 Beijing	 China
+NCT03653546	China site 0105	null	 Beijing	 China
+NCT03653546	China site 0130	null	 Beijing	 China
+NCT03653546	China site 0106	null	 Chongqing	 China
+NCT03653546	China site 0120	null	 Chongqing	 China
+NCT03653546	China site 0134	null	 Chongqing	 China
+NCT03653546	China site 0103	null	 Shanghai	 China
+NCT03653546	China site 0107	null	 Shanghai	 China
+NCT03653546	China site 0139	null	 Tianjin	 China
 NCT03653546	Korea Site 0203	 Chungbuk	 Korea	 Republic of
 NCT03653546	Korea site 0210	 Daegu	 Korea	 Republic of
 NCT03653546	Korea site 0209	 Gyeonggi-do	 Korea	 Republic of
@@ -53,11 +53,11 @@ NCT03653546	Korea site 0204	 Seoul	 Korea	 Republic of
 NCT03653546	Korea site 0211	 Seoul	 Korea	 Republic of
 NCT03653546	Korea site 0207	 Suwon	 Korea	 Republic of
 NCT03653546	Korea site 0208	 Ulsan	 Korea	 Republic of
-NCT03653546	Singapore site 0301		 Singapore	 Singapore
-NCT03653546	Taiwan site 0403		 Taichung	 Taiwan
-NCT03653546	Taiwan site 0404		 Tainan	 Taiwan
-NCT03653546	Taiwan site 0401		 Taipei	 Taiwan
-NCT03653546	Taiwan site 0402		 Taoyuan	 Taiwan
+NCT03653546	Singapore site 0301	null	 Singapore	 Singapore
+NCT03653546	Taiwan site 0403	null	 Taichung	 Taiwan
+NCT03653546	Taiwan site 0404	null	 Tainan	 Taiwan
+NCT03653546	Taiwan site 0401	null	 Taipei	 Taiwan
+NCT03653546	Taiwan site 0402	null	 Taoyuan	 Taiwan
 NCT03641209	Department of Pediatrics	 Oulu University Hospital	 Oulu	 Finland
 NCT03601000	Teaching Hospital of Chengdu University of Traditional Chinese Medicine	 Chengdu	 Sichuan	 China
 NCT03601000	Welfare Institution of Emei Civil Administration	 Leshan	 Sichuan	 China
@@ -65,14 +65,14 @@ NCT03498196	Baylor Clinic	 Houston	 Texas	 United States
 NCT03498196	Baylor College of Medicine	 Houston	 Texas	 United States
 NCT03498196	Ben Taub General Hospital	 Houston	 Texas	 United States
 NCT03498196	Michael E. DeBakey Veteran Affairs Medical Center	 Houston	 Texas	 United States
-NCT03453255	Chinese PLA General Hospital		 Beijing	 China
+NCT03453255	Chinese PLA General Hospital	null	 Beijing	 China
 NCT03420976	Good Medicine	 Oxford	 Ohio	 United States
 NCT03395288	Washington University School of Medicine	 Saint Louis	 Missouri	 United States
 NCT03361345	WSUPG Dermatology	 Dearborn	 Michigan	 United States
 NCT03354611	UR Medicine Breast Imaging	 Rochester	 New York	 United States
 NCT03334175	UR Medicine Breast Imaging	 Rochester	 New York	 United States
-NCT03317327	Oslo University Hospital		 Oslo	 Norway
-NCT03262961	Assiut Univeristy Hospitals		 Assiut	 Egypt
+NCT03317327	Oslo University Hospital	null	 Oslo	 Norway
+NCT03262961	Assiut Univeristy Hospitals	null	 Assiut	 Egypt
 NCT03227731	University of KwaZulu-Natal	 Durban	 KwaZulu-Natal	 South Africa
 NCT02786836	University of KwaZulu-Natal	 Durban	 KwaZulu-Natal	 South Africa
 NCT02786836	University of KwaZulu-Natal	 Durban	 KwaZulu-Natal	 South Africa
@@ -87,79 +87,79 @@ NCT02786836	VCU Medical Center	 Richmond	 Virginia	 United States
 NCT02786836	University of Washington Medical Center	 Seattle	 Washington	 United States
 NCT01203722	Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins	 Baltimore	 Maryland	 United States
 NCT03837717	Maine Medical Center	 Portland	 Maine	 United States
-NCT03836508	Sisli Hamidiye Etfal Training and Research Hospital		 Istanbul	 Turkey
-NCT03833596	Sisli Hamidiye Etfal Training and Research Hospital		 Istanbul	 Turkey
+NCT03836508	Sisli Hamidiye Etfal Training and Research Hospital	null	 Istanbul	 Turkey
+NCT03833596	Sisli Hamidiye Etfal Training and Research Hospital	null	 Istanbul	 Turkey
 NCT03833531	Sinai Centrum	 Amstelveen	 Noord-Holland	 Netherlands
 NCT03833453	Sinai Centrum	 Amstelveen	 Noord-Holand	 Netherlands
-NCT03832712	Sahlgrenska University Hospital		 Göteborg	 Sweden
-NCT03832712	Linköping University Hospital		 Linköping	 Sweden
-NCT03832712	Lund University Hospital		 Lund	 Sweden
-NCT03832712	Karolinska University Hospital		 Stockholm	 Sweden
-NCT03832712	Umeå University Hospital		 Umeå	 Sweden
-NCT03832712	Akademiska Sjukhuset		 Uppsala	 Sweden
-NCT03832530	Mbarara University of Science and Technology		 Mbarara	 Uganda
-NCT03830190	Mbarara University of Science and Technology		 Mbarara	 Uganda
+NCT03832712	Sahlgrenska University Hospital	null	 Göteborg	 Sweden
+NCT03832712	Linköping University Hospital	null	 Linköping	 Sweden
+NCT03832712	Lund University Hospital	null	 Lund	 Sweden
+NCT03832712	Karolinska University Hospital	null	 Stockholm	 Sweden
+NCT03832712	Umeå University Hospital	null	 Umeå	 Sweden
+NCT03832712	Akademiska Sjukhuset	null	 Uppsala	 Sweden
+NCT03832530	Mbarara University of Science and Technology	null	 Mbarara	 Uganda
+NCT03830190	Mbarara University of Science and Technology	null	 Mbarara	 Uganda
 NCT03830008	University Hospital Zurich	 Zürich	 ZH	 Switzerland
-NCT03829748	Hospital Universitario de la Princesa		 Madrid	 Spain
+NCT03829748	Hospital Universitario de la Princesa	null	 Madrid	 Spain
 NCT03828721	Community Health Center@ Connecticut Children's Medical Center	 Hartford	 Connecticut	 United States
-NCT03827915	American University of Beirut Medical Center		 Beirut	 Lebanon
-NCT03825146	Panacee Hospital Rama 2		 Samut Sakhon	 Thailand
+NCT03827915	American University of Beirut Medical Center	null	 Beirut	 Lebanon
+NCT03825146	Panacee Hospital Rama 2	null	 Samut Sakhon	 Thailand
 NCT03823456	Vietnam National Cancer Institution	 Hanoi	 Ha Dong	 Vietnam
 NCT03823456	Hanoi Oncology Hospital	 Hanoi	 Hai Ba Trung	 Vietnam
-NCT03818867	St George's Hospital		 London	 United Kingdom
+NCT03818867	St George's Hospital	null	 London	 United Kingdom
 NCT03817489	Centre on Behavioral Health	 The University of Hong Kong	 Hong Kong	 Hong Kong
 NCT03814577	Sedat Akbas	 Malatya	 Türkiye-Türkçe	 Turkey
 NCT03814330	Sedat Akbas	 Malatya	 Türkiye-Türkçe	 Turkey
-NCT03813992	UMHAT Burgas EAD		 Burgas	 Bulgaria
-NCT03813992	Multiprofile Hospital for Active Treatment		 Pleven	 Bulgaria
-NCT03813992	University Multiprofile Hospital for Active Treatment		 Plovdiv	 Bulgaria
-NCT03813992	Urology Office Diagnostic-Consultative Center		 Varna	 Bulgaria
-NCT03813992	Medical Center Biomed		 Vidin	 Bulgaria
-NCT03813992	URAN MUDr.Jan Hiblbauer s.r.o		 Hradec Králové	 Czechia
+NCT03813992	UMHAT Burgas EAD	null	 Burgas	 Bulgaria
+NCT03813992	Multiprofile Hospital for Active Treatment	null	 Pleven	 Bulgaria
+NCT03813992	University Multiprofile Hospital for Active Treatment	null	 Plovdiv	 Bulgaria
+NCT03813992	Urology Office Diagnostic-Consultative Center	null	 Varna	 Bulgaria
+NCT03813992	Medical Center Biomed	null	 Vidin	 Bulgaria
+NCT03813992	URAN MUDr.Jan Hiblbauer s.r.o	null	 Hradec Králové	 Czechia
 NCT03813992	ANDROGEOS	 spol. s.r.o.	 Praha	 Czechia
-NCT03813992	Urosante s.r.o.		 Praha	 Czechia
-NCT03813992	LTD Gormedi		 Gori	 Georgia
-NCT03813992	LTD Gidmedi		 Tbilisi	 Georgia
-NCT03813992	LTD Multiprofile Clinic Consilium Medulla		 Tbilisi	 Georgia
-NCT03813992	LTDHealth House		 Tbilisi	 Georgia
-NCT03813992	Semmelweis Egyetem ÁOK Urologiai Klinika		 Budapest	 Hungary
-NCT03813992	Synexus Magyarorszag Kft		 Budapest	 Hungary
-NCT03813992	Civis Egeszseghaz		 Debrecen	 Hungary
-NCT03813992	Korona Prevent-Med Kft.		 Sopron	 Hungary
-NCT03813992	Aranyklinika		 Szeged	 Hungary
-NCT03813992	Latgales Urology Center		 Daugavpils	 Latvia
-NCT03813992	V. Lietuviesa Private Practice		 Riga	 Latvia
-NCT03813992	Vidzemes Hospital		 Valmiera	 Latvia
-NCT03813992	Indywidualna Specjalistyczna Praktyka Lekarska Dr Adam Sipinski		 Katowice	 Poland
-NCT03813992	PROVITA Specjalistyczna Praktyka Ginekologiczno-Seksuologiczna		 Lublin	 Poland
-NCT03813992	Indywidualna Specjalistyczna Praktyka Lekarska		 Szczecin	 Poland
-NCT03813992	Medea Specjalistyczny Gabinet Lekarski		 Warszawa	 Poland
-NCT03813992	Gabinet Lekarski Ryszard Smolinski		 Wrocław	 Poland
-NCT03813992	"State Budgetary Healthcare Institution of Sverdlovskaya region ""Sverdlovskaya Regional Clinical Hospital No.1"""		 Ekaterinburg	 Russian Federation
-NCT03813992	"Regional Budgetary Healthcare Institution ""Ivanovskaya Regional Clinical Hospital"""		 Ivanovo	 Russian Federation
-NCT03813992	"CJSC ""Nasledniki"""		 Moscow	 Russian Federation
+NCT03813992	Urosante s.r.o.	null	 Praha	 Czechia
+NCT03813992	LTD Gormedi	null	 Gori	 Georgia
+NCT03813992	LTD Gidmedi	null	 Tbilisi	 Georgia
+NCT03813992	LTD Multiprofile Clinic Consilium Medulla	null	 Tbilisi	 Georgia
+NCT03813992	LTDHealth House	null	 Tbilisi	 Georgia
+NCT03813992	Semmelweis Egyetem ÁOK Urologiai Klinika	null	 Budapest	 Hungary
+NCT03813992	Synexus Magyarorszag Kft	null	 Budapest	 Hungary
+NCT03813992	Civis Egeszseghaz	null	 Debrecen	 Hungary
+NCT03813992	Korona Prevent-Med Kft.	null	 Sopron	 Hungary
+NCT03813992	Aranyklinika	null	 Szeged	 Hungary
+NCT03813992	Latgales Urology Center	null	 Daugavpils	 Latvia
+NCT03813992	V. Lietuviesa Private Practice	null	 Riga	 Latvia
+NCT03813992	Vidzemes Hospital	null	 Valmiera	 Latvia
+NCT03813992	Indywidualna Specjalistyczna Praktyka Lekarska Dr Adam Sipinski	null	 Katowice	 Poland
+NCT03813992	PROVITA Specjalistyczna Praktyka Ginekologiczno-Seksuologiczna	null	 Lublin	 Poland
+NCT03813992	Indywidualna Specjalistyczna Praktyka Lekarska	null	 Szczecin	 Poland
+NCT03813992	Medea Specjalistyczny Gabinet Lekarski	null	 Warszawa	 Poland
+NCT03813992	Gabinet Lekarski Ryszard Smolinski	null	 Wrocław	 Poland
+NCT03813992	"State Budgetary Healthcare Institution of Sverdlovskaya region ""Sverdlovskaya Regional Clinical Hospital No.1"""	null	 Ekaterinburg	 Russian Federation
+NCT03813992	"Regional Budgetary Healthcare Institution ""Ivanovskaya Regional Clinical Hospital"""	null	 Ivanovo	 Russian Federation
+NCT03813992	"CJSC ""Nasledniki"""	null	 Moscow	 Russian Federation
 NCT03813992	"Federal State Budgetary Institution ""National Medical Research Center of Obstetrics"	" Gynecology and Perinatology n.a. acad. V.I. Kulakov"" of the Ministry of Healthcare of the Russian Federation"	 Moscow	 Russian Federation
 NCT03813992	"FSBEI HE ""Russian National Research Medical University n.a. N.I. Pirogov"" of the Ministry of Healthcare of the Russian Federation"	 Russian Gerontological Scientific and Research Center	 Moscow	 Russian Federation
-NCT03813992	"LLC ""Bessalar Clinic"""		 Moscow	 Russian Federation
-NCT03813992	"LLC ""Unimed-S"""		 Moscow	 Russian Federation
-NCT03813992	"State Budgetary Institution ""Hospital for War Veterans"""		 Rostov-on-Don	 Russian Federation
-NCT03813992	"Federal State Budgetary Educational Institution of Higher Education ""North-Western State Medical University n.a. I.I. Mechnikov"" of the Ministry of Healthcare of the Russian Federation"		 Saint Petersburg	 Russian Federation
-NCT03813992	"LLC ""Medical center PRIME ROSE"""		 Saint Petersburg	 Russian Federation
-NCT03813992	"LLC ""Sanavita"""		 Saint Petersburg	 Russian Federation
-NCT03813992	Llc <<Mart>>		 Saint Petersburg	 Russian Federation
+NCT03813992	"LLC ""Bessalar Clinic"""	null	 Moscow	 Russian Federation
+NCT03813992	"LLC ""Unimed-S"""	null	 Moscow	 Russian Federation
+NCT03813992	"State Budgetary Institution ""Hospital for War Veterans"""	null	 Rostov-on-Don	 Russian Federation
+NCT03813992	"Federal State Budgetary Educational Institution of Higher Education ""North-Western State Medical University n.a. I.I. Mechnikov"" of the Ministry of Healthcare of the Russian Federation"	null	 Saint Petersburg	 Russian Federation
+NCT03813992	"LLC ""Medical center PRIME ROSE"""	null	 Saint Petersburg	 Russian Federation
+NCT03813992	"LLC ""Sanavita"""	null	 Saint Petersburg	 Russian Federation
+NCT03813992	Llc <<Mart>>	null	 Saint Petersburg	 Russian Federation
 NCT03813992	Medicosanitary Department No.70	 branch of Saint-Petersburg State Unitary Institution of road passenger transport	 Saint Petersburg	 Russian Federation
-NCT03813992	"Research Center ""Eco-Safety"""		 Saint Petersburg	 Russian Federation
-NCT03813992	"Saint Petersburg State Budgetary Healthcare Institution ""City Polyclinic No. 4"""		 Saint Petersburg	 Russian Federation
-NCT03813992	"Clinical Hospital n.a. S.R. Mirotvortseva of the Federal State Budgetary Educational Institution of Higher Education ""Saratovskiy State Medical University n.a. V.I. Razumovskiy"" of the Ministry of Healthcare of the Russian Federation"		 Saratov	 Russian Federation
-NCT03813992	"Federal State Budgetary Educational Institution of Higher Education "" Voronezhskiy State Medical University n.a. N.N. Burdenko"" of the Ministry of Healthcare of the Russian Federation on the clinical base of Budgetary Healthcare Institution of Voronezhsk"		 Voronezh	 Russian Federation
-NCT03813992	"SBHI of Leningradskaya region ""Vsevolozhskaya Clinical Interdistrict Hospital"""		 Vsevolozhsk	 Russian Federation
-NCT03813992	"FSBEI HPE ""Yaroslavskiy State Medical University"" of The Ministry of Healthcare of the Russian Federation with clinical base in State Autonomous Institution of Yaroslavskaya region ""Clinical Hospital No.9"""		 Yaroslavl	 Russian Federation
+NCT03813992	"Research Center ""Eco-Safety"""	null	 Saint Petersburg	 Russian Federation
+NCT03813992	"Saint Petersburg State Budgetary Healthcare Institution ""City Polyclinic No. 4"""	null	 Saint Petersburg	 Russian Federation
+NCT03813992	"Clinical Hospital n.a. S.R. Mirotvortseva of the Federal State Budgetary Educational Institution of Higher Education ""Saratovskiy State Medical University n.a. V.I. Razumovskiy"" of the Ministry of Healthcare of the Russian Federation"	null	 Saratov	 Russian Federation
+NCT03813992	"Federal State Budgetary Educational Institution of Higher Education "" Voronezhskiy State Medical University n.a. N.N. Burdenko"" of the Ministry of Healthcare of the Russian Federation on the clinical base of Budgetary Healthcare Institution of Voronezhsk"	null	 Voronezh	 Russian Federation
+NCT03813992	"SBHI of Leningradskaya region ""Vsevolozhskaya Clinical Interdistrict Hospital"""	null	 Vsevolozhsk	 Russian Federation
+NCT03813992	"FSBEI HPE ""Yaroslavskiy State Medical University"" of The Ministry of Healthcare of the Russian Federation with clinical base in State Autonomous Institution of Yaroslavskaya region ""Clinical Hospital No.9"""	null	 Yaroslavl	 Russian Federation
 NCT03813992	CUIMED	 s.r.o Urologicka ambulancia	 Bratislava	 Slovakia
-NCT03813992	Urologicka ambulancia		 Košice	 Slovakia
-NCT03813992	Urologicka ambulancia Urobet s.r.o.		 Malacky	 Slovakia
-NCT03813992	Urologicka ambulancia - Uromeda s.r.o.		 Martin	 Slovakia
-NCT03813992	Urologicka ambulancia Uroexam s.r.o.		 Nitra	 Slovakia
-NCT03813992	Privatna urologicka ambulancia s.r.o.		 Trenčín	 Slovakia
+NCT03813992	Urologicka ambulancia	null	 Košice	 Slovakia
+NCT03813992	Urologicka ambulancia Urobet s.r.o.	null	 Malacky	 Slovakia
+NCT03813992	Urologicka ambulancia - Uromeda s.r.o.	null	 Martin	 Slovakia
+NCT03813992	Urologicka ambulancia Uroexam s.r.o.	null	 Nitra	 Slovakia
+NCT03813992	Privatna urologicka ambulancia s.r.o.	null	 Trenčín	 Slovakia
 NCT03813992	"Municipal Establishment ""Cherkasy Regional Hospital of Cherkasy Regional Council"""	 Urology department	 Cherkasy	 Ukraine
 NCT03813992	"Municipal Establishment ""Cherkasy Regional Hospital of Cherkasy Regional Council"""	 Urology department	 Cherkasy	 Ukraine
 NCT03813992	"Municipal Establishment ""Cherkasy Regional Hospital of Cherkasy Regional Council"""	 Urology department	 Cherkasy	 Ukraine
@@ -174,23 +174,23 @@ NCT03813992	"State Institution ""Institute of urology of the National Academy of
 NCT03813992	"Private Small-Scale Enterprise Medical Centre ""Pulse"" "	 Therapeutic Department	 Vinnytsia	 Ukraine
 NCT03813992	"Private Small-Scale Enterprise Medical Centre ""Pulse"" "	 Therapeutic Department	 Vinnytsia	 Ukraine
 NCT03813992	Municipal Institution Central City Hospital №1 of Zhytomyr	" consulting and medical department ""Research center"""	 Zhytomyr	 Ukraine
-NCT03813381				
-NCT03813069	Fred Hollows Foundation		 Addis Ababa	 Ethiopia
-NCT03813069	London School of Hygiene and Tropical Medicine		 London	 United Kingdom
+NCT03813381		null	null	null
+NCT03813069	Fred Hollows Foundation	null	 Addis Ababa	 Ethiopia
+NCT03813069	London School of Hygiene and Tropical Medicine	null	 London	 United Kingdom
 NCT03809286	New York State Psychiatric Institute	 New York	 New York	 United States
 NCT03807986	The First Affiliated Hospital of Jinan University	 Guangzhou	 Guangdong	 China
 NCT03801772	Aultman Tusc Therapy	 Canton	 Ohio	 United States
 NCT03799328	Hospital for Sick Children	 Toronto	 Ontario	 Canada
-NCT03798483	John Radcliffe Hospital		 Oxford	 United Kingdom
-NCT03796923	Aarhus University		 Aarhus	 Denmark
+NCT03798483	John Radcliffe Hospital	null	 Oxford	 United Kingdom
+NCT03796923	Aarhus University	null	 Aarhus	 Denmark
 NCT03796793	University of Miami	 Miami	 Florida	 United States
 NCT03795675	The Ohio State University	 Columbus	 Ohio	 United States
 NCT03791697	University of Florida Health	 Tampa	 Florida	 United States
-NCT03790449	University Hospital Antwerp		 Antwerp	 Belgium
-NCT03790449	Imelda Hospital Bonheiden		 Bonheiden	 Belgium
-NCT03790449	Academic Hospital Sint Jan Bruges-Ostend		 Bruges	 Belgium
-NCT03790449	Academic Hospital Diest		 Diest	 Belgium
-NCT03790449	University Hospitals Leuven		 Leuven	 Belgium
+NCT03790449	University Hospital Antwerp	null	 Antwerp	 Belgium
+NCT03790449	Imelda Hospital Bonheiden	null	 Bonheiden	 Belgium
+NCT03790449	Academic Hospital Sint Jan Bruges-Ostend	null	 Bruges	 Belgium
+NCT03790449	Academic Hospital Diest	null	 Diest	 Belgium
+NCT03790449	University Hospitals Leuven	null	 Leuven	 Belgium
 NCT03786432	William Beaumont Hospital	 Royal Oak	 Michigan	 United States
 NCT03783767	William Beaumont Hospital	 Royal Oak	 Michigan	 United States
 NCT03783312	Erol Karaaslan	 Malatya	 Türkiye-Türkçe	 Turkey
@@ -205,25 +205,25 @@ NCT03773575	Westchester Medical Center	 Valhalla	 New York	 United States
 NCT03773575	Abington Hospital	 Abington	 Pennsylvania	 United States
 NCT03773575	Thomas Jefferson University/Hospital	 Philadelphia	 Pennsylvania	 United States
 NCT03773575	Gemelli Hospital	 Roma	 RM	 Italy
-NCT03771495	"Praxisgemeinschaft ""Bewegungsoase"""		 Vienna	 Austria
-NCT03771430	Haukeland University Hospital - Kysthospitalet Hagevik		 Bergen	 Norway
-NCT03771430	Lovisenberg Diaconal Hospital		 Oslo	 Norway
-NCT03770962	Lovisenberg Diaconal Hospital		 Oslo	 Norway
-NCT03770962	Lovisenberg Diaconal Hospital		 Oslo	 Norway
+NCT03771495	"Praxisgemeinschaft ""Bewegungsoase"""	null	 Vienna	 Austria
+NCT03771430	Haukeland University Hospital - Kysthospitalet Hagevik	null	 Bergen	 Norway
+NCT03771430	Lovisenberg Diaconal Hospital	null	 Oslo	 Norway
+NCT03770962	Lovisenberg Diaconal Hospital	null	 Oslo	 Norway
+NCT03770962	Lovisenberg Diaconal Hospital	null	 Oslo	 Norway
 NCT03770962	PO Pregnancy and Birth	 Karolinska University Hospital	 Stockholm	 Sweden
 NCT03770507	PO Pregnancy and Birth	 Karolinska University Hospital	 Stockholm	 Sweden
 NCT03767660	PO Pregnancy and Birth	 Karolinska University Hospital	 Stockholm	 Sweden
-NCT03761732	Borama Mosque		 Borama	 Somalia
-NCT03761732	Hargeisa Mosque		 Hargeisa	 Somalia
-NCT03753932	Public Dental Health		 Jönköping	 Sweden
+NCT03761732	Borama Mosque	null	 Borama	 Somalia
+NCT03761732	Hargeisa Mosque	null	 Hargeisa	 Somalia
+NCT03753932	Public Dental Health	null	 Jönköping	 Sweden
 NCT03753243	VA Portland Healthcare System	 Portland	 Oregon	 United States
-NCT03751878	BMJ Open		 London	 United Kingdom
+NCT03751878	BMJ Open	null	 London	 United Kingdom
 NCT03749655	Newcastle upon Tyne NHS trust	 Newcastle Upon Tyne	 Tyne And Wear	 United Kingdom
 NCT03748914	Newcastle upon Tyne NHS trust	 Newcastle Upon Tyne	 Tyne And Wear	 United Kingdom
 NCT03747887	SUNY at Buffalo	 Buffalo	 New York	 United States
 NCT03745209	Kingston General Hospital	 Kingston	 Ontario	 Canada
 NCT03743480	Arcispedale santa maria nuova-viale risorgimento 80	 Reggio Emilia	 Emilia Romagna	 Italy
-NCT03743480	Viale Risorgimento 80		 Reggio Emilia	 Italy
+NCT03743480	Viale Risorgimento 80	null	 Reggio Emilia	 Italy
 NCT03740659	ASST Santi Paolo e Carlo di Milano - P.O. San Paolo di Milano	 Milano	 MI	 Italy
 NCT03740659	A.O.U. Pisana - P.O. di Cisanello	 Pisa	 PI	 Italy
 NCT03740321	A.O.U. Pisana - P.O. di Cisanello	 Pisa	 PI	 Italy
@@ -281,9 +281,9 @@ NCT03739528	"Az. Sanitaria Universitaria Integrata di Udine - P.O. Universitario
 NCT03739528	Az. ULSS 7 Pedemontana - Ospedale San Bassiano di Bassano del Grappa	 Bassano Del Grappa	 VI	 Italy
 NCT03739528	Ospedale Sacro Cuore - Don Calabria di Negrar	 Negrar	 VR	 Italy
 NCT03739528	A.O.U. Integrata di Verona - Ospedale Borgo Roma	 Verona	 VR	 Italy
-NCT03739528	"Az. Osp. di Rilievo Nazionale ""A. Cardarelli"" di Napoli"		 Napoli	 Italy
-NCT03739528	"A.O.U. ""Maggiore della Carità"" di Novara"		 Novara	 Italy
-NCT03739528	A.O.U. Senese - Università degli Studi di Siena		 Siena	 Italy
+NCT03739528	"Az. Osp. di Rilievo Nazionale ""A. Cardarelli"" di Napoli"	null	 Napoli	 Italy
+NCT03739528	"A.O.U. ""Maggiore della Carità"" di Novara"	null	 Novara	 Italy
+NCT03739528	A.O.U. Senese - Università degli Studi di Siena	null	 Siena	 Italy
 NCT03737227	Zuyderland Medical Center	 Sittard	 Limburg	 Netherlands
 NCT03736382	John D Dingell VA Medical Center	 Detroit	 Michigan	 United States
 NCT03736382	Wayne State University	 Detroit	 Michigan	 United States
@@ -296,13 +296,13 @@ NCT03730454	Children's Hospital Colorado	 Aurora	 Colorado	 United States
 NCT03730454	Doernbecher Children's Hospital	 Portland	 Oregon	 United States
 NCT03730454	Primary Children's Hospital	 Salt Lake City	 Utah	 United States
 NCT03730454	Seattle Children's Hospital	 Seattle	 Washington	 United States
-NCT03729687	Akademiska sjukhuset		 Uppsala	 Sweden
-NCT03729648	Centre on Behavioral Health HKU		 Hong Kong	 Hong Kong
+NCT03729687	Akademiska sjukhuset	null	 Uppsala	 Sweden
+NCT03729648	Centre on Behavioral Health HKU	null	 Hong Kong	 Hong Kong
 NCT03729297	Radboudumc	 Nijmegen	 Gelderland	 Netherlands
 NCT03727321	Royal Alexandra Hospital	 Edmonton	 Alberta	 Canada
 NCT03727321	University of Alberta Hospital	 Edmonton	 Alberta	 Canada
-NCT03725215	Faculty of Movement and Rehabilitation Sciences (FaBeR)		 Leuven	 Belgium
-NCT03725215	University Hospital Schleswig-Holstein		 Kiel	 Germany
+NCT03725215	Faculty of Movement and Rehabilitation Sciences (FaBeR)	null	 Leuven	 Belgium
+NCT03725215	University Hospital Schleswig-Holstein	null	 Kiel	 Germany
 NCT03724383	Richmond Hospital Cardiac Rehabilitation	 Richmond	 British Columbia	 Canada
 NCT03724383	Richmond Health Services	 Richmond	 British Columbia	 Canada
 NCT03724383	Garratt Wellness Centre	 Richmond	 British Columbia	 Canada
@@ -311,32 +311,32 @@ NCT03724383	Gordon and Leslie Diamond Health Care Centre	 Vancouver	 British Col
 NCT03724383	Live Well Clinic	 Vancouver	 British Columbia	 Canada
 NCT03724383	St. Paul's Healthy Heart Program	 Vancouver	 British Columbia	 Canada
 NCT03723525	Sukraraj Tropical & Infectious Disease Control Hospital	 Kathmandu	 Bagmati	 Nepal
-NCT03723525	Bharatpur District Hospital		 Bharatpur	 Nepal
-NCT03723525	Rapti Sub Regional Hospital		 Dang	 Nepal
-NCT03723525	Seti Zonal Hospital		 Kailālī	 Nepal
-NCT03723525	Tikapur Hospital		 Kailālī	 Nepal
-NCT03723525	Mahakali Zonal Hospital		 Kanchanpur	 Nepal
+NCT03723525	Bharatpur District Hospital	null	 Bharatpur	 Nepal
+NCT03723525	Rapti Sub Regional Hospital	null	 Dang	 Nepal
+NCT03723525	Seti Zonal Hospital	null	 Kailālī	 Nepal
+NCT03723525	Tikapur Hospital	null	 Kailālī	 Nepal
+NCT03723525	Mahakali Zonal Hospital	null	 Kanchanpur	 Nepal
 NCT03723525	National Academy of Medical Science (NAMS)	 Bir Hospital	 Kathmandu	 Nepal
-NCT03723525	Tribhuvan University Teaching Hospital		 Kathmandu	 Nepal
-NCT03723525	Western Regional Hospital		 Pokhara	 Nepal
-NCT03723525	B.P. Koirala Institute of Health Sciences		 Sunsari	 Nepal
-NCT03719235	Cairo University		 Cairo	 Egypt
-NCT03716219	Cairo University		 Cairo	 Egypt
+NCT03723525	Tribhuvan University Teaching Hospital	null	 Kathmandu	 Nepal
+NCT03723525	Western Regional Hospital	null	 Pokhara	 Nepal
+NCT03723525	B.P. Koirala Institute of Health Sciences	null	 Sunsari	 Nepal
+NCT03719235	Cairo University	null	 Cairo	 Egypt
+NCT03716219	Cairo University	null	 Cairo	 Egypt
 NCT03714139	Colombia	 Cartagena de Indias	 Cartagena	 Colombia
 NCT03711630	University at Buffalo	 Buffalo	 New York	 United States
 NCT03711370	Healthy Kids Laboratory within the French Hospital Copeland Health Education Pavilion	 San Luis Obispo	 California	 United States
-NCT03709979	Turgut Ozal Medical Center		 Malatya	 Turkey
+NCT03709979	Turgut Ozal Medical Center	null	 Malatya	 Turkey
 NCT03704415	Department of Otorhinolaryngology	 Helsinki University Hospital	 Helsinki	 Finland
-NCT03704415	Kuopio University Hospital		 Kuopio	 Finland
+NCT03704415	Kuopio University Hospital	null	 Kuopio	 Finland
 NCT03704064	The University of Pennsylvania Center for Weight and Eating Disorders	 Philadelphia	 Pennsylvania	 United States
 NCT03704051	Healthy Kids Laboratory within the French Hospital Copeland Health Education Pavilion	 San Luis Obispo	 California	 United States
-NCT03699059	King's College Hospital		 London	 United Kingdom
+NCT03699059	King's College Hospital	null	 London	 United Kingdom
 NCT03697837	Yale Child Study Center	 New Haven	 Connecticut	 United States
 NCT03695003	Brain Performance and Nutrition Research Centre	 Newcastle Upon Tyne	 Tyne And Wear	 United Kingdom
 NCT03690154	KUMC Cancer Center	 Fairway	 Kansas	 United States
 NCT03690154	Karmanos Cancer Institute	 Detroit	 Michigan	 United States
 NCT03690154	Cabrini Malvern Hospital	 Malvern	 Victoria	 Australia
-NCT03689348	Northumbria University		 Newcastle Upon Tyne	 United Kingdom
+NCT03689348	Northumbria University	null	 Newcastle Upon Tyne	 United Kingdom
 NCT03689049	Southern Alberta Primary Care Research Network (SAPCReN)	 Calgary	 Alberta	 Canada
 NCT03689049	Northern Alberta Primary Care Research Network (NAPCReN)	 Edmonton	 Alberta	 Canada
 NCT03689049	Manitoba Primary Care Research Network (MaPCReN)	 Winnipeg	 Manitoba	 Canada
@@ -344,17 +344,17 @@ NCT03689049	Maritime Family Practice Research Network (MaRNet-FP)	 Halifax	 Nova
 NCT03689049	Ottawa Practice Enhancement Network (OPEN )	 Ottawa	 Ontario	 Canada
 NCT03689049	University of Toronto Practice Based Research Network	 Toronto	 Ontario	 Canada
 NCT03689049	Réseau de recherche en soins primaires de l'Université de Montréal (RRSPUM)	 Laval	 Quebec	 Canada
-NCT03687411	KK Women's and Children's Hospital		 Singapore	 Singapore
-NCT03685227	KK Women's and Children's Hospital		 Singapore	 Singapore
-NCT03682601	KK Women's and Children's Hospital		 Singapore	 Singapore
-NCT03680833	Department of Gynecology and Obstetrics		 Lund	 Sweden
+NCT03687411	KK Women's and Children's Hospital	null	 Singapore	 Singapore
+NCT03685227	KK Women's and Children's Hospital	null	 Singapore	 Singapore
+NCT03682601	KK Women's and Children's Hospital	null	 Singapore	 Singapore
+NCT03680833	Department of Gynecology and Obstetrics	null	 Lund	 Sweden
 NCT03679689	Universidad Veracruzana	 Xalapa	 Veracruz	 Mexico
 NCT03678935	Universidad Veracruzana	 Xalapa	 Veracruz	 Mexico
 NCT03675009	Medical College of Wisconsin	 Milwaukee	 Wisconsin	 United States
 NCT03674996	Nucleo de Apoio ao Pesquisador	 Barretos	 Sao Paulo	 Brazil
 NCT03668873	Cleveland Clinic Lerner School for Autism	 Cleveland	 Ohio	 United States
 NCT03667755	National Cancer Institute	 Putrajaya	 Wilayah Persekutuan Putrajaya	 Malaysia
-NCT03667001	Cantonal Hospital of St. Gallen		 St. Gallen	 Switzerland
+NCT03667001	Cantonal Hospital of St. Gallen	null	 St. Gallen	 Switzerland
 NCT03663075	Research and Development Unit	 Boras	 Vastra Gotaland	 Sweden
 NCT03658434	Research and Development Unit	 Boras	 Vastra Gotaland	 Sweden
 NCT03658434	University Hospital Schleswig-Holstein	 Kiel	 Schleswig-Holstein	 Germany
@@ -375,56 +375,56 @@ NCT03654508	Reinier de Graaf Gasthuis	 Delft	 Zuid-Holland	 Netherlands
 NCT03654508	Haga ziekenhuis	 Den Haag	 Zuid-Holland	 Netherlands
 NCT03654508	Erasmus Medical Center	 Rotterdam	 Zuid-Holland	 Netherlands
 NCT03654508	Maasstadziekenhuis	 Rotterdam	 Zuid-Holland	 Netherlands
-NCT03654508	University Medical Center Groningen		 Groningen	 Netherlands
-NCT03654508	Martini ziekenhuis		 Groningen	 Netherlands
-NCT03654508	Tergooi ziekenhuis		 Hilversum	 Netherlands
+NCT03654508	University Medical Center Groningen	null	 Groningen	 Netherlands
+NCT03654508	Martini ziekenhuis	null	 Groningen	 Netherlands
+NCT03654508	Tergooi ziekenhuis	null	 Hilversum	 Netherlands
 NCT03648437	Department of Pediatrics	 Oulu University Hospital	 Oulu	 Finland
-NCT03648060	Hospital da Prelada		 Porto	 Portugal
-NCT03648047	Hospital da Prelada		 Porto	 Portugal
+NCT03648060	Hospital da Prelada	null	 Porto	 Portugal
+NCT03648047	Hospital da Prelada	null	 Porto	 Portugal
 NCT03647007	Skælskør Julemærkehjem	 Skælskør	 Region Sjælland	 Denmark
 NCT03647007	Kildemose Julemærkehjem	 Ølsted	 Region Sjælland	 Denmark
-NCT03646357	Sørlandet Sykehus		 Arendal	 Norway
-NCT03646357	Drammen Hospital		 Drammen	 Norway
-NCT03646357	AHUS		 Lørenskog	 Norway
-NCT03646357	Vestfold hospital		 Tønsberg	 Norway
+NCT03646357	Sørlandet Sykehus	null	 Arendal	 Norway
+NCT03646357	Drammen Hospital	null	 Drammen	 Norway
+NCT03646357	AHUS	null	 Lørenskog	 Norway
+NCT03646357	Vestfold hospital	null	 Tønsberg	 Norway
 NCT03646240	Seattle Children's Hospital	 Seattle	 Washington	 United States
-NCT03645603	PICU Policlinico S.Orsola-Malpighi		 Bologna	 Italy
+NCT03645603	PICU Policlinico S.Orsola-Malpighi	null	 Bologna	 Italy
 NCT03645005	University of Illinois Cancer Center	 Chicago	 Illinois	 United States
 NCT03645005	Northwestern University	 Chicago	 Illinois	 United States
 NCT03642769	LAC+USC Medical Center	 Los Angeles	 California	 United States
-NCT03638609	National Cradiovascular Center Harapan Kita Hospital		 Jakarta	 Indonesia
-NCT03635840	National Cradiovascular Center Harapan Kita Hospital		 Jakarta	 Indonesia
-NCT03632837	University Hospital Hamburg-Eppendorf		 Hamburg	 Germany
+NCT03638609	National Cradiovascular Center Harapan Kita Hospital	null	 Jakarta	 Indonesia
+NCT03635840	National Cradiovascular Center Harapan Kita Hospital	null	 Jakarta	 Indonesia
+NCT03632837	University Hospital Hamburg-Eppendorf	null	 Hamburg	 Germany
 NCT03630770	Women & Infants Hospital of Rhode Island	 Providence	 Rhode Island	 United States
 NCT03630328	Penn State College of Medicine	 Hershey	 Pennsylvania	 United States
-NCT03628001				
-NCT03625544	Onze Lieve Vrouwe Gasthuis		 Amsterdam	 Netherlands
-NCT03625544	Rijnstate Hospital		 Arnhem	 Netherlands
-NCT03625544	Amphia Hospital		 Breda	 Netherlands
-NCT03625544	St. Antonius Hospital		 Nieuwegein	 Netherlands
-NCT03625544	University Medical Center Utrecht		 Utrecht	 Netherlands
+NCT03628001		null	null	null
+NCT03625544	Onze Lieve Vrouwe Gasthuis	null	 Amsterdam	 Netherlands
+NCT03625544	Rijnstate Hospital	null	 Arnhem	 Netherlands
+NCT03625544	Amphia Hospital	null	 Breda	 Netherlands
+NCT03625544	St. Antonius Hospital	null	 Nieuwegein	 Netherlands
+NCT03625544	University Medical Center Utrecht	null	 Utrecht	 Netherlands
 NCT03623880	Northwestern University	 Chicago	 Illinois	 United States
-NCT03620942	KK Women's and Children's Hospital		 Singapore	 Singapore
-NCT03619720	Laboratoire de Physiopathologie Respiratoire du Service de Pneumologie et de Réanimation		 Paris	 France
+NCT03620942	KK Women's and Children's Hospital	null	 Singapore	 Singapore
+NCT03619720	Laboratoire de Physiopathologie Respiratoire du Service de Pneumologie et de Réanimation	null	 Paris	 France
 NCT03618108	Liverpool hospital	 Liverpool	 New South Wales	 Australia
 NCT03618017	The University of Michigan Rogel Cancer Center	 Ann Arbor	 Michigan	 United States
 NCT03615586	Hospital de Clinicas de Porto Alegre	 Porto Alegre	 RS	 Brazil
 NCT03602768	Baycrest Health Sciences	 Toronto	 Ontario	 Canada
-NCT03602677	Central Finland Central Hospital		 Jyväskylä	 Finland
-NCT03602677	Päijät Häme Central Hospital		 Lahti	 Finland
+NCT03602677	Central Finland Central Hospital	null	 Jyväskylä	 Finland
+NCT03602677	Päijät Häme Central Hospital	null	 Lahti	 Finland
 NCT03602014	James J. Peters Veteran's Affair Medical Center	 Bronx	 New York	 United States
 NCT03602014	The Icahn School of Medicine at Mount Sinai	 New York	 New York	 United States
 NCT03600987	The Icahn School of Medicine at Mount Sinai	 New York	 New York	 United States
 NCT03598114	Prevention Research Center in St. Louis	 Saint Louis	 Missouri	 United States
-NCT03593889	Hong Kong Sheng Kung Hui Lady MacLehose Centre		 Kwai Chung	 Hong Kong
-NCT03593889	New Life Psychiatric Rehabilitation Association		 Kwai Chung	 Hong Kong
-NCT03593889	Christian Family Service Centre		 Kwun Tong	 Hong Kong
-NCT03593889	The Mental Health Association of Hong Kong		 Kwun Tong	 Hong Kong
-NCT03593889	Caritas Hong Kong		 Sham Shui Po	 Hong Kong
-NCT03593889	New Life Psychiatric Rehabilitation Association		 Sham Shui Po	 Hong Kong
-NCT03593889	Christian Family Service Centre		 Tseung Kwan O	 Hong Kong
-NCT03593889	Haven of Hope Christian Service		 Tseung Kwan O	 Hong Kong
-NCT03593148	Jarle Berge		 Tønsberg	 Norway
+NCT03593889	Hong Kong Sheng Kung Hui Lady MacLehose Centre	null	 Kwai Chung	 Hong Kong
+NCT03593889	New Life Psychiatric Rehabilitation Association	null	 Kwai Chung	 Hong Kong
+NCT03593889	Christian Family Service Centre	null	 Kwun Tong	 Hong Kong
+NCT03593889	The Mental Health Association of Hong Kong	null	 Kwun Tong	 Hong Kong
+NCT03593889	Caritas Hong Kong	null	 Sham Shui Po	 Hong Kong
+NCT03593889	New Life Psychiatric Rehabilitation Association	null	 Sham Shui Po	 Hong Kong
+NCT03593889	Christian Family Service Centre	null	 Tseung Kwan O	 Hong Kong
+NCT03593889	Haven of Hope Christian Service	null	 Tseung Kwan O	 Hong Kong
+NCT03593148	Jarle Berge	null	 Tønsberg	 Norway
 NCT03591237	Aarhus University	 Aarhus	 Jylland	 Denmark
 NCT03591237	Aarhus University	 Aarhus	 Jylland	 Denmark
 NCT03585920	Aarhus University	 Aarhus	 Jylland	 Denmark
@@ -432,28 +432,28 @@ NCT03585192	UH Cleveland Medical Center	 Cleveland	 Ohio	 United States
 NCT03582046	Central Arkansas Veterans Healthcare System	 Little Rock	 Arkansas	 United States
 NCT03582046	Grady Memorial Hospital	 Atlanta	 Georgia	 United States
 NCT03579303	Fr Muller Homoeopathic Medical College	 Mangalore	 Karnataka	 India
-NCT03578848	Taipei Veterans General Hospital		 Taipei	 Taiwan
+NCT03578848	Taipei Veterans General Hospital	null	 Taipei	 Taiwan
 NCT03578432	The University of Arizona Cancer Center	 Phoenix	 Arizona	 United States
 NCT03577301	University of Miami Miller School of Medicine	 Miami	 Florida	 United States
 NCT03577301	Wayne State University	 Detroit	 Michigan	 United States
 NCT03577301	Children's Hospital of Philadelphia	 Philadelphia	 Pennsylvania	 United States
 NCT03577106	University of Pittsburgh	 Pittsburgh	 Pennsylvania	 United States
-NCT03577054	Mbarara University of Science and Technology		 Mbarara	 Uganda
+NCT03577054	Mbarara University of Science and Technology	null	 Mbarara	 Uganda
 NCT03575026	School of Nursing	 The Hong Kong Polytechnic University	 Hong Kong	 Hong Kong
 NCT03568812	HIV Clinic	 Cipto Mangunkusumo Hospital	 Jakarta	 Indonesia
 NCT03567031	Sainte Justine's Hospital	 Montréal	 Quebec	 Canada
 NCT03567018	Martha Morehouse Medical Plaza	 Columbus	 Ohio	 United States
 NCT03567018	The Ohio State University Hospital	 Columbus	 Ohio	 United States
-NCT03565354	Prince of Wales Hospital		 Shatin	 Hong Kong
+NCT03565354	Prince of Wales Hospital	null	 Shatin	 Hong Kong
 NCT03564665	Mayo Clinic in Florida	 Jacksonville	 Florida	 United States
-NCT03562546	Galway Clinic		 Galway	 Ireland
+NCT03562546	Galway Clinic	null	 Galway	 Ireland
 NCT03561961	Dr Vedang Murthy	 Navi-Mumbai	 Maharashtra	 India
 NCT03561103	Action Wellness	 Philadelphia	 Pennsylvania	 United States
 NCT03559751	Action Wellness	 Philadelphia	 Pennsylvania	 United States
 NCT03559179	HealthPartners	 Bloomington	 Minnesota	 United States
 NCT03558763	COPD center	 Gothenburg	 Västra Götaland	 Sweden
 NCT03555500	Blackpool Victoria Hospital	 Blackpool	 Lancashire	 United Kingdom
-NCT03553927	Imperial College NHS Healthcare Trust		 North West London	 United Kingdom
+NCT03553927	Imperial College NHS Healthcare Trust	null	 North West London	 United Kingdom
 NCT03553004	University of Kansas Cancer Center - Clinical Research Center	 Fairway	 Kansas	 United States
 NCT03553004	University of Kansas Cancer Center - West	 Kansas City	 Kansas	 United States
 NCT03553004	University of Kansas Cancer Center - Overland Park	 Overland Park	 Kansas	 United States
@@ -465,12 +465,12 @@ NCT03550885	Rush University Medical Center and University of Illinois at Chicago
 NCT03543098	University of Pittsburgh	 Pittsburgh	 Pennsylvania	 United States
 NCT03542383	Callier Center for Communication Disorders at The University of Texas at Dallas	 Dallas	 Texas	 United States
 NCT03541291	The Hospital for Sick Children	 Toronto	 Ontario	 Canada
-NCT03540732	National University Health System		 Singapore	 Singapore
+NCT03540732	National University Health System	null	 Singapore	 Singapore
 NCT03540368	Cipto Mangunkusumo National Central General Hospital	 Jakarta Pusat	 DKI Jakarta	 Indonesia
 NCT03540134	University of Virginia	 Charlottesville	 Virginia	 United States
 NCT03540069	University of Illinois at Chicago	 Chicago	 Illinois	 United States
-NCT03540069	Sénégal Ministère de la Santé et l'Action Sociale Département de Recherche		 Dakar	 Senegal
-NCT03540069	Sénégal Ministère de la Santé et l'Action Sociale Département de Recherche		 Dakar	 Senegal
+NCT03540069	Sénégal Ministère de la Santé et l'Action Sociale Département de Recherche	null	 Dakar	 Senegal
+NCT03540069	Sénégal Ministère de la Santé et l'Action Sociale Département de Recherche	null	 Dakar	 Senegal
 NCT03538730	Alberta Children's Hospital	 Calgary	 Alberta	 Canada
 NCT03538379	Brigham and Women's Hospital	 Boston	 Massachusetts	 United States
 NCT03537612	Shriners Hospitals for Children - Canada	 Montréal	 Quebec	 Canada
@@ -481,92 +481,92 @@ NCT03527927	Prince Philip Hospital	 Llanelli	 Carmarthenshire	 United Kingdom
 NCT03527849	Prince Philip Hospital	 Llanelli	 Carmarthenshire	 United Kingdom
 NCT03527121	Prince Philip Hospital	 Llanelli	 Carmarthenshire	 United Kingdom
 NCT03527121	Prince Philip Hospital	 Llanelli	 Carmarthenshire	 United Kingdom
-NCT03526068	National University Hospital		 Singapore	 Singapore
-NCT03526042	Instituto Nacional de Ciencias Medicas y Nutricion Salvador Zubiran		 Mexico City	 Mexico
+NCT03526068	National University Hospital	null	 Singapore	 Singapore
+NCT03526042	Instituto Nacional de Ciencias Medicas y Nutricion Salvador Zubiran	null	 Mexico City	 Mexico
 NCT03524703	Guangdong General Hospital	 Guangzhou	 Guangdong	 China
 NCT03523806	Thames Valley Children's Centre	 London	 Ontario	 Canada
 NCT03523806	Holland Bloorview Kids Rehabilitation Hospital	 Toronto	 Ontario	 Canada
 NCT03523299	Sibley Memorial Hospital	 Washington	 District of Columbia	 United States
 NCT03521960	Johns Hopkins University	 Baltimore	 Maryland	 United States
-NCT03519750	Herlev Hospital		 Herlev	 Denmark
+NCT03519750	Herlev Hospital	null	 Herlev	 Denmark
 NCT03519659	The Ohio State University Wexner Medical Center	 Columbus	 Ohio	 United States
 NCT03518216	Cincinnati Children's Hospital Medical Center	 Cincinnati	 Ohio	 United States
 NCT03517397	Cincinnati Children's Hospital Medical Center	 Cincinnati	 Ohio	 United States
 NCT03516877	University of California San Francisco	 San Francisco	 California	 United States
 NCT03513822	Raymond Poincaré Hospital	 Garches	 Hauts De Seine	 France
-NCT03512691	UPecon Foundation		 Quezon City	 Philippines
+NCT03512691	UPecon Foundation	null	 Quezon City	 Philippines
 NCT03510195	FRIM	 Kepong	 Selangor	 Malaysia
 NCT03508921	Vanderbilt University Medical Center	 Nashville	 Tennessee	 United States
-NCT03508908	KEMRI Mtwapa		 Kilifi	 Kenya
+NCT03508908	KEMRI Mtwapa	null	 Kilifi	 Kenya
 NCT03507647	Radboud University Nijmegen Medical Center	 Nijmegen	 Gelderland	 Netherlands
-NCT03507647	Dimence GGZ		 Deventer	 Netherlands
-NCT03507647	Pro Persona		 Nijmegen	 Netherlands
-NCT03507647	Altrecht GGZ		 Utrecht	 Netherlands
+NCT03507647	Dimence GGZ	null	 Deventer	 Netherlands
+NCT03507647	Pro Persona	null	 Nijmegen	 Netherlands
+NCT03507647	Altrecht GGZ	null	 Utrecht	 Netherlands
 NCT03503721	Universitätsklinik für Urologie und Andrologie	 Salzburger Landeskliniken	 Salzburg	 Austria
 NCT03503721	Universitätsklinik für Urologie und Andrologie	 Salzburger Landeskliniken	 Salzburg	 Austria
 NCT03503162	Washington University School of Medicine	 Saint Louis	 Missouri	 United States
 NCT03502655	Centre Hospitalier Universitaire Vaudois (CHUV)	 Lausanne	 Vaud	 Switzerland
-NCT03502252	Semiilas de Apego		 Tumaco	 Colombia
+NCT03502252	Semiilas de Apego	null	 Tumaco	 Colombia
 NCT03501316	Michael Paterson	 Glasgow	 Glasgow City	 United Kingdom
 NCT03500419	Mayo Clinic in Rochester	 Rochester	 Minnesota	 United States
 NCT03500406	Mayo Clinic in Rochester	 Rochester	 Minnesota	 United States
 NCT03500406	Washington University School of Medicine	 Saint Louis	 Missouri	 United States
 NCT03500367	Washington University School of Medicine	 Saint Louis	 Missouri	 United States
-NCT03496948	TK statutory health insurance		 Hamburg	 Germany
-NCT03496948	KKH statutory health insurance		 Hannover	 Germany
-NCT03496948	Mhplus Statutory Health Insurance		 Nürnberg	 Germany
+NCT03496948	TK statutory health insurance	null	 Hamburg	 Germany
+NCT03496948	KKH statutory health insurance	null	 Hannover	 Germany
+NCT03496948	Mhplus Statutory Health Insurance	null	 Nürnberg	 Germany
 NCT03495791	Rush University Medical Center	 Chicago	 Illinois	 United States
 NCT03495752	LSUHSC-Shreveport	 Shreveport	 Louisiana	 United States
-NCT03495661	Uppsala University Hospital		 Uppsala	 Sweden
+NCT03495661	Uppsala University Hospital	null	 Uppsala	 Sweden
 NCT03495518	The Hospital For SickKids	 Toronto	 Ontario	 Canada
 NCT03495089	Hospital Universitari Mútua Terrassa	 Terrassa	 Barcelona	 Spain
 NCT03495089	Mútua Terrassa Primary Care	 Terrassa	 Barcelona	 Spain
 NCT03495089	Hospital Universitari Sant Joan de Reus	 Reus	 Tarragona	 Spain
-NCT03494816	Addenbrookes Hospital		 Cambridge	 United Kingdom
-NCT03494816	Western General Hospital		 Edinburgh	 United Kingdom
-NCT03494816	Beatson West of Scotland Cancer Centre		 Glasgow	 United Kingdom
-NCT03494816	St George's Hospital		 London	 United Kingdom
-NCT03494816	Royal Marsden		 London	 United Kingdom
-NCT03494816	The Christie		 Manchester	 United Kingdom
+NCT03494816	Addenbrookes Hospital	null	 Cambridge	 United Kingdom
+NCT03494816	Western General Hospital	null	 Edinburgh	 United Kingdom
+NCT03494816	Beatson West of Scotland Cancer Centre	null	 Glasgow	 United Kingdom
+NCT03494816	St George's Hospital	null	 London	 United Kingdom
+NCT03494816	Royal Marsden	null	 London	 United Kingdom
+NCT03494816	The Christie	null	 Manchester	 United Kingdom
 NCT03494335	Martha Morehouse Medical Plaza	 Columbus	 Ohio	 United States
-NCT03494205	Universitätsklinik für Radio-Onkologie		 Bern	 Switzerland
-NCT03492476	Polyclinique Bordeaux Nord Aquitaine		 Bordeaux	 France
-NCT03492476	Chu Saint Eloi		 Montpellier	 France
-NCT03492476	Ghr Mulhouse Sud Alsace		 Mulhouse	 France
-NCT03492476	Hopital Cognacq Jay		 Paris	 France
+NCT03494205	Universitätsklinik für Radio-Onkologie	null	 Bern	 Switzerland
+NCT03492476	Polyclinique Bordeaux Nord Aquitaine	null	 Bordeaux	 France
+NCT03492476	Chu Saint Eloi	null	 Montpellier	 France
+NCT03492476	Ghr Mulhouse Sud Alsace	null	 Mulhouse	 France
+NCT03492476	Hopital Cognacq Jay	null	 Paris	 France
 NCT03491059	The Ohio State University Wexner Medical Center	 Columbus	 Ohio	 United States
 NCT03491046	The Ohio State University Wexner Medical Center	 Columbus	 Ohio	 United States
 NCT03490812	The Ohio State University Wexner Medical Center	 Columbus	 Ohio	 United States
 NCT03490656	The Ohio State University Wexner Medical Center	 Columbus	 Ohio	 United States
 NCT03489395	Ospedale Madonna del Soccorso	 San Benedetto Del Tronto	 Ascoli Piceno	 Italy
 NCT03489395	Presidio Ospedaliero S. Maria delle Grazie	 Pozzuoli	 Napoli	 Italy
-NCT03489395	AORN S.ANNA e S.SEBASTIANO		 Caserta	 Italy
-NCT03489395	Università degli Studi G. D'Annunzio		 Chieti	 Italy
-NCT03489395	Ospedale P. Monaldi		 Napoli	 Italy
-NCT03489395	Policlinico AO di Padova		 Padova	 Italy
-NCT03489395	Policlinico Universitario Campus Bio-Medico		 Roma	 Italy
+NCT03489395	AORN S.ANNA e S.SEBASTIANO	null	 Caserta	 Italy
+NCT03489395	Università degli Studi G. D'Annunzio	null	 Chieti	 Italy
+NCT03489395	Ospedale P. Monaldi	null	 Napoli	 Italy
+NCT03489395	Policlinico AO di Padova	null	 Padova	 Italy
+NCT03489395	Policlinico Universitario Campus Bio-Medico	null	 Roma	 Italy
 NCT03488511	Radboudumc	 Nijmegen	 Gelderland	 Netherlands
 NCT03487718	Univerisity of Kentucky College of Dentistry	 Lexington	 Kentucky	 United States
 NCT03486444	The Ohio State University Wexner Medical Center	 Columbus	 Ohio	 United States
 NCT03486106	Virginia Commonwealth University	 Richmond	 Virginia	 United States
-NCT03484533	Infectious Disease Institute		 Kampala	 Uganda
+NCT03484533	Infectious Disease Institute	null	 Kampala	 Uganda
 NCT03484338	University of South Florida	 Tampa	 Florida	 United States
 NCT03484273	Unversity of Calgary	 Calgary	 Alberta	 Canada
-NCT03483935	NHS Tayside		 Dundee	 United Kingdom
+NCT03483935	NHS Tayside	null	 Dundee	 United Kingdom
 NCT03482908	Geisinger Health Systems	 Danville	 Pennsylvania	 United States
 NCT03481023	Riverside Medical Center	 Kankakee	 Illinois	 United States
 NCT03479697	Riverside Medical Center	 Kankakee	 Illinois	 United States
 NCT03478163	Cedars-Sinai Medical Center	 Los Angeles	 California	 United States
 NCT03478137	McGill University Health Center	 Montréal	 Quebec	 Canada
-NCT03477500	Rigshospitalet		 Copenhagen	 Denmark
-NCT03477500	VUmc		 Amsterdam	 Netherlands
-NCT03477500	Haukeland University Hospital		 Bergen	 Norway
-NCT03477500	Akershus University Hospital		 Oslo	 Norway
-NCT03477500	University Hospital of North Norway		 Tromsø	 Norway
-NCT03477500	St. Olav's University Hospital		 Trondheim	 Norway
-NCT03477500	Sahlgrenska University Hospital		 Gothenburg	 Sweden
-NCT03477500	Akademiska sjukhuset		 Uppsala	 Sweden
-NCT03477045	Akademiska sjukhuset		 Uppsala	 Sweden
+NCT03477500	Rigshospitalet	null	 Copenhagen	 Denmark
+NCT03477500	VUmc	null	 Amsterdam	 Netherlands
+NCT03477500	Haukeland University Hospital	null	 Bergen	 Norway
+NCT03477500	Akershus University Hospital	null	 Oslo	 Norway
+NCT03477500	University Hospital of North Norway	null	 Tromsø	 Norway
+NCT03477500	St. Olav's University Hospital	null	 Trondheim	 Norway
+NCT03477500	Sahlgrenska University Hospital	null	 Gothenburg	 Sweden
+NCT03477500	Akademiska sjukhuset	null	 Uppsala	 Sweden
+NCT03477045	Akademiska sjukhuset	null	 Uppsala	 Sweden
 NCT03473899	KinEf Kinesiología Deportiva	 Buenos Aires	 Caba	 Argentina
 NCT03473665	Columbia University Medical Center	 New York	 New York	 United States
 NCT03472820	NUNM Helfgott Research Institute	 Portland	 Oregon	 United States
@@ -586,42 +586,42 @@ NCT03465982	SS. Antonio e Biagio e Cesare Arrigo Hospital	 Alessandria	 AL	 Ital
 NCT03465982	Casa Sollievo della Sofferenza Opera Padre Pio	 San Giovanni Rotondo	 Foggia	 Italy
 NCT03465982	Ospedale Civile Pietro Cosma	 Camposampiero	 Padua	 Italy
 NCT03465982	Ospedale Sacro Cuore	 Negrar	 Verona	 Italy
-NCT03465982	Ospedale degli Infermi		 Biella	 Italy
-NCT03465982	Ospedale Maggiore Policlinico Fondazione Ca' Granda		 Milano	 Italy
-NCT03465982	Ospedale San Raffaele IRCCS		 Milano	 Italy
-NCT03465982	Istituto Nazionale Tumori - IRCCS Fondazione G. Pascale		 Napoli	 Italy
-NCT03465982	Ospedale San Francesco		 Nuoro	 Italy
-NCT03465982	Ospedale Sant' Antonio		 Padova	 Italy
-NCT03465982	Azienda Ospedaliera San Giovanni - Addolorata		 Roma	 Italy
+NCT03465982	Ospedale degli Infermi	null	 Biella	 Italy
+NCT03465982	Ospedale Maggiore Policlinico Fondazione Ca' Granda	null	 Milano	 Italy
+NCT03465982	Ospedale San Raffaele IRCCS	null	 Milano	 Italy
+NCT03465982	Istituto Nazionale Tumori - IRCCS Fondazione G. Pascale	null	 Napoli	 Italy
+NCT03465982	Ospedale San Francesco	null	 Nuoro	 Italy
+NCT03465982	Ospedale Sant' Antonio	null	 Padova	 Italy
+NCT03465982	Azienda Ospedaliera San Giovanni - Addolorata	null	 Roma	 Italy
 NCT03464773	BC Children's Hospital	 Vancouver	 British Columbia	 Canada
-NCT03464266	Infectious Disease Institute		 Kampala	 Uganda
+NCT03464266	Infectious Disease Institute	null	 Kampala	 Uganda
 NCT03462966	Cedars-Sinai Medical Center	 Los Angeles	 California	 United States
-NCT03462823	Balgrist University Hospital		 Zürich	 Switzerland
-NCT03459014	Rehabilitation center TrainM		 Antwerp	 Belgium
+NCT03462823	Balgrist University Hospital	null	 Zürich	 Switzerland
+NCT03459014	Rehabilitation center TrainM	null	 Antwerp	 Belgium
 NCT03457519	iCCM sites	 Banamba	 Koulikoro	 Mali
-NCT03457519	iCCM Sites		 Koulikoro	 Mali
+NCT03457519	iCCM Sites	null	 Koulikoro	 Mali
 NCT03457506	Isala	 Zwolle	 Overijssel	 Netherlands
 NCT03456895	The Ohio State University Wexner Medical Center	 Columbus	 Ohio	 United States
 NCT03456128	Visiting Nurse Service of New York	 New York	 New York	 United States
 NCT03455426	Peking University third Hospital	 Beijing	 Beijing	 China
-NCT03454282	Fondazione IRCCS Istituto Nazionale dei Tumori		 Milan	 Italy
+NCT03454282	Fondazione IRCCS Istituto Nazionale dei Tumori	null	 Milan	 Italy
 NCT03454087	University of Pittsburgh Medical Center	 Pittsburgh	 Pennsylvania	 United States
 NCT03453190	Washington Dermatology Center	 Rockville	 Maryland	 United States
-NCT03451266	UMC Ljubljana		 Ljubljana	 Slovenia
+NCT03451266	UMC Ljubljana	null	 Ljubljana	 Slovenia
 NCT03450655	Livsmedicin (LIFE)	 Umeå	 Västerbotten	 Sweden
 NCT03450564	Afar Region	 Semera	 Zone 1	 Ethiopia
 NCT03449693	Hospital Infantil de Mexico Dr. Federico Gomez	 Cuauhtémoc	 Ciudad De México	 Mexico
 NCT03448289	University of Illinois at Chicago	 Chicago	 Illinois	 United States
 NCT03447119	B and B Care Services	 Springfield	 Georgia	 United States
-NCT03444103	Medical University of Vienna		 Vienna	 Austria
-NCT03444103	Charité University		 Berlin	 Germany
+NCT03444103	Medical University of Vienna	null	 Vienna	 Austria
+NCT03444103	Charité University	null	 Berlin	 Germany
 NCT03443388	University of Pennsylvania	 Philadelphia	 Pennsylvania	 United States
 NCT03443258	Dept. Of Otorhinolaryngology	 Head and Neck Surgery and Audiology	 Copenhagen	 Denmark
 NCT03441867	Dept. Of Otorhinolaryngology	 Head and Neck Surgery and Audiology	 Copenhagen	 Denmark
 NCT03441867	Rhode Island Hospital	 Providence	 Rhode Island	 United States
 NCT03441867	Providence VA Medical Center	 Providence	 Rhode Island	 United States
 NCT03438708	UC San Diego Moores Cancer Center	 La Jolla	 California	 United States
-NCT03435497	Infectious Diseases Institute		 Kampala	 Uganda
+NCT03435497	Infectious Diseases Institute	null	 Kampala	 Uganda
 NCT03435172	Maricopa IHS	 Phoenix	 Arizona	 United States
 NCT03435172	Univeristy of Southern California	 Los Angeles	 California	 United States
 NCT03435172	MedStar Health Research Institute	 Washington	 District of Columbia	 United States
@@ -634,16 +634,16 @@ NCT03432832	University of Pittsburgh School of Medicine	 Pittsburgh	 Pennsylvani
 NCT03432819	University of Pittsburgh School of Medicine	 Pittsburgh	 Pennsylvania	 United States
 NCT03429010	The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University	 Wenzhou	 Zhejiang	 China
 NCT03428477	Hampshire Hospitals NHS Foundation Trust	 Basingstoke	 Royal Hampshire	 United Kingdom
-NCT03428477	University Hospital Southampton NHS Foundation Trust		 Southampton	 United Kingdom
+NCT03428477	University Hospital Southampton NHS Foundation Trust	null	 Southampton	 United Kingdom
 NCT03426436	North Shore University Hospital	 Manhasset	 New York	 United States
 NCT03426436	Long Island Jewish Medical Center	 New Hyde Park	 New York	 United States
-NCT03425890	Tan Tock Seng Hospital Rehabilitation Centre		 Singapore	 Singapore
+NCT03425890	Tan Tock Seng Hospital Rehabilitation Centre	null	 Singapore	 Singapore
 NCT03423394	University of Washington Innovative Programs Research Group	 Seattle	 Washington	 United States
-NCT03423303	Helsinki University and Helsinki University Hospital		 Helsinki	 Finland
-NCT03423303	University of Tampere		 Tampere	 Finland
+NCT03423303	Helsinki University and Helsinki University Hospital	null	 Helsinki	 Finland
+NCT03423303	University of Tampere	null	 Tampere	 Finland
 NCT03422536	The University of Arizona Cancer Center	 Tucson	 Arizona	 United States
 NCT03421262	Hospital Universitari Mutua Terrassa	 Terrassa	 Barcelona	 Spain
-NCT03420404	Singapore General Hospital		 Singapore	 Singapore
+NCT03420404	Singapore General Hospital	null	 Singapore	 Singapore
 NCT03419715	CTI Clinical Trial and Consulting Services	 Cincinnati	 Ohio	 United States
 NCT03419715	Omega Medical Research	 Warwick	 Rhode Island	 United States
 NCT03418870	Community Regional Medical Center	 Fresno	 California	 United States
@@ -653,24 +653,24 @@ NCT03418870	UCSF Benioff Children's Hospital San Francisco	 San Francisco	 Calif
 NCT03418870	Kaiser Permanente - Santa Clara	 Santa Clara	 California	 United States
 NCT03418870	Kaiser Permanente - Santa Clara	 Santa Clara	 California	 United States
 NCT03418324	Cedars Sinai Medical Center	 Los Angeles	 California	 United States
-NCT03415880	Academisch Ziekenhuis Maastricht		 Maastricht	 Netherlands
-NCT03415841	Changi General Hospital		 Singapore	 Singapore
-NCT03412149	ICOT Hospital		 Latina	 Italy
+NCT03415880	Academisch Ziekenhuis Maastricht	null	 Maastricht	 Netherlands
+NCT03415841	Changi General Hospital	null	 Singapore	 Singapore
+NCT03412149	ICOT Hospital	null	 Latina	 Italy
 NCT03412084	Kelli Koltyn	 Madison	 Wisconsin	 United States
 NCT03410511	Erasme Hospital	 Brussels	 Anderlecht	 Belgium
 NCT03408873	University Hospitals Cleveland Medical Center	 Cleveland	 Ohio	 United States
 NCT03408574	University of Vermont	 Burlington	 Vermont	 United States
-NCT03406520	Singapore General Hospital		 Singapore	 Singapore
+NCT03406520	Singapore General Hospital	null	 Singapore	 Singapore
 NCT03405090	Respiratory Investigation Unit	 Kingston	 Ontario	 Canada
-NCT03404011	Saint-Pierre Hospital		 Brussels	 Belgium
+NCT03404011	Saint-Pierre Hospital	null	 Brussels	 Belgium
 NCT03401047	University of Virginia Clinical Research Unit	 Charlottesville	 Virginia	 United States
-NCT03399318	Pediatric Research Ward at Queen Elizabeth Central Hospital		 Blantyre	 Malawi
-NCT03399318	University Teaching Hospital's Lusaka Childrens Hospital		 Lusaka	 Zambia
+NCT03399318	Pediatric Research Ward at Queen Elizabeth Central Hospital	null	 Blantyre	 Malawi
+NCT03399318	University Teaching Hospital's Lusaka Childrens Hospital	null	 Lusaka	 Zambia
 NCT03397030	UT Health San Antonio School of Nursing	 San Antonio	 Texas	 United States
-NCT03396094	National University Hospital		 Singapore	 Singapore
+NCT03396094	National University Hospital	null	 Singapore	 Singapore
 NCT03394599	Bruyere Research Institute	 Ottawa	 Ontario	 Canada
 NCT03394599	Baycrest Health Sciences	 Toronto	 Ontario	 Canada
-NCT03392415	Aalborg University Hospital		 Aalborg	 Denmark
+NCT03392415	Aalborg University Hospital	null	 Aalborg	 Denmark
 NCT03386227	Washington University Reproductive Endocrinology	 Saint Louis	 Missouri	 United States
 NCT03384706	University of Cincinnati	 Cincinnati	 Ohio	 United States
 NCT03384706	Cincinnati VA Medical Center	 Cincinnati	 Ohio	 United States
@@ -682,12 +682,12 @@ NCT03380013	Maine Medical Center	 Portland	 Maine	 United States
 NCT03379818	Maine Medical Center	 Portland	 Maine	 United States
 NCT03375879	St. Joseph's Hospital Hamilton	 Hamilton	 Ontario	 Canada
 NCT03375229	Universidade Federal de Santa Catarina	 Araranguá	 Santa Catarina	 Brazil
-NCT03372174	CHU Angers		 Angers	 France
-NCT03372174	CHU Bordeaux		 Bordeaux	 France
-NCT03372174	CHU Lille		 Lille	 France
-NCT03372174	Hôpital Pitié Salpêtrière		 Paris	 France
-NCT03372174	CHU Rennes		 Rennes	 France
-NCT03372174	CHU Toulouse		 Toulouse	 France
+NCT03372174	CHU Angers	null	 Angers	 France
+NCT03372174	CHU Bordeaux	null	 Bordeaux	 France
+NCT03372174	CHU Lille	null	 Lille	 France
+NCT03372174	Hôpital Pitié Salpêtrière	null	 Paris	 France
+NCT03372174	CHU Rennes	null	 Rennes	 France
+NCT03372174	CHU Toulouse	null	 Toulouse	 France
 NCT03371836	Kennedy Krieger Institute	 Baltimore	 Maryland	 United States
 NCT03369600	Kennedy Krieger Institute	 Baltimore	 Maryland	 United States
 NCT03367364	Johns Hopkins Medical Institutions	 Baltimore	 Maryland	 United States
@@ -699,61 +699,61 @@ NCT03364114	Hospital University of Pennsylvania	 Philadelphia	 Pennsylvania	 Uni
 NCT03362983	Hospital University of Pennsylvania	 Philadelphia	 Pennsylvania	 United States
 NCT03359863	Hospital University of Pennsylvania	 Philadelphia	 Pennsylvania	 United States
 NCT03357042	Fairway Physiotherapy	 Thunder Bay	 Ontario	 Canada
-NCT03356652	The Chinese University of Hong Kong		 Hong Kong	 Hong Kong
+NCT03356652	The Chinese University of Hong Kong	null	 Hong Kong	 Hong Kong
 NCT03356210	Sorlandet Hospital HF	 Kristiansand	 Vest Agder	 Norway
-NCT03356106	Phramongkutklao Hospital		 Bangkok	 Thailand
-NCT03356106	Rajavithi Hospital		 Bangkok	 Thailand
-NCT03356106	Ramathibodi hospital		 Bangkok	 Thailand
+NCT03356106	Phramongkutklao Hospital	null	 Bangkok	 Thailand
+NCT03356106	Rajavithi Hospital	null	 Bangkok	 Thailand
+NCT03356106	Ramathibodi hospital	null	 Bangkok	 Thailand
 NCT03355456	MetroHealth Medical Center	 Cleveland	 Ohio	 United States
 NCT03354325	Packard El Camino Hospital	 Mountain View	 California	 United States
 NCT03354325	Lucile Packard Children's Hospital	 Palo Alto	 California	 United States
 NCT03354325	Intermountain Riverton Hospital	 Riverton	 Utah	 United States
 NCT03354325	Primary Children's Hospital	 Salt Lake City	 Utah	 United States
 NCT03354286	Stanford University School of Medicine	 Palo Alto	 California	 United States
-NCT03353298	Oslo University Hospital		 Oslo	 Norway
+NCT03353298	Oslo University Hospital	null	 Oslo	 Norway
 NCT03352947	Addenbrooke's Hospital	 Cambridge	 England	 United Kingdom
-NCT03350737	Clinical Centre of Serbia		 Belgrade	 Serbia
+NCT03350737	Clinical Centre of Serbia	null	 Belgrade	 Serbia
 NCT03348761	Department of Psychiatry	 CUHK	 Hong Kong	 Hong Kong
 NCT03346668	University of Minnesota	 Minneapolis	 Minnesota	 United States
 NCT03342976	University of Minnesota	 Minneapolis	 Minnesota	 United States
 NCT03341975	Children's Mercy Hospital	 Kansas City	 Missouri	 United States
 NCT03341520	University of Tuebingen	 Tuebingen	 Baden-Wuerttemberg	 Germany
-NCT03341520	University of Cologne		 Cologne	 Germany
-NCT03341520	University of Essen		 Essen	 Germany
-NCT03341520	University of Heidelberg		 Heidelberg	 Germany
-NCT03341520	LMU		 Munich	 Germany
-NCT03341520	TU		 Munich	 Germany
-NCT03341520	University of Ulm		 Ulm	 Germany
-NCT03340922	University of Ulm		 Ulm	 Germany
-NCT03337607	University of Ulm		 Ulm	 Germany
+NCT03341520	University of Cologne	null	 Cologne	 Germany
+NCT03341520	University of Essen	null	 Essen	 Germany
+NCT03341520	University of Heidelberg	null	 Heidelberg	 Germany
+NCT03341520	LMU	null	 Munich	 Germany
+NCT03341520	TU	null	 Munich	 Germany
+NCT03341520	University of Ulm	null	 Ulm	 Germany
+NCT03340922	University of Ulm	null	 Ulm	 Germany
+NCT03337607	University of Ulm	null	 Ulm	 Germany
 NCT03337360	Canisius-Wilhelmina Hospital	 Nijmegen	 Gelderland	 Netherlands
-NCT03337360	Jeroen Bosch Ziekenhuis		 's-Hertogenbosch	 Netherlands
-NCT03337360	Gelre Ziekenhuizen		 Apeldoorn	 Netherlands
-NCT03337360	Rijnstate		 Arnhem	 Netherlands
-NCT03337360	Maasziekenhuis Pantein		 Boxmeer	 Netherlands
-NCT03337360	Slingeland Ziekenhuis		 Doetinchem	 Netherlands
-NCT03337360	Nij Geertgen		 Elsendorp	 Netherlands
-NCT03337360	Medisch Centrum Kinderwens		 Leiderdorp	 Netherlands
-NCT03337360	Maastricht UMC+		 Maastricht	 Netherlands
-NCT03337360	Radboudumc		 Nijmegen	 Netherlands
-NCT03337360	Elisabeth-TweeSteden Ziekenhuis		 Tilburg	 Netherlands
-NCT03337360	Bernhoven Ziekenhuis		 Uden	 Netherlands
-NCT03337360	Máxima Medisch Centrum		 Veldhoven	 Netherlands
-NCT03337360	Nij Barrahus		 Wolvega	 Netherlands
+NCT03337360	Jeroen Bosch Ziekenhuis	null	 's-Hertogenbosch	 Netherlands
+NCT03337360	Gelre Ziekenhuizen	null	 Apeldoorn	 Netherlands
+NCT03337360	Rijnstate	null	 Arnhem	 Netherlands
+NCT03337360	Maasziekenhuis Pantein	null	 Boxmeer	 Netherlands
+NCT03337360	Slingeland Ziekenhuis	null	 Doetinchem	 Netherlands
+NCT03337360	Nij Geertgen	null	 Elsendorp	 Netherlands
+NCT03337360	Medisch Centrum Kinderwens	null	 Leiderdorp	 Netherlands
+NCT03337360	Maastricht UMC+	null	 Maastricht	 Netherlands
+NCT03337360	Radboudumc	null	 Nijmegen	 Netherlands
+NCT03337360	Elisabeth-TweeSteden Ziekenhuis	null	 Tilburg	 Netherlands
+NCT03337360	Bernhoven Ziekenhuis	null	 Uden	 Netherlands
+NCT03337360	Máxima Medisch Centrum	null	 Veldhoven	 Netherlands
+NCT03337360	Nij Barrahus	null	 Wolvega	 Netherlands
 NCT03336879	Department of Neuroscience	 Imaging and Clinical Sciences	 Chieti	 Italy
-NCT03336879	La Promessa ONLUS		 Roma	 Italy
+NCT03336879	La Promessa ONLUS	null	 Roma	 Italy
 NCT03335475	Nationwide Children's Hospital	 Columbus	 Ohio	 United States
 NCT03335358	University of Utah	 Salt Lake City	 Utah	 United States
 NCT03335319	Faculty of Human Kinetics - University of Lisbon	 Lisbon	 Cruz Quebrada	 Portugal
 NCT03335124	Department of Gastroenterology	 UMC Ljubljana	 Ljubljana	 Slovenia
 NCT03334643	Department of Gastroenterology	 UMC Ljubljana	 Ljubljana	 Slovenia
 NCT03333460	Department of Neuroscience	 Imaging and Clinical Sciences	 Chieti	 Italy
-NCT03333460	La Promessa ONLUS		 Rome	 Italy
-NCT03333174	La Promessa ONLUS		 Rome	 Italy
-NCT03333161	La Promessa ONLUS		 Rome	 Italy
+NCT03333460	La Promessa ONLUS	null	 Rome	 Italy
+NCT03333174	La Promessa ONLUS	null	 Rome	 Italy
+NCT03333161	La Promessa ONLUS	null	 Rome	 Italy
 NCT03326232	Eastern Virginia Medical School	 Norfolk	 Virginia	 United States
-NCT03324451	Lee's clinic		 Kaohsiung	 Taiwan
-NCT03323359	Policlinico Universitario Agostino Gemelli		 Rome	 Italy
+NCT03324451	Lee's clinic	null	 Kaohsiung	 Taiwan
+NCT03323359	Policlinico Universitario Agostino Gemelli	null	 Rome	 Italy
 NCT03322774	Henry Ford Medical Center - Columbus	 Novi	 Michigan	 United States
 NCT03322072	CancerCare Manitoba	 Winnipeg	 Manitoba	 Canada
 NCT03322072	Health Sciences Center	 Winnipeg	 Manitoba	 Canada
@@ -762,15 +762,15 @@ NCT03320057	Women's Health Services at University of California San Diego	 San D
 NCT03320057	Kaiser Permanente Northern California	 San Francisco	 California	 United States
 NCT03320057	Kaiser Permanente Northern California	 San Francisco	 California	 United States
 NCT03320057	University of Washington	 Seattle	 Washington	 United States
-NCT03318874	The Norwegian Dry Eye Clinic		 Oslo	 Norway
-NCT03314792	Oslo University Hospital		 Oslo	 Norway
+NCT03318874	The Norwegian Dry Eye Clinic	null	 Oslo	 Norway
+NCT03314792	Oslo University Hospital	null	 Oslo	 Norway
 NCT03313492	Rutgers Cancer Institute of New Jersey	 New Brunswick	 New Jersey	 United States
 NCT03308851	Clinique d'orthodontie de l'Université de Montréal	 Montréal	 Quebec	 Canada
 NCT03306992	Huntsman Cancer Institute	 Salt Lake City	 Utah	 United States
 NCT03304626	University of Cincinnati Medical Center	 Cincinnati	 Ohio	 United States
-NCT03304301	BaoKang Long-Term Care Center		 Chia-Yi	 Taiwan
+NCT03304301	BaoKang Long-Term Care Center	null	 Chia-Yi	 Taiwan
 NCT03302858	Laser Surgery Care	 New York	 New York	 United States
-NCT03302299	Mbarara University of Science and Technology/Mbarara Regional Referral Hospital		 Mbarara	 Uganda
+NCT03302299	Mbarara University of Science and Technology/Mbarara Regional Referral Hospital	null	 Mbarara	 Uganda
 NCT03301311	Lucile Packard Children's Hospital	 Palo Alto	 California	 United States
 NCT03301311	University of California San Francisco Benioff Children's Hospita;	 San Francisco	 California	 United States
 NCT03301311	University of California San Francisco Benioff Children's Hospita;	 San Francisco	 California	 United States
@@ -784,20 +784,20 @@ NCT03301311	Pediatric Specialists of Virginia	 Fairfax	 Virginia	 United States
 NCT03301311	Children's Hospital of the King's Daughters	 Norfolk	 Virginia	 United States
 NCT03301311	Seattle Children's	 Seattle	 Washington	 United States
 NCT03299816	East Baltimore Medical Campus	 Baltimore	 Maryland	 United States
-NCT03299296				
+NCT03299296		null	null	null
 NCT03297658	West Virginia University	 Morgantown	 West Virginia	 United States
-NCT03297346	IRSN - Clinique Pasteur		 Toulouse	 France
-NCT03297346	Klinikum rechts der Isar der Technischen Universität München		 Munich	 Germany
-NCT03297346	Academisch Ziekenhuis Groningen		 Groningen	 Netherlands
-NCT03297346	Associação para Investigação e Desenvolvimento da Faculdade de Medicina		 Lisbon	 Portugal
-NCT03297346	Institut Català d'Oncologia		 Girona	 Spain
-NCT03295708	Institut Català d'Oncologia		 Girona	 Spain
-NCT03295422	Institut Català d'Oncologia		 Girona	 Spain
+NCT03297346	IRSN - Clinique Pasteur	null	 Toulouse	 France
+NCT03297346	Klinikum rechts der Isar der Technischen Universität München	null	 Munich	 Germany
+NCT03297346	Academisch Ziekenhuis Groningen	null	 Groningen	 Netherlands
+NCT03297346	Associação para Investigação e Desenvolvimento da Faculdade de Medicina	null	 Lisbon	 Portugal
+NCT03297346	Institut Català d'Oncologia	null	 Girona	 Spain
+NCT03295708	Institut Català d'Oncologia	null	 Girona	 Spain
+NCT03295422	Institut Català d'Oncologia	null	 Girona	 Spain
 NCT03294395	Public Health Service	 Amsterdam	 Noord Holland	 Netherlands
 NCT03291951	Kaiser Permanente Division of Research	 Oakland	 California	 United States
 NCT03291951	Dana Farber Cancer Institute	 Boston	 Massachusetts	 United States
 NCT03291951	Penn State Cancer Institute	 Hershey	 Pennsylvania	 United States
-NCT03290833	Ten Chan General Hospital		 Taoyuan City	 Taiwan
+NCT03290833	Ten Chan General Hospital	null	 Taoyuan City	 Taiwan
 NCT03290560	Calvary Public Hospital	 Bruce	 Australian Capital Territory	 Australia
 NCT03290560	Lismore Base Hospital	 Lismore	 New South Wales	 Australia
 NCT03290560	Liverpool Hospital	 Liverpool	 New South Wales	 Australia
@@ -807,9 +807,9 @@ NCT03290560	Princess Alexandria Hospital	 Woolloongabba	 Queensland	 Australia
 NCT03290560	Royal Melbourne Hospital	 Parkville	 Victoria	 Australia
 NCT03290560	Sunshine Hospital	 St Albans	 Victoria	 Australia
 NCT03290560	Fiona Stanley Hospital	 Murdoch	 Western Australia	 Australia
-NCT03290560	Royal Adelaide Hospital		 Adelaide	 Australia
-NCT03290560	Ballarat Health Services		 Ballarat	 Australia
-NCT03290560	Box Hill Hospital		 Box Hill	 Australia
+NCT03290560	Royal Adelaide Hospital	null	 Adelaide	 Australia
+NCT03290560	Ballarat Health Services	null	 Ballarat	 Australia
+NCT03290560	Box Hill Hospital	null	 Box Hill	 Australia
 NCT03289858	University of Kentucky	 Lexington	 Kentucky	 United States
 NCT03289858	UMass Memorial Medical Center	 Worcester	 Massachusetts	 United States
 NCT03286374	Anita Dyb Linge	 Valldal	 Møre Og Romsdal	 Norway
@@ -825,12 +825,12 @@ NCT03263156	Cedars-Sinai Medical Center	 Los Angeles	 California	 United States
 NCT03256396	Siriraj Hospital	 Bangkoknoi	 Bangkok	 Thailand
 NCT03254589	Southern Adelaide Local Health Network	 Bedford Park	 South Australia	 Australia
 NCT03251495	The Hope Clinic of Emory University	 Atlanta	 Georgia	 United States
-NCT03248518	NHS Grampian		 Aberdeen	 United Kingdom
-NCT03248518	NHS Tayside		 Dundee	 United Kingdom
-NCT03248518	NHS Lothian		 Edinburgh	 United Kingdom
-NCT03248518	NHS Greater Glasgow and Clyde		 Glasgow	 United Kingdom
-NCT03248518	Newcastle upon Tyne Hospitals NHS Foundation Trust		 Newcastle Upon Tyne	 United Kingdom
-NCT03248518	Midlands Partnership NHS Foundation Trust		 Stoke on Trent	 United Kingdom
+NCT03248518	NHS Grampian	null	 Aberdeen	 United Kingdom
+NCT03248518	NHS Tayside	null	 Dundee	 United Kingdom
+NCT03248518	NHS Lothian	null	 Edinburgh	 United Kingdom
+NCT03248518	NHS Greater Glasgow and Clyde	null	 Glasgow	 United Kingdom
+NCT03248518	Newcastle upon Tyne Hospitals NHS Foundation Trust	null	 Newcastle Upon Tyne	 United Kingdom
+NCT03248518	Midlands Partnership NHS Foundation Trust	null	 Stoke on Trent	 United Kingdom
 NCT03243539	Intermountain Medical Center	 Murray	 Utah	 United States
 NCT03241511	University of Connecticut Health Center	 Farmington	 Connecticut	 United States
 NCT03237468	Hennepin County Medical Center	 Minneapolis	 Minnesota	 United States
@@ -869,12 +869,12 @@ NCT03196193	Kasugai Municipal Hospital	 Aichi	 Kasugai	 Japan
 NCT03196193	Hoshigaoka Medical Center	 Hirakata	 Osaka	 Japan
 NCT03196193	Numazu City Hospital	 Numazu	 Shizuoka	 Japan
 NCT03196193	Saiseikai Takaoka Hospital	 Takaoka	 Toyama	 Japan
-NCT03196193	Kyushu Central Hospital		 Fukuoka	 Japan
-NCT03196193	Saiseikai Kumamoto Hospital		 Kumamoto	 Japan
-NCT03196193	Niigata Central Hospital		 Niigata	 Japan
-NCT03196193	Okayama Red Cross Hospital		 Okayama	 Japan
-NCT03196193	Okayama Rosai Hospital		 Okayama	 Japan
-NCT03196193	Saga Pref. Medical Centre Koseikan		 Saga	 Japan
+NCT03196193	Kyushu Central Hospital	null	 Fukuoka	 Japan
+NCT03196193	Saiseikai Kumamoto Hospital	null	 Kumamoto	 Japan
+NCT03196193	Niigata Central Hospital	null	 Niigata	 Japan
+NCT03196193	Okayama Red Cross Hospital	null	 Okayama	 Japan
+NCT03196193	Okayama Rosai Hospital	null	 Okayama	 Japan
+NCT03196193	Saga Pref. Medical Centre Koseikan	null	 Saga	 Japan
 NCT03193333	MD. Sandra Belalcazar Rey	 Bogotá	 Bogotá D.C.	 Colombia
 NCT03193333	MD. Victoria Eugenia Sanchez Castellanos	 Zapopan	 Jalisco	 Mexico
 NCT03191071	Centre Hospitalier Universitaire Vaudois	 Lausanne	 Vaud	 Switzerland
@@ -884,15 +884,15 @@ NCT03167723	Carolinas Medical Center	 Charlotte	 North Carolina	 United States
 NCT03167307	Carolinas Medical Center	 Charlotte	 North Carolina	 United States
 NCT03128021	University of Pittsburgh	 Pittsburgh	 Pennsylvania	 United States
 NCT03116139	Indiana University Health Methodist Hospital	 Indianapolis	 Indiana	 United States
-NCT03110744	National Center for Tumor Diseases		 Heidelberg	 Germany
-NCT03100526				
+NCT03110744	National Center for Tumor Diseases	null	 Heidelberg	 Germany
+NCT03100526		null	null	null
 NCT03044613	Johns Hopkins University	 Baltimore	 Maryland	 United States
 NCT03044613	Alleghany Health Network	 Pittsburgh	 Pennsylvania	 United States
 NCT03044613	Baylor University	 Dallas	 Texas	 United States
 NCT03036345	Baylor University	 Dallas	 Texas	 United States
 NCT03026816	Hennepin County Medical Center	 Minneapolis	 Minnesota	 United States
 NCT03007511	Hadassah Medical Center	 Jerusalem	 Ein Kerem	 Israel
-NCT03007511	Shaare Zedek Medical Center		 Jerusalem	 Israel
+NCT03007511	Shaare Zedek Medical Center	null	 Jerusalem	 Israel
 NCT02996565	HealthPartners Institute	 Bloomington	 Minnesota	 United States
 NCT02995733	University of Alabama	 Birmingham	 Alabama	 United States
 NCT02995733	Denver Health and Hospital Authority	 Denver	 Colorado	 United States
@@ -912,15 +912,15 @@ NCT02995733	Duke University	 Durham	 North Carolina	 United States
 NCT02995733	MetroHealth	 Cleveland	 Ohio	 United States
 NCT02995733	University of Pennsylvania	 Philadelphia	 Pennsylvania	 United States
 NCT02995733	Temple University	 Philadelphia	 Pennsylvania	 United States
-NCT02995733	Ponce Health Sciences University		 Ponce	 Puerto Rico
-NCT02995733	University of Puerto Rico		 San Juan	 Puerto Rico
-NCT02993432				
+NCT02995733	Ponce Health Sciences University	null	 Ponce	 Puerto Rico
+NCT02995733	University of Puerto Rico	null	 San Juan	 Puerto Rico
+NCT02993432		null	null	null
 NCT02990429	Warunee Boayam	 Bangkok Noi	 Bangkok	 Thailand
 NCT02978950	Intermountain Medical Center	 Murray	 Utah	 United States
 NCT02959697	Intermountain Medical Center	 Murray	 Utah	 United States
 NCT02959697	Private Office (Dr. Lee-Wing). 1010-233 Kennedy st.	 Winnipeg	 Manitoba	 Canada
-NCT02957669				
-NCT02957253	Gastroenterology department		 Falun	 Sweden
+NCT02957669		null	null	null
+NCT02957253	Gastroenterology department	null	 Falun	 Sweden
 NCT02957253	Gastroenterology outpatientclinic	 Sahlgrenska hospital	 Gothenburg	 Sweden
 NCT02957253	Gastroenterology outpatient department	 Skane Universityhospital	 Malmo	 Sweden
 NCT02957253	Gastroenterology department	 Danderyd hospital	 Stockholm	 Sweden
@@ -934,7 +934,7 @@ NCT02845336	Thompson Center for Autism & Neurodevelopmental Disorders	 Columbia	
 NCT02811627	University of Missouri	 Columbia	 Missouri	 United States
 NCT02808507	Vhembe health subdistrict	 Louis Trichardt	 Limpopo	 South Africa
 NCT02808507	Waterberg health subdistrict	 Mokopane	 Limpopo	 South Africa
-NCT02690259	Department of Gynecology and Obstetrics		 Lund	 Sweden
+NCT02690259	Department of Gynecology and Obstetrics	null	 Lund	 Sweden
 NCT02651402	Children's Hospital of Philadelphia	 Philadelphia	 Pennsylvania	 United States
 NCT02624765	Ronald Reagan UCLA Medical Center	 Los Angeles	 California	 United States
 NCT02624765	Ronald Reagan UCLA Medical Center	 Los Angeles	 California	 United States
@@ -949,35 +949,35 @@ NCT02624765	Baylor College of Medicine	 Houston	 Texas	 United States
 NCT02624765	University of Utah	 Salt Lake City	 Utah	 United States
 NCT02624765	West Virginia University Hospitals	 Morgantown	 West Virginia	 United States
 NCT02624765	Children's Hospital of Wisconsin	 Milwaukee	 Wisconsin	 United States
-NCT02624765	The Royal Women's Hospital		 Melbourne	 Australia
-NCT02624765	University of Alberta/WCCHN		 Edmonton	 Canada
-NCT02624765	McMaster University		 Hamilton	 Canada
-NCT02624765	Sainte-Justine Hospital		 Montreal	 Canada
-NCT02624765	Mount Sinai Hospital		 Toronto	 Canada
-NCT02624765	The Hospital for Sick Children		 Toronto	 Canada
-NCT02624765	British Columbia Children's Hospital		 Vancouver	 Canada
-NCT02624765	UKB Universitätsklinikum BONN		 Bonn	 Germany
-NCT02624765	Academic Medical Center - AMC		 Amsterdam	 Netherlands
-NCT02624765	Leiden University Medical Center - LUMC		 Leiden	 Netherlands
-NCT02624765	Erasmus Medical Center Rotterdam		 Rotterdam	 Netherlands
-NCT02624765	University Medical Center Utrecht		 Utrecht	 Netherlands
-NCT02624765	Belfast Health and Social Care Trust		 Belfast	 United Kingdom
+NCT02624765	The Royal Women's Hospital	null	 Melbourne	 Australia
+NCT02624765	University of Alberta/WCCHN	null	 Edmonton	 Canada
+NCT02624765	McMaster University	null	 Hamilton	 Canada
+NCT02624765	Sainte-Justine Hospital	null	 Montreal	 Canada
+NCT02624765	Mount Sinai Hospital	null	 Toronto	 Canada
+NCT02624765	The Hospital for Sick Children	null	 Toronto	 Canada
+NCT02624765	British Columbia Children's Hospital	null	 Vancouver	 Canada
+NCT02624765	UKB Universitätsklinikum BONN	null	 Bonn	 Germany
+NCT02624765	Academic Medical Center - AMC	null	 Amsterdam	 Netherlands
+NCT02624765	Leiden University Medical Center - LUMC	null	 Leiden	 Netherlands
+NCT02624765	Erasmus Medical Center Rotterdam	null	 Rotterdam	 Netherlands
+NCT02624765	University Medical Center Utrecht	null	 Utrecht	 Netherlands
+NCT02624765	Belfast Health and Social Care Trust	null	 Belfast	 United Kingdom
 NCT02624765	Fetal Medicine Centre	 Birmingham Women's Foundation Trust	 Birmingham	 United Kingdom
 NCT02624765	The Ian Donald Centre for Foetal Medicine	 Southern General Hospital	 Glasgow	 United Kingdom
-NCT02624765	Liverpool Women's Hospital		 Liverpool	 United Kingdom
-NCT02624765	Chelsea and Westminster		 London	 United Kingdom
-NCT02624765	St George's University Hospital Foundation Trust		 London	 United Kingdom
+NCT02624765	Liverpool Women's Hospital	null	 Liverpool	 United Kingdom
+NCT02624765	Chelsea and Westminster	null	 London	 United Kingdom
+NCT02624765	St George's University Hospital Foundation Trust	null	 London	 United Kingdom
 NCT02613650	Huntsman Cancer Institute	 Salt Lake City	 Utah	 United States
 NCT02606045	University of Pittsburgh and Hemophilia Center Western PA	 Pittsburgh	 Pennsylvania	 United States
-NCT02599480	Cliniques universitaires Saint-Luc		 Brussels	 Belgium
-NCT02599480	Nantes university hospital (CHU Nantes)		 Nantes	 France
-NCT02599480	Center for Cardiovascular Research Berlin (CCR/Charité)		 Berlin	 Germany
-NCT02599480	University Medical Center Göttingen (UMG-GOE)		 Göttingen	 Germany
-NCT02599480	Athens University Medical School (NKUA)		 Athens	 Greece
-NCT02599480	"Hospital ""Papa Giovanni XXIII"" (HPG23)"		 Bergamo	 Italy
-NCT02599480	Department of Heart Diseases at Wroclaw Medical University (UMW)		 Wroclaw	 Poland
-NCT02599480	Association for Research and Development of the Faculty of Medicine (AIDFM)		 Lisbon	 Portugal
-NCT02599480	University of Oxford - Division of Cardiovascular Medicine (UOXF)		 Oxford	 United Kingdom
+NCT02599480	Cliniques universitaires Saint-Luc	null	 Brussels	 Belgium
+NCT02599480	Nantes university hospital (CHU Nantes)	null	 Nantes	 France
+NCT02599480	Center for Cardiovascular Research Berlin (CCR/Charité)	null	 Berlin	 Germany
+NCT02599480	University Medical Center Göttingen (UMG-GOE)	null	 Göttingen	 Germany
+NCT02599480	Athens University Medical School (NKUA)	null	 Athens	 Greece
+NCT02599480	"Hospital ""Papa Giovanni XXIII"" (HPG23)"	null	 Bergamo	 Italy
+NCT02599480	Department of Heart Diseases at Wroclaw Medical University (UMW)	null	 Wroclaw	 Poland
+NCT02599480	Association for Research and Development of the Faculty of Medicine (AIDFM)	null	 Lisbon	 Portugal
+NCT02599480	University of Oxford - Division of Cardiovascular Medicine (UOXF)	null	 Oxford	 United Kingdom
 NCT02587936	ProHealth	 Farmington	 Connecticut	 United States
 NCT02587936	Texas Health Resources	 Arlington	 Texas	 United States
 NCT02587936	Veteran's Administration	 Dallas	 Texas	 United States
@@ -998,90 +998,90 @@ NCT01247090	Columbia University Medical Center	 New York	 New York	 United State
 NCT01042015	University of Maryland	 Baltimore	 Maryland	 United States
 NCT01042015	University of Pittsburgh	 Pittsburgh	 Pennsylvania	 United States
 NCT00870064	Ann & Robert H. Lurie Children's Hospital of Chicago	 Chicago	 Illinois	 United States
-NCT03799094	Clifford Hospital		 Guangzhou	 China
-NCT03607630	South London and the Maudsley NHS Foundation Trust		 London	 United Kingdom
+NCT03799094	Clifford Hospital	null	 Guangzhou	 China
+NCT03607630	South London and the Maudsley NHS Foundation Trust	null	 London	 United Kingdom
 NCT03423342	University of Washington	 Seattle	 Washington	 United States
 NCT03360929	Guangdong General Hospital	 Guangzhou	 Guangdong	 China
 NCT03292731	Northwestern University	 Chicago	 Illinois	 United States
 NCT03292731	University of Pittsburgh-Magee Womens Hospital	 Pittsburgh	 Pennsylvania	 United States
 NCT03292731	University of Texas Medical Branch	 Galveston	 Texas	 United States
 NCT03275870	University of Pittsburgh	 Pittsburgh	 Pennsylvania	 United States
-NCT03104426	Leiden University Medical Center		 Leiden	 Netherlands
+NCT03104426	Leiden University Medical Center	null	 Leiden	 Netherlands
 NCT03753802	Maison de Santé Pluri professionnelle Les allées	 Corbeil-Essonnes	 Essonne	 France
 NCT03753802	Cabinet Pédiatrique Saint-Germain	 Saint-Germain-lès-Arpajon	 Essonne	 France
-NCT03630549	District of Butha-Buthe		 Butha-Buthe	 Lesotho
-NCT03630549	District of Mokhotlong		 Mokhotlong	 Lesotho
-NCT03241732	District of Mokhotlong		 Mokhotlong	 Lesotho
-NCT03241732	District of Mokhotlong		 Mokhotlong	 Lesotho
+NCT03630549	District of Butha-Buthe	null	 Butha-Buthe	 Lesotho
+NCT03630549	District of Mokhotlong	null	 Mokhotlong	 Lesotho
+NCT03241732	District of Mokhotlong	null	 Mokhotlong	 Lesotho
+NCT03241732	District of Mokhotlong	null	 Mokhotlong	 Lesotho
 NCT03032601	Thomas Jefferson University	 Philadelphia	 Pennsylvania	 United States
-NCT03466528	Glasgow Royal Infirmary		 Glasgow	 United Kingdom
+NCT03466528	Glasgow Royal Infirmary	null	 Glasgow	 United Kingdom
 NCT03463252	West China Second University Hospital	 Chengdu	 Sichuan	 China
 NCT03829956	Redbridge	 Barking and Havering NHS Trust	 London	 United Kingdom
 NCT03827616	Tatarstan Cancer Cente	 Kazan	 Tatarstan	 Russian Federation
-NCT03808207	UO Neonatal Intensive Care Unit and Neonatology		 Ferrara	 Italy
-NCT03795740	UO Neonatal Intensive Care Unit and Neonatology		 Ferrara	 Italy
+NCT03808207	UO Neonatal Intensive Care Unit and Neonatology	null	 Ferrara	 Italy
+NCT03795740	UO Neonatal Intensive Care Unit and Neonatology	null	 Ferrara	 Italy
 NCT03787615	The Pennsylvania State University	 University Park	 Pennsylvania	 United States
 NCT03781596	Walter Reed National Military Medical Center	 Bethesda	 Maryland	 United States
-NCT03771534	The Hospital For Sick Children		 Toronto	 Canada
+NCT03771534	The Hospital For Sick Children	null	 Toronto	 Canada
 NCT03770455	Tulane University School of Medicine	 New Orleans	 Louisiana	 United States
-NCT03766503				
-NCT03762239	ISGlobal		 Barcelona	 Spain
+NCT03766503		null	null	null
+NCT03762239	ISGlobal	null	 Barcelona	 Spain
 NCT03761264	University of Malaya	 Kuala Lumpur	 Wilayah Persekutuan Kuala Lumpur	 Malaysia
-NCT03757572	University Hospital of Larissa		 Larissa	 Greece
+NCT03757572	University Hospital of Larissa	null	 Larissa	 Greece
 NCT03754322	University of Calgary	 Calgary	 Alberta	 Canada
 NCT03754322	Amhara Public Health Institute	 Bahir Dar	 Amhara	 Ethiopia
 NCT03754322	Amhara Public Health Institute	 Bahir Dar	 Amhara	 Ethiopia
-NCT03754322	University of Gondar		 Gondar	 Ethiopia
+NCT03754322	University of Gondar	null	 Gondar	 Ethiopia
 NCT03744780	McGill University	 Montreal	 Quebec	 Canada
 NCT03737370	Lahey Hospital & Medical Center	 Boston	 Massachusetts	 United States
 NCT03737370	Tufts Medical Center	 Boston	 Massachusetts	 United States
-NCT03735537	St Vincent's Hospital		 Dublin	 Ireland
-NCT03735537	Aberdeen Royal Infirmary		 Aberdeen	 United Kingdom
-NCT03735537	Royal Victoria Hospital		 Belfast	 United Kingdom
-NCT03735537	Queen Elizabeth Hospital		 Birmingham	 United Kingdom
-NCT03735537	Bristol Royal Infirmary		 Bristol	 United Kingdom
-NCT03735537	Addenbrooke's Hospital		 Cambridge	 United Kingdom
-NCT03735537	Ninewells Hospital		 Dundee	 United Kingdom
-NCT03735537	Western General Hospital		 Edinburgh	 United Kingdom
-NCT03735537	Queen Elizabeth University Hospital		 Glasgow	 United Kingdom
-NCT03735537	Leicester Royal Infirmary		 Leicester	 United Kingdom
-NCT03735537	Royal Liverpool Hospital		 Liverpool	 United Kingdom
-NCT03735537	Llandough University Hospital		 Llandough	 United Kingdom
-NCT03735537	Guy's and St Thomas' Hospital		 London	 United Kingdom
-NCT03735537	Manchester Royal Infirmary		 Manchester	 United Kingdom
-NCT03735537	James Cook University Hospital		 Middlesbrough	 United Kingdom
-NCT03735537	Freeman Hospital		 Newcastle Upon Tyne	 United Kingdom
-NCT03735537	Norfolk and Norwich University Hospital		 Norwich	 United Kingdom
-NCT03735537	Nottingham City Hospital		 Nottingham	 United Kingdom
-NCT03735537	Nuffield Orthopaedic Centre		 Oxford	 United Kingdom
-NCT03735537	Queen Alexandria Hospital		 Portsmouth	 United Kingdom
-NCT03735537	Northern General Hospital		 Sheffield	 United Kingdom
-NCT03735537	University Hospital Southampton		 Southampton	 United Kingdom
-NCT03735537	Royal National Orthopaedic Hospital		 Stanmore	 United Kingdom
-NCT03735537	Haywood Community Hospital		 Stoke-on-Trent	 United Kingdom
-NCT03735537	Wishaw General Hospital		 Wishaw	 United Kingdom
+NCT03735537	St Vincent's Hospital	null	 Dublin	 Ireland
+NCT03735537	Aberdeen Royal Infirmary	null	 Aberdeen	 United Kingdom
+NCT03735537	Royal Victoria Hospital	null	 Belfast	 United Kingdom
+NCT03735537	Queen Elizabeth Hospital	null	 Birmingham	 United Kingdom
+NCT03735537	Bristol Royal Infirmary	null	 Bristol	 United Kingdom
+NCT03735537	Addenbrooke's Hospital	null	 Cambridge	 United Kingdom
+NCT03735537	Ninewells Hospital	null	 Dundee	 United Kingdom
+NCT03735537	Western General Hospital	null	 Edinburgh	 United Kingdom
+NCT03735537	Queen Elizabeth University Hospital	null	 Glasgow	 United Kingdom
+NCT03735537	Leicester Royal Infirmary	null	 Leicester	 United Kingdom
+NCT03735537	Royal Liverpool Hospital	null	 Liverpool	 United Kingdom
+NCT03735537	Llandough University Hospital	null	 Llandough	 United Kingdom
+NCT03735537	Guy's and St Thomas' Hospital	null	 London	 United Kingdom
+NCT03735537	Manchester Royal Infirmary	null	 Manchester	 United Kingdom
+NCT03735537	James Cook University Hospital	null	 Middlesbrough	 United Kingdom
+NCT03735537	Freeman Hospital	null	 Newcastle Upon Tyne	 United Kingdom
+NCT03735537	Norfolk and Norwich University Hospital	null	 Norwich	 United Kingdom
+NCT03735537	Nottingham City Hospital	null	 Nottingham	 United Kingdom
+NCT03735537	Nuffield Orthopaedic Centre	null	 Oxford	 United Kingdom
+NCT03735537	Queen Alexandria Hospital	null	 Portsmouth	 United Kingdom
+NCT03735537	Northern General Hospital	null	 Sheffield	 United Kingdom
+NCT03735537	University Hospital Southampton	null	 Southampton	 United Kingdom
+NCT03735537	Royal National Orthopaedic Hospital	null	 Stanmore	 United Kingdom
+NCT03735537	Haywood Community Hospital	null	 Stoke-on-Trent	 United Kingdom
+NCT03735537	Wishaw General Hospital	null	 Wishaw	 United Kingdom
 NCT03714282	Shirley Ryan AbilityLab	 Chicago	 Illinois	 United States
 NCT03704116	The University of Texas at Dallas Center for BrainHealth	 Dallas	 Texas	 United States
-NCT03702465	Imperial Clinical Research Facility		 London	 United Kingdom
-NCT03701113	University of Limerick		 Limerick	 Ireland
-NCT03699397	University of Limerick		 Limerick	 Ireland
-NCT03698591	University of Limerick		 Limerick	 Ireland
-NCT03694496	the Faculty of Dentistry		 Hong Kong	 Hong Kong
-NCT03692715	Hospital Sao Luiz		 São Paulo	 Brazil
+NCT03702465	Imperial Clinical Research Facility	null	 London	 United Kingdom
+NCT03701113	University of Limerick	null	 Limerick	 Ireland
+NCT03699397	University of Limerick	null	 Limerick	 Ireland
+NCT03698591	University of Limerick	null	 Limerick	 Ireland
+NCT03694496	the Faculty of Dentistry	null	 Hong Kong	 Hong Kong
+NCT03692715	Hospital Sao Luiz	null	 São Paulo	 Brazil
 NCT03692715	University of Sherbrooke	 Sherbrooke	 Quebec	 Canada
-NCT03692715	Helsinki University Hospital		 Helsinki	 Finland
-NCT03692715	King Abdulaziz University		 Jeddah	 Saudi Arabia
+NCT03692715	Helsinki University Hospital	null	 Helsinki	 Finland
+NCT03692715	King Abdulaziz University	null	 Jeddah	 Saudi Arabia
 NCT03685461	Medical College of Wisconsin	 Milwaukee	 Wisconsin	 United States
-NCT03680248	Institute for Clinical and Experimental Medicine		 Prague 4	 Czechia
-NCT03678506	Daniela Poli		 Firenze	 Italy
+NCT03680248	Institute for Clinical and Experimental Medicine	null	 Prague 4	 Czechia
+NCT03678506	Daniela Poli	null	 Firenze	 Italy
 NCT03675165	Liverpool John Moores University	 Liverpool	 Merseyside	 United Kingdom
 NCT03661385	Texas Children's Hospital	 Houston	 Texas	 United States
 NCT03661385	Royal Children's Hospital	 Melbourne	 Victoria	 Australia
-NCT03661385	Harapan Kita Children and Women's Hospital		 Jakarta	 Indonesia
-NCT03661385	Schneider Children's medical center		 Petach Tikvah	 Israel
-NCT03661385	Institut Jantung Negara		 Kuala Lumpur	 Malaysia
-NCT03661385	Alder Hey Hospital		 Liverpool	 United Kingdom
-NCT03654131	Righospitalet		 Copenhagen	 Denmark
+NCT03661385	Harapan Kita Children and Women's Hospital	null	 Jakarta	 Indonesia
+NCT03661385	Schneider Children's medical center	null	 Petach Tikvah	 Israel
+NCT03661385	Institut Jantung Negara	null	 Kuala Lumpur	 Malaysia
+NCT03661385	Alder Hey Hospital	null	 Liverpool	 United Kingdom
+NCT03654131	Righospitalet	null	 Copenhagen	 Denmark
 NCT03644381	MUHC	 Montreal	 Quebec	 Canada
 NCT03637413	Foothills Medical Centre	 Calgary	 Alberta	 Canada
 NCT03636724	Guangdong General Hospital	 Guangzhou	 Guangdong	 China
@@ -1111,21 +1111,21 @@ NCT03589378	Shenzhen Sixth People's Hospital (Nanshan Hospital)	 ShenZhen	 Guang
 NCT03589378	Shenzhen Sixth People's Hospital (Nanshan Hospital)	 ShenZhen	 Guang Dong	 China
 NCT03589378	Shenzhen Longgang Central Hospital	 Shenzhen	 Guang Dong	 China
 NCT03589378	Shenzhen hospital of southern medicial university	 Shenzhen	 Guang Dong	 China
-NCT03589378	Shenzhen Second People's Hospital		 Shenzhen	 China
+NCT03589378	Shenzhen Second People's Hospital	null	 Shenzhen	 China
 NCT03586219	Kaiser Permanente Orange County - Anaheim	 Anaheim	 California	 United States
 NCT03586219	Kaiser Permanente Orange County-Irvine Medical Center	 Irvine	 California	 United States
 NCT03586219	University of California Irvine Medical Center	 Orange	 California	 United States
 NCT03570424	University of Limerick	 Limerick	 Munster	 Ireland
 NCT03563690	The third affiliated hospital of Zhejiang CMU	 Hangzhou	 Zhejiang	 China
 NCT03560063	Nuffield Orthopaedic Centre	 Oxford University Hospitals Trust	 Oxford	 United Kingdom
-NCT03553862	Chua Chu Kang Polyclinic		 Singapore	 Singapore
+NCT03553862	Chua Chu Kang Polyclinic	null	 Singapore	 Singapore
 NCT03550495	Keck School of Medicine of the University of Southern California	 Los Angeles	 California	 United States
 NCT03538860	UC Davis Medical Center	 Sacramento	 California	 United States
 NCT03536858	Temple University	 Philadelphia	 Pennsylvania	 United States
 NCT03526458	University of Wisconsin	 Madison	 Wisconsin	 United States
-NCT03516396				
-NCT03502005				
-NCT03494231	Taipei Medical University-Shuang Ho Hospital		 New Taipei City	 Taiwan
+NCT03516396		null	null	null
+NCT03502005		null	null	null
+NCT03494231	Taipei Medical University-Shuang Ho Hospital	null	 New Taipei City	 Taiwan
 NCT03493126	The Ohio State University Urogynecology Clinic	 Columbus	 Ohio	 United States
 NCT03489850	The Ohio State University Urogynecology Clinic	 Columbus	 Ohio	 United States
 NCT03488602	Matthew Tracey	 Toronto	 Ontario	 Canada
@@ -1151,7 +1151,7 @@ NCT03474432	Ralph H. Johnson VA Medical Center	 Charleston	 South Carolina	 Unit
 NCT03474432	Dallas VA Medical Center	 Dallas	 Texas	 United States
 NCT03474432	San Antonio VA	 San Antonio	 Texas	 United States
 NCT03471637	Astley Ainslie Hospital	 Edinburgh	 Edinburgh City	 United Kingdom
-NCT03467724	Ocean Clinic		 Marbella	 Spain
+NCT03467724	Ocean Clinic	null	 Marbella	 Spain
 NCT03464851	Cleveland Clinic	 Cleveland	 Ohio	 United States
 NCT03462979	Boston Children's Hospital	 Boston	 Massachusetts	 United States
 NCT03462459	University of Wisconsin-Madison	 Madison	 Wisconsin	 United States
@@ -1180,12 +1180,12 @@ NCT03406767	Georgetown University	 Washington	 District of Columbia	 United Stat
 NCT03406767	Georgetown University	 Washington	 District of Columbia	 United States
 NCT03406767	Georgetown University	 Washington	 District of Columbia	 United States
 NCT03406767	Georgetown University	 Washington	 District of Columbia	 United States
-NCT03405493	South London and Maudsley NHS Foundation Trust		 London	 United Kingdom
+NCT03405493	South London and Maudsley NHS Foundation Trust	null	 London	 United Kingdom
 NCT03395301	the 1st Affiliated Hospital of Wenzhou Medical College	 Wenzhou	 Zhejiang	 China
 NCT03387618	Martha Morehouse Medical Plaza	 Columbus	 Ohio	 United States
 NCT03382106	University of Iowa Hospitals and Clinics	 Iowa City	 Iowa	 United States
-NCT03380169	Princess Margaret Hospital		 Hong Kong	 Hong Kong
-NCT03377946	Princess Margaret Hospital		 Hong Kong	 Hong Kong
+NCT03380169	Princess Margaret Hospital	null	 Hong Kong	 Hong Kong
+NCT03377946	Princess Margaret Hospital	null	 Hong Kong	 Hong Kong
 NCT03377088	Stony Brook University Hospital Emergency Department	 Stony Brook	 New York	 United States
 NCT03373734	NHS Lothian / University of Edinburgh	 Edinburgh	 Scotland	 United Kingdom
 NCT03372707	St Joseph's Hospital	 Hamilton	 Ontartio	 Canada
@@ -1201,12 +1201,12 @@ NCT03340818	Jordan Young Institute	 Virginia Beach	 Virginia	 United States
 NCT03340051	Virginia Tech Carilion Research Institute	 Roanoke	 Virginia	 United States
 NCT03337217	University of Virginia	 Charlottesville	 Virginia	 United States
 NCT03331965	Duke University Hospital	 Durham	 North Carolina	 United States
-NCT03330509	National Cancer Centre Singapore		 Singapore	 Singapore
+NCT03330509	National Cancer Centre Singapore	null	 Singapore	 Singapore
 NCT03327844	School Dental Service	 Health Promotion Board	 Singapore	 Singapore
-NCT03327844	National University Hospital		 Singapore	 Singapore
+NCT03327844	National University Hospital	null	 Singapore	 Singapore
 NCT03324659	Duquesne University	 Pittsburgh	 Pennsylvania	 United States
 NCT03324516	Johns Hopkins Outpatient CENTER	 Baltimore	 Maryland	 United States
-NCT03324009	Princess Marina Hospital		 Gaborone	 Botswana
+NCT03324009	Princess Marina Hospital	null	 Gaborone	 Botswana
 NCT03307070	Massachusetts General Hospital	 Boston	 Massachusetts	 United States
 NCT03303053	Hospital Queen Elizabeth 2	 Kota Kinabalu	 Sabah	 Malaysia
 NCT03303053	Hospital Ampang	 Ampang	 Selangor	 Malaysia
@@ -1215,14 +1215,14 @@ NCT03302572	Institu Català de la Salut	 L'Hospitalet de Llobregat	 Barcelona	 S
 NCT03301831	University Hospitals Cleveland Medical Center	 Cleveland	 Ohio	 United States
 NCT03298997	University Hospitals Cleveland Medical Center	 Cleveland	 Ohio	 United States
 NCT03297151	University of Limerick	 Limerick	 Co Limerick	 Ireland
-NCT03275896	Singapore National Eye Centre		 Singapore	 Singapore
-NCT03274518	Hospital das Clínicas		 São Paulo	 Brazil
+NCT03275896	Singapore National Eye Centre	null	 Singapore	 Singapore
+NCT03274518	Hospital das Clínicas	null	 São Paulo	 Brazil
 NCT03273699	Sunnybrook Health Sciences Centre	 Toronto	 Ontario	 Canada
 NCT03256461	NanFang hospital	 Guangzhou	 Guangdong	 China
 NCT03245853	Comprehensive EyeCare of Central Ohio	 Westerville	 Ohio	 United States
 NCT03239808	FundeSalud. Junta de Extremadura	 Mérida	 Badajoz	 Spain
 NCT03239808	Hospital Virgen del Puerto	 Plasencia	 Cáceres	 Spain
-NCT03239808	Hospital San Pedro de Alcántara		 Cáceres	 Spain
+NCT03239808	Hospital San Pedro de Alcántara	null	 Cáceres	 Spain
 NCT03238768	University of Minnesota Masonic Children's Hospital	 Minneapolis	 Minnesota	 United States
 NCT03235739	The Cleveland Clinic Foundation	 Cleveland	 Ohio	 United States
 NCT03234569	Northwell Health- North Shore University Hospital	 Manhasset	 New York	 United States
@@ -1236,34 +1236,34 @@ NCT03192020	Oulu University hospital	 Oulu	 Pohjois-Pohjanmaa	 Finland
 NCT03192020	Kuopio University hospital	 Kuopio	 Pohjois-Savo	 Finland
 NCT03192020	Helsinki University hospital	 Helsinki	 Uusimaa	 Finland
 NCT03192020	Turku University Hospital	 Turku	 Varsinais-Suomi	 Finland
-NCT03036592	University of Murcia		 Murcia	 Spain
+NCT03036592	University of Murcia	null	 Murcia	 Spain
 NCT02948023	LV Prasad Eye Institute	 Hyderabad	 Telangana	 India
 NCT02814123	McGill University Health Centre	 Montréal	 Quebec	 Canada
-NCT02724163	Royal Aberdeen Children's Hospital		 Aberdeen	 United Kingdom
+NCT02724163	Royal Aberdeen Children's Hospital	null	 Aberdeen	 United Kingdom
 NCT02724163	Aberdeen Royal Infirmary	 NHS Grampian	 Aberdeen	 United Kingdom
 NCT02724163	Belfast City Hospital	 Belfast Health and Social Care Trust	 Belfast	 United Kingdom
-NCT02724163	Birmingham Children's Hospital NHS Foundation Trust		 Birmingham	 United Kingdom
-NCT02724163	University Hospitals Bristol NHS Foundation Trust		 Bristol	 United Kingdom
+NCT02724163	Birmingham Children's Hospital NHS Foundation Trust	null	 Birmingham	 United Kingdom
+NCT02724163	University Hospitals Bristol NHS Foundation Trust	null	 Bristol	 United Kingdom
 NCT02724163	Addenbrookes Hospital	 Cambridge University Hospitals NHS Foundation Trust	 Cambridge	 United Kingdom
 NCT02724163	Cardiff and Vale University Health Board	 Noah's Ark Children's Hospital for Wales	 Cardiff	 United Kingdom
 NCT02724163	NHS Lothian	 Royal Hospital for Sick Children	 Edinburgh	 United Kingdom
 NCT02724163	NHS Greater Glasgow and Clyde	 The Royal Hospital for Children	 Glasgow	 United Kingdom
 NCT02724163	Leeds General Infirmary	 Leeds Teaching Hospitals NHS Trust	 Leeds	 United Kingdom
-NCT02724163	Alder Hey Children's NHS Foundation Trust		 Liverpool	 United Kingdom
-NCT02724163	University College London Hospitals NHS Foundation Trust		 London	 United Kingdom
-NCT02724163	The Royal Marsden NHS Foundation Trust		 London	 United Kingdom
-NCT02724163	Great Ormond Street Hospital For Children NHS Trust		 London	 United Kingdom
+NCT02724163	Alder Hey Children's NHS Foundation Trust	null	 Liverpool	 United Kingdom
+NCT02724163	University College London Hospitals NHS Foundation Trust	null	 London	 United Kingdom
+NCT02724163	The Royal Marsden NHS Foundation Trust	null	 London	 United Kingdom
+NCT02724163	Great Ormond Street Hospital For Children NHS Trust	null	 London	 United Kingdom
 NCT02724163	Royal Manchester Childrens' Hospital 	 Central Manchester University Hospitals NHS Foundation Trust	 Manchester	 United Kingdom
-NCT02724163	The Christie NHS Foundation		 Manchester	 United Kingdom
-NCT02724163	The Newcastle Upon Tyne Hospitals NHS Foundation Trust		 Newcastle	 United Kingdom
-NCT02724163	Nottingham University Hospitals NHS Trust		 Nottingham	 United Kingdom
+NCT02724163	The Christie NHS Foundation	null	 Manchester	 United Kingdom
+NCT02724163	The Newcastle Upon Tyne Hospitals NHS Foundation Trust	null	 Newcastle	 United Kingdom
+NCT02724163	Nottingham University Hospitals NHS Trust	null	 Nottingham	 United Kingdom
 NCT02724163	John Radcliffe Hospital	 Oxford Radcliffe Hospitals NHS Trust	 Oxford	 United Kingdom
-NCT02724163	Sheffield Children's NHS Foundation Trust		 Sheffield	 United Kingdom
-NCT02724163	Southampton University Hospitals NHS Trust		 Southampton	 United Kingdom
+NCT02724163	Sheffield Children's NHS Foundation Trust	null	 Sheffield	 United Kingdom
+NCT02724163	Southampton University Hospitals NHS Trust	null	 Southampton	 United Kingdom
 NCT02479100	Cambridge University Hospitals NHS Foundation Trust	 Cambridge	 Cambridgeshire	 United Kingdom
 NCT03799237	Petaling Jaya City Council	 Petaling Jaya	 Selangor	 Malaysia
-NCT03759795	Royal Bournemouth and Christchurch Hospitals NHS Foundation Trust		 Bournemouth	 United Kingdom
-NCT03759795	Poole Hopsital		 Poole	 United Kingdom
+NCT03759795	Royal Bournemouth and Christchurch Hospitals NHS Foundation Trust	null	 Bournemouth	 United Kingdom
+NCT03759795	Poole Hopsital	null	 Poole	 United Kingdom
 NCT03750409	Quietmind Foundation	 Elkins Park	 Pennsylvania	 United States
 NCT03750409	Quietmind Foundation	 Elkins Park	 Pennsylvania	 United States
 NCT03736031	Texas Tech University Health Sciences Center El Paso	 El Paso	 Texas	 United States
@@ -1294,15 +1294,15 @@ NCT03526484	University of Wisconsin Hospital and Clinics	 Madison	 Wisconsin	 Un
 NCT03523000	University Hospitals Cleveland Medical Center	 Cleveland	 Ohio	 United States
 NCT03522974	University of Arizona	 Tucson	 Arizona	 United States
 NCT03522337	University of Arizona	 Tucson	 Arizona	 United States
-NCT03518255	Hospital Israelita Albert Einstein		 Sao Paulo	 Brazil
+NCT03518255	Hospital Israelita Albert Einstein	null	 Sao Paulo	 Brazil
 NCT03517852	Mayo Clinic Florida	 Jacksonville	 Florida	 United States
 NCT03511443	University Research Co.	 LLC (URC)	 Yangon	 Myanmar
 NCT03505658	California State University	 Fresno	 California	 United States
 NCT03505658	University of Illinois at Urbana-Champaign	 Urbana	 Illinois	 United States
 NCT03505658	Iowa State University	 Ames	 Iowa	 United States
 NCT03505658	University of Houston	 Houston	 Texas	 United States
-NCT03505658	University of Puerto Rico		 San Juan	 Puerto Rico
-NCT03500172	TB HIV Care		 Durban	 South Africa
+NCT03505658	University of Puerto Rico	null	 San Juan	 Puerto Rico
+NCT03500172	TB HIV Care	null	 Durban	 South Africa
 NCT03481296	University of Maryland College Park	 College Park	 Maryland	 United States
 NCT03454308	Medical University of South Carolina	 Charleston	 South Carolina	 United States
 NCT03437876	Zhongshan Hospital Affiliated to Xiamen University	 Xiamen	 Fujian	 China
@@ -1313,44 +1313,44 @@ NCT03435588	McGill University Health Centre	 Montréal	 Quebec	 Canada
 NCT03426683	Zhongshan Hospital Affiliated to Xiamen University	 Xiamen	 Fujian	 China
 NCT03422159	Zhongshan Hospital Affiliated to Xiamen University	 Xiamen	 Fujian	 China
 NCT03422159	Community Medical Center	 Toms River	 New Jersey	 United States
-NCT03420846	SkinCare Network		 London	 United Kingdom
-NCT03383731	SkinCare Network		 London	 United Kingdom
+NCT03420846	SkinCare Network	null	 London	 United Kingdom
+NCT03383731	SkinCare Network	null	 London	 United Kingdom
 NCT03376685	University of Guelph	 Guelph	 Ontario	 Canada
 NCT03376100	Dept. Anesthesia and Intensive Care	 Viborg Regional Hospital	 Viborg	 Denmark
 NCT03365609	Children's hospital of Fudan university	 Shanghai	 Shanghai	 China
-NCT03360968	Medical University of Vienna		 Vienna	 Austria
-NCT03343431	Mahosot Hospital		 Vientiane	 Lao People's Democratic Republic
-NCT03343431	Mother and Newborn Hospital		 Vientiane	 Lao People's Democratic Republic
-NCT03343431	Setthathirath Hospital		 Vientiane	 Lao People's Democratic Republic
+NCT03360968	Medical University of Vienna	null	 Vienna	 Austria
+NCT03343431	Mahosot Hospital	null	 Vientiane	 Lao People's Democratic Republic
+NCT03343431	Mother and Newborn Hospital	null	 Vientiane	 Lao People's Democratic Republic
+NCT03343431	Setthathirath Hospital	null	 Vientiane	 Lao People's Democratic Republic
 NCT03343431	Mae Sai Hospital	 Mae Sai	 Chiang Rai	 Thailand
 NCT03343431	Mae Chan Hospital	 Mae Chan	 Chiangrai	 Thailand
 NCT03343431	Mahasarakam Hospital	 Maha Sarakham	 Mahasarakham	 Thailand
 NCT03343431	Chiang Kham Hospital	 Chiang Kham	 Phayao	 Thailand
 NCT03343431	Hat Yai Hospital	 Hat Yai	 Songkla	 Thailand
-NCT03343431	Bhumibol Adulyadej Hospital		 Bangkok	 Thailand
-NCT03343431	Nopparat Rajathanee Hospital		 Bangkok	 Thailand
-NCT03343431	Bhuddasothorn Hospital		 Chachoengsao	 Thailand
-NCT03343431	Prapokklao Hospital		 Chanthaburi	 Thailand
-NCT03343431	Health Promotion Center Region 1		 Chiang Mai	 Thailand
-NCT03343431	Sanpatong Hospital		 Chiang Mai	 Thailand
-NCT03343431	Nakornping Hospital		 Chiang Mai	 Thailand
-NCT03343431	Chiangrai Prachanukroh Hospital		 Chiang Rai	 Thailand
-NCT03343431	Chonburi Hospital		 Chon Buri	 Thailand
-NCT03343431	Banglamung Hospital		 Chon Buri	 Thailand
-NCT03343431	Kalasin Hospital		 Kalasin	 Thailand
-NCT03343431	Phaholpolpayuhasena Hospital		 Kanchanaburi	 Thailand
-NCT03343431	Khon Kaen Regional Hospital		 Khon Kaen	 Thailand
-NCT03343431	Lampang Hospital		 Lampang	 Thailand
-NCT03343431	Lamphun Hospital		 Lamphun	 Thailand
-NCT03343431	Maharat Nakhon Ratchasima Hospital		 Nakhon Ratchasima	 Thailand
-NCT03343431	Maharaj Nakhon Si Thammarat Hospital		 Nakhon Si Thammarat	 Thailand
-NCT03343431	Nong Khai Hospital		 Nong Khai	 Thailand
-NCT03343431	Phayao Provincial Hospital		 Phayao	 Thailand
-NCT03343431	Buddhachinaraj Hospital		 Phitsanulok	 Thailand
-NCT03343431	Rayong Hospital		 Rayong	 Thailand
-NCT03343431	Samutprakarn Hospital		 Samut Prakan	 Thailand
-NCT03343431	Samutsakhon Hospital		 Samut Sakhon	 Thailand
-NCT03343431	Songkhla Hospital		 Songkhla	 Thailand
+NCT03343431	Bhumibol Adulyadej Hospital	null	 Bangkok	 Thailand
+NCT03343431	Nopparat Rajathanee Hospital	null	 Bangkok	 Thailand
+NCT03343431	Bhuddasothorn Hospital	null	 Chachoengsao	 Thailand
+NCT03343431	Prapokklao Hospital	null	 Chanthaburi	 Thailand
+NCT03343431	Health Promotion Center Region 1	null	 Chiang Mai	 Thailand
+NCT03343431	Sanpatong Hospital	null	 Chiang Mai	 Thailand
+NCT03343431	Nakornping Hospital	null	 Chiang Mai	 Thailand
+NCT03343431	Chiangrai Prachanukroh Hospital	null	 Chiang Rai	 Thailand
+NCT03343431	Chonburi Hospital	null	 Chon Buri	 Thailand
+NCT03343431	Banglamung Hospital	null	 Chon Buri	 Thailand
+NCT03343431	Kalasin Hospital	null	 Kalasin	 Thailand
+NCT03343431	Phaholpolpayuhasena Hospital	null	 Kanchanaburi	 Thailand
+NCT03343431	Khon Kaen Regional Hospital	null	 Khon Kaen	 Thailand
+NCT03343431	Lampang Hospital	null	 Lampang	 Thailand
+NCT03343431	Lamphun Hospital	null	 Lamphun	 Thailand
+NCT03343431	Maharat Nakhon Ratchasima Hospital	null	 Nakhon Ratchasima	 Thailand
+NCT03343431	Maharaj Nakhon Si Thammarat Hospital	null	 Nakhon Si Thammarat	 Thailand
+NCT03343431	Nong Khai Hospital	null	 Nong Khai	 Thailand
+NCT03343431	Phayao Provincial Hospital	null	 Phayao	 Thailand
+NCT03343431	Buddhachinaraj Hospital	null	 Phitsanulok	 Thailand
+NCT03343431	Rayong Hospital	null	 Rayong	 Thailand
+NCT03343431	Samutprakarn Hospital	null	 Samut Prakan	 Thailand
+NCT03343431	Samutsakhon Hospital	null	 Samut Sakhon	 Thailand
+NCT03343431	Songkhla Hospital	null	 Songkhla	 Thailand
 NCT03340103	Azienda Ospedaliera di Rilievo Nazionale Santobono-Pausilipon	 Napoli	 Italia	 Italy
 NCT03340103	Azienda Ospedaliera Universitaria Padova	 Padova	 Italia	 Italy
 NCT03340103	Azienda Ospedaliera Le Scotte Siena	 Siena	 Italia	 Italy
@@ -1393,48 +1393,48 @@ NCT03009539	Belkys Bravo Clinic	 Miami	 Florida	 United States
 NCT03009539	Castro Pediatrics	 Miami	 Florida	 United States
 NCT03009539	University of Miami UHealth Pediatrics at Kendall	 Miami	 Florida	 United States
 NCT03009539	S. Florida Pediatric Partners	 Miami	 Florida	 United States
-NCT02744768	"U.O.C. Ematologia e Terapia Cellulare - Ospedale ""C. e G. Mazzoni"" di Ascoli Piceno"		 Ascoli Piceno	 Italy
-NCT02744768	Az.Ospedaliera S.G.Moscati		 Avellino	 Italy
-NCT02744768	UO Ematologia con trapianto-Università degli Studi di Bari Aldo Moro		 Bari	 Italy
-NCT02744768	Azienda Ospedaliera - Papa Giovanni XXIII		 Bergamo	 Italy
-NCT02744768	"Istituto di Ematologia ""Lorenzo e A. Seragnoli"" - Università degli Studi di Bologna - Policlinico S. Orsola - Malpighi"		 Bologna	 Italy
-NCT02744768	Divisione di Ematologia Ospedale A. Perrino		 Brindisi	 Italy
-NCT02744768	"Università di Catania - Cattedra di Ematologia - Ospedale ""Ferrarotto"""		 Catania	 Italy
-NCT02744768	Unità di Ricerca e di Malattie del sangue - Ematologia San Luca Vecchio Pad. 16 - 1° Piano		 Firenze	 Italy
-NCT02744768	Unità Operative Complesse di Ematologia 1 e 2 Centro Trapianti di Midollo dell'IRCCS AOU San Martino-IST		 Genova	 Italy
-NCT02744768	ASL Le/1 P.O. Vito Fazzi - U.O. di Ematologia ed UTIE		 Lecce	 Italy
-NCT02744768	U.O. di Ematologia- Ospedale dell'Angelo - Mestre		 Mestre	 Italy
-NCT02744768	Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico UOC Oncoematologia- Padiglione Marcora 2° piano		 Milano	 Italy
-NCT02744768	Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico UOC Oncoematologia- Padiglione Marcora 2° piano		 Milano	 Italy
-NCT02744768	"Azienda Ospedaliera di Rilievo Nazionale ""A. Cardarelli"""		 Napoli	 Italy
-NCT02744768	"Azienda Ospedaliera Universitaria - Università degli Studi di Napoli ""Federico II"" - Facoltà di Medicina e Chirurgia"		 Napoli	 Italy
-NCT02744768	S.C.D.U. Ematologia - DIMECS e Dipartimento Oncologico - Università del Piemonte Orientale Amedeo Avogadro		 Novara	 Italy
-NCT02744768	Dip. di Scienze Cliniche e Biologiche - Ospedale S. Luigi Gonzaga-Medicina Interna 2		 Orbassano	 Italy
-NCT02744768	"U.O. di Oncoematologia -plesso ospedaliero ""A. Tortora"" di Pagani"		 Pagani	 Italy
-NCT02744768	"Ospedali Riuniti ""Villa Sofia-Cervello"""		 Palermo	 Italy
-NCT02744768	Sezione di Ematologia ed Immunologia Clinica - Ospedale S.Maria della Misericordia		 Perugia	 Italy
-NCT02744768	Ematologia Clinica - Azienda USL di Pescara		 Pescara	 Italy
-NCT02744768	"Dipartimento Emato-Oncologia A.O.""Bianchi-Melacrino-Morelli"""		 Reggio Calabria	 Italy
-NCT02744768	Complesso Ospedaliero S. Giovanni Addolorata		 Roma	 Italy
-NCT02744768	Università Cattolica del Sacro Cuore - Policlinico A. Gemelli		 Roma	 Italy
-NCT02744768	Università degli Studi - Policlinico di Tor Vergata		 Roma	 Italy
-NCT02744768	UOC Medicina Trasfusionale e Cellule Staminali Azienda Ospedaliera San Camillo Forlanini		 Roma	 Italy
+NCT02744768	"U.O.C. Ematologia e Terapia Cellulare - Ospedale ""C. e G. Mazzoni"" di Ascoli Piceno"	null	 Ascoli Piceno	 Italy
+NCT02744768	Az.Ospedaliera S.G.Moscati	null	 Avellino	 Italy
+NCT02744768	UO Ematologia con trapianto-Università degli Studi di Bari Aldo Moro	null	 Bari	 Italy
+NCT02744768	Azienda Ospedaliera - Papa Giovanni XXIII	null	 Bergamo	 Italy
+NCT02744768	"Istituto di Ematologia ""Lorenzo e A. Seragnoli"" - Università degli Studi di Bologna - Policlinico S. Orsola - Malpighi"	null	 Bologna	 Italy
+NCT02744768	Divisione di Ematologia Ospedale A. Perrino	null	 Brindisi	 Italy
+NCT02744768	"Università di Catania - Cattedra di Ematologia - Ospedale ""Ferrarotto"""	null	 Catania	 Italy
+NCT02744768	Unità di Ricerca e di Malattie del sangue - Ematologia San Luca Vecchio Pad. 16 - 1° Piano	null	 Firenze	 Italy
+NCT02744768	Unità Operative Complesse di Ematologia 1 e 2 Centro Trapianti di Midollo dell'IRCCS AOU San Martino-IST	null	 Genova	 Italy
+NCT02744768	ASL Le/1 P.O. Vito Fazzi - U.O. di Ematologia ed UTIE	null	 Lecce	 Italy
+NCT02744768	U.O. di Ematologia- Ospedale dell'Angelo - Mestre	null	 Mestre	 Italy
+NCT02744768	Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico UOC Oncoematologia- Padiglione Marcora 2° piano	null	 Milano	 Italy
+NCT02744768	Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico UOC Oncoematologia- Padiglione Marcora 2° piano	null	 Milano	 Italy
+NCT02744768	"Azienda Ospedaliera di Rilievo Nazionale ""A. Cardarelli"""	null	 Napoli	 Italy
+NCT02744768	"Azienda Ospedaliera Universitaria - Università degli Studi di Napoli ""Federico II"" - Facoltà di Medicina e Chirurgia"	null	 Napoli	 Italy
+NCT02744768	S.C.D.U. Ematologia - DIMECS e Dipartimento Oncologico - Università del Piemonte Orientale Amedeo Avogadro	null	 Novara	 Italy
+NCT02744768	Dip. di Scienze Cliniche e Biologiche - Ospedale S. Luigi Gonzaga-Medicina Interna 2	null	 Orbassano	 Italy
+NCT02744768	"U.O. di Oncoematologia -plesso ospedaliero ""A. Tortora"" di Pagani"	null	 Pagani	 Italy
+NCT02744768	"Ospedali Riuniti ""Villa Sofia-Cervello"""	null	 Palermo	 Italy
+NCT02744768	Sezione di Ematologia ed Immunologia Clinica - Ospedale S.Maria della Misericordia	null	 Perugia	 Italy
+NCT02744768	Ematologia Clinica - Azienda USL di Pescara	null	 Pescara	 Italy
+NCT02744768	"Dipartimento Emato-Oncologia A.O.""Bianchi-Melacrino-Morelli"""	null	 Reggio Calabria	 Italy
+NCT02744768	Complesso Ospedaliero S. Giovanni Addolorata	null	 Roma	 Italy
+NCT02744768	Università Cattolica del Sacro Cuore - Policlinico A. Gemelli	null	 Roma	 Italy
+NCT02744768	Università degli Studi - Policlinico di Tor Vergata	null	 Roma	 Italy
+NCT02744768	UOC Medicina Trasfusionale e Cellule Staminali Azienda Ospedaliera San Camillo Forlanini	null	 Roma	 Italy
 NCT02744768	Policlinico Umberto I	 Hematology Department	 Rome	 Italy
-NCT02744768	"Università degli Studi ""Sapienza"" - Dip Biotecnologie Cellulari ed Ematologia - Divisione di Ematologia"		 Rome	 Italy
-NCT02744768	Sezione di Ematologia Cancer Center Humanitas		 Rozzano	 Italy
-NCT02744768	Istituto di Ematologia - IRCCS Ospedale Casa Sollievo della Sofferenza		 San Giovanni Rotondo	 Italy
-NCT02744768	Dipartimento di Oncologia ed Ematologia S.C. Ematologia 2 A.O. Città della Salute e della Scienza di Torino San Giovanni Battista		 Torino	 Italy
+NCT02744768	"Università degli Studi ""Sapienza"" - Dip Biotecnologie Cellulari ed Ematologia - Divisione di Ematologia"	null	 Rome	 Italy
+NCT02744768	Sezione di Ematologia Cancer Center Humanitas	null	 Rozzano	 Italy
+NCT02744768	Istituto di Ematologia - IRCCS Ospedale Casa Sollievo della Sofferenza	null	 San Giovanni Rotondo	 Italy
+NCT02744768	Dipartimento di Oncologia ed Ematologia S.C. Ematologia 2 A.O. Città della Salute e della Scienza di Torino San Giovanni Battista	null	 Torino	 Italy
 NCT02744768	Struttura Complessa a Dir. Universitaria-Ematologia e Terapie Cellulari- A.S.O. Ordine Mauriziano	 P.O. Umberto I-Ospedale Torino	 Torino	 Italy
 NCT02744768	Struttura Complessa a Dir. Universitaria-Ematologia e Terapie Cellulari- A.S.O. Ordine Mauriziano	 P.O. Umberto I-Ospedale	 Torino	 Italy
-NCT02744768	Università degli Studi di Verona - A. O. - Istituti Ospitalieri di Verona- Div. di Ematologia - Policlinico G.B. Rossi		 Verona	 Italy
-NCT01447628	Fuwai Hospital		 Beijing	 China
-NCT01447628	Justus-Liebig University		 Giessen	 Germany
-NCT01447628	Papworth Hospital NHS Foundation Trust		 Cambridge	 United Kingdom
+NCT02744768	Università degli Studi di Verona - A. O. - Istituti Ospitalieri di Verona- Div. di Ematologia - Policlinico G.B. Rossi	null	 Verona	 Italy
+NCT01447628	Fuwai Hospital	null	 Beijing	 China
+NCT01447628	Justus-Liebig University	null	 Giessen	 Germany
+NCT01447628	Papworth Hospital NHS Foundation Trust	null	 Cambridge	 United Kingdom
 NCT01447628	Hammersmith Hospital	 Imperial College NHS Trust	 London	 United Kingdom
-NCT01447628	Royal Hallamshire Hospital		 Sheffield	 United Kingdom
+NCT01447628	Royal Hallamshire Hospital	null	 Sheffield	 United Kingdom
 NCT02188121	McLean Hospital	 Belmont	 Massachusetts	 United States
 NCT03740243	University Associates in OBGYN office	 East Setauket	 New York	 United States
-NCT03629496	Antrim Area Hospital Renal Unit		 Antrim	 United Kingdom
+NCT03629496	Antrim Area Hospital Renal Unit	null	 Antrim	 United Kingdom
 NCT03622437	Aalborg University Hospital	 Department of Surgery	 Aalborg	 Denmark
 NCT03622437	Aarhus University Hospital	 Department of Surgery	 Aarhus C	 Denmark
 NCT03622437	Herning Hospital	 Department of Surgery	 Herning	 Denmark
@@ -1463,25 +1463,25 @@ NCT03440099	University of Massachusetts	 Amherst	 Massachusetts	 United States
 NCT03437811	University of Massachusetts	 Amherst	 Massachusetts	 United States
 NCT03423095	University of Massachusetts	 Amherst	 Massachusetts	 United States
 NCT03406039	University of Manitoba	 Winnipeg	 Manitoba	 Canada
-NCT03397277	Trøgstad Community Health Center		 Askim	 Norway
-NCT03397277	Rælingen Community Health Center		 Flateby	 Norway
-NCT03397277	Familie Hus Halden		 Halden	 Norway
-NCT03397277	Aurskog- Høland Community Health Center		 Høland	 Norway
-NCT03397277	Jevnaker Community Health Center		 Jevnaker	 Norway
-NCT03397277	Lillestrøm Communicy Health Center		 Lillestrøm	 Norway
-NCT03397277	Nesodden Community Health Center		 Nesoddtangen	 Norway
-NCT03397277	Oppegård Community Health Center		 Oppegård	 Norway
-NCT03397277	Grorud Community Health Center		 Oslo	 Norway
-NCT03397277	Bjerke Community Center		 Oslo	 Norway
-NCT03397277	Health Centre Alna		 Oslo	 Norway
-NCT03397277	Stovner Community Health Center		 Oslo	 Norway
-NCT03397277	Rakkestad Community Health Center		 Rakkestad	 Norway
-NCT03397277	Skedsmo Community Health Center		 Skedsmokorset	 Norway
-NCT03397277	Langhus		 Ski	 Norway
-NCT03397277	Ski Community Health Center		 Ski	 Norway
-NCT03397277	Våler Community Health Center		 Våler	 Norway
-NCT03397277	Nordberg		 Ås	 Norway
-NCT03397277	Ås Community Health Center		 Ås	 Norway
+NCT03397277	Trøgstad Community Health Center	null	 Askim	 Norway
+NCT03397277	Rælingen Community Health Center	null	 Flateby	 Norway
+NCT03397277	Familie Hus Halden	null	 Halden	 Norway
+NCT03397277	Aurskog- Høland Community Health Center	null	 Høland	 Norway
+NCT03397277	Jevnaker Community Health Center	null	 Jevnaker	 Norway
+NCT03397277	Lillestrøm Communicy Health Center	null	 Lillestrøm	 Norway
+NCT03397277	Nesodden Community Health Center	null	 Nesoddtangen	 Norway
+NCT03397277	Oppegård Community Health Center	null	 Oppegård	 Norway
+NCT03397277	Grorud Community Health Center	null	 Oslo	 Norway
+NCT03397277	Bjerke Community Center	null	 Oslo	 Norway
+NCT03397277	Health Centre Alna	null	 Oslo	 Norway
+NCT03397277	Stovner Community Health Center	null	 Oslo	 Norway
+NCT03397277	Rakkestad Community Health Center	null	 Rakkestad	 Norway
+NCT03397277	Skedsmo Community Health Center	null	 Skedsmokorset	 Norway
+NCT03397277	Langhus	null	 Ski	 Norway
+NCT03397277	Ski Community Health Center	null	 Ski	 Norway
+NCT03397277	Våler Community Health Center	null	 Våler	 Norway
+NCT03397277	Nordberg	null	 Ås	 Norway
+NCT03397277	Ås Community Health Center	null	 Ås	 Norway
 NCT03375580	First Affiliated Hospital of Guangdong Pharmaceutical University	 Guangzhou	 Guangdong	 China
 NCT03373240	Substance Abuse Treatment Center (SATU)	 New Haven	 Connecticut	 United States
 NCT03369145	Substance Abuse Treatment Center (SATU)	 New Haven	 Connecticut	 United States
@@ -1497,80 +1497,80 @@ NCT03333473	Puskesmas Kecipir	 Brebes	 Jawa Tengah	 Indonesia
 NCT03333473	Puskesmas Ketanggungan	 Brebes	 Jawa Tengah	 Indonesia
 NCT03333473	RSU Alam Medika Bumi Ayu	 Brebes	 Jawa Tengah	 Indonesia
 NCT03331978	AIDS Project Los Angeles	 Los Angeles	 California	 United States
-NCT03255707	Ain Shams University Hospitals (Demerdash)		 Cairo	 Egypt
+NCT03255707	Ain Shams University Hospitals (Demerdash)	null	 Cairo	 Egypt
 NCT03208530	Brigham and Women's Hospital	 Boston	 Massachusetts	 United States
-NCT02781064	Bicester Health Centre		 Bicester	 United Kingdom
-NCT02781064	Oak Tree Surgery		 Bridgend	 United Kingdom
-NCT02781064	Bromley Common Practice		 Bromley	 United Kingdom
-NCT02781064	Great Sutton Medical Centre		 Chester	 United Kingdom
-NCT02781064	Woodlands Practice		 Chislehurst	 United Kingdom
-NCT02781064	Regent House Surgery		 Chorley	 United Kingdom
-NCT02781064	Creffield Medical Centre		 Colchester	 United Kingdom
-NCT02781064	Mattishall & Lenwade Surgeries		 Dereham	 United Kingdom
-NCT02781064	Conisbrough Group Practice		 Doncaster	 United Kingdom
-NCT02781064	Scott Practice		 Doncaster	 United Kingdom
-NCT02781064	Bentley Surgery		 Doncaster	 United Kingdom
-NCT02781064	Oak Lodge Medical Centre		 Edgware	 United Kingdom
-NCT02781064	Falkland Surgery		 Great Yarmouth	 United Kingdom
-NCT02781064	Freshney (Littlefields) Green Primary Care Centre		 Grimsby	 United Kingdom
-NCT02781064	Bay Medical Group		 Heysham	 United Kingdom
-NCT02781064	Hoveton and Wroxham Medical Centre		 Hoveton	 United Kingdom
-NCT02781064	Mathukia's Surgery		 Ilford	 United Kingdom
-NCT02781064	Station House Surgery		 Kendal	 United Kingdom
-NCT02781064	Queen Square Medical Practice		 Lancaster	 United Kingdom
-NCT02781064	Brownlow Health		 Liverpool	 United Kingdom
-NCT02781064	William Harvey Heart Centre		 London	 United Kingdom
-NCT02781064	Tottenham Health Centre		 London	 United Kingdom
-NCT02781064	Hornsey Rise Health Centre		 London	 United Kingdom
-NCT02781064	Keats Medical Practice		 London	 United Kingdom
-NCT02781064	Hampstead Group Practice		 London	 United Kingdom
-NCT02781064	Parliament Hill Medical Centre		 London	 United Kingdom
-NCT02781064	West Hampstead Medical Centre		 London	 United Kingdom
-NCT02781064	Everglade Medical Practice		 London	 United Kingdom
-NCT02781064	Vanbrugh Group Practice		 London	 United Kingdom
-NCT02781064	Hurley Clinic		 London	 United Kingdom
-NCT02781064	Albion Street Practice		 London	 United Kingdom
-NCT02781064	Paxton Green Group Practice		 London	 United Kingdom
-NCT02781064	Honor Oak Group Practice		 London	 United Kingdom
-NCT02781064	Open Door Surgery		 London	 United Kingdom
-NCT02781064	Mayfield Surgery		 London	 United Kingdom
-NCT02781064	The Exchange Surgery		 London	 United Kingdom
-NCT02781064	Streatham Common Practice		 London	 United Kingdom
-NCT02781064	Riverside Medical Practice		 London	 United Kingdom
-NCT02781064	Watling Medical Centre		 London	 United Kingdom
-NCT02781064	Rosedale Surgery		 Lowestoft	 United Kingdom
-NCT02781064	Mitcham Family Practice		 Mitcham	 United Kingdom
-NCT02781064	Vale of Neath		 Neath	 United Kingdom
-NCT02781064	Pendle View Medical Centre		 Nelson	 United Kingdom
-NCT02781064	Long Stratton Medical Partnership		 Norwich	 United Kingdom
-NCT02781064	Clarence Medical Centre		 Rhyl	 United Kingdom
-NCT02781064	North House Surgery		 Ripon	 United Kingdom
-NCT02781064	Beechtree Surgery		 Selby	 United Kingdom
-NCT02781064	Snaith & Rawcliffe Medical Group (The Marshes Surgery)		 Snaith	 United Kingdom
-NCT02781064	Kings Road Surgery		 Swansea	 United Kingdom
-NCT02781064	Strawberry Place Surgery		 Swansea	 United Kingdom
-NCT02781064	School Lane Surgery		 Thetford	 United Kingdom
-NCT02781064	Brigstock & South Norwood Partnership		 Thornton Heath	 United Kingdom
-NCT02781064	Village Practice Thornton		 Thornton-Cleveleys	 United Kingdom
-NCT02781064	Cleveleys Group Practice		 Thornton-Cleveleys	 United Kingdom
-NCT02781064	Wallington Family Practice		 Wallington	 United Kingdom
-NCT02781064	Windermere & Bowness Surgery		 Windermere	 United Kingdom
-NCT02781064	Hope Family Medical Centre		 Wrexham	 United Kingdom
-NCT02781064	Jorvik Gillygate Practice		 York	 United Kingdom
+NCT02781064	Bicester Health Centre	null	 Bicester	 United Kingdom
+NCT02781064	Oak Tree Surgery	null	 Bridgend	 United Kingdom
+NCT02781064	Bromley Common Practice	null	 Bromley	 United Kingdom
+NCT02781064	Great Sutton Medical Centre	null	 Chester	 United Kingdom
+NCT02781064	Woodlands Practice	null	 Chislehurst	 United Kingdom
+NCT02781064	Regent House Surgery	null	 Chorley	 United Kingdom
+NCT02781064	Creffield Medical Centre	null	 Colchester	 United Kingdom
+NCT02781064	Mattishall & Lenwade Surgeries	null	 Dereham	 United Kingdom
+NCT02781064	Conisbrough Group Practice	null	 Doncaster	 United Kingdom
+NCT02781064	Scott Practice	null	 Doncaster	 United Kingdom
+NCT02781064	Bentley Surgery	null	 Doncaster	 United Kingdom
+NCT02781064	Oak Lodge Medical Centre	null	 Edgware	 United Kingdom
+NCT02781064	Falkland Surgery	null	 Great Yarmouth	 United Kingdom
+NCT02781064	Freshney (Littlefields) Green Primary Care Centre	null	 Grimsby	 United Kingdom
+NCT02781064	Bay Medical Group	null	 Heysham	 United Kingdom
+NCT02781064	Hoveton and Wroxham Medical Centre	null	 Hoveton	 United Kingdom
+NCT02781064	Mathukia's Surgery	null	 Ilford	 United Kingdom
+NCT02781064	Station House Surgery	null	 Kendal	 United Kingdom
+NCT02781064	Queen Square Medical Practice	null	 Lancaster	 United Kingdom
+NCT02781064	Brownlow Health	null	 Liverpool	 United Kingdom
+NCT02781064	William Harvey Heart Centre	null	 London	 United Kingdom
+NCT02781064	Tottenham Health Centre	null	 London	 United Kingdom
+NCT02781064	Hornsey Rise Health Centre	null	 London	 United Kingdom
+NCT02781064	Keats Medical Practice	null	 London	 United Kingdom
+NCT02781064	Hampstead Group Practice	null	 London	 United Kingdom
+NCT02781064	Parliament Hill Medical Centre	null	 London	 United Kingdom
+NCT02781064	West Hampstead Medical Centre	null	 London	 United Kingdom
+NCT02781064	Everglade Medical Practice	null	 London	 United Kingdom
+NCT02781064	Vanbrugh Group Practice	null	 London	 United Kingdom
+NCT02781064	Hurley Clinic	null	 London	 United Kingdom
+NCT02781064	Albion Street Practice	null	 London	 United Kingdom
+NCT02781064	Paxton Green Group Practice	null	 London	 United Kingdom
+NCT02781064	Honor Oak Group Practice	null	 London	 United Kingdom
+NCT02781064	Open Door Surgery	null	 London	 United Kingdom
+NCT02781064	Mayfield Surgery	null	 London	 United Kingdom
+NCT02781064	The Exchange Surgery	null	 London	 United Kingdom
+NCT02781064	Streatham Common Practice	null	 London	 United Kingdom
+NCT02781064	Riverside Medical Practice	null	 London	 United Kingdom
+NCT02781064	Watling Medical Centre	null	 London	 United Kingdom
+NCT02781064	Rosedale Surgery	null	 Lowestoft	 United Kingdom
+NCT02781064	Mitcham Family Practice	null	 Mitcham	 United Kingdom
+NCT02781064	Vale of Neath	null	 Neath	 United Kingdom
+NCT02781064	Pendle View Medical Centre	null	 Nelson	 United Kingdom
+NCT02781064	Long Stratton Medical Partnership	null	 Norwich	 United Kingdom
+NCT02781064	Clarence Medical Centre	null	 Rhyl	 United Kingdom
+NCT02781064	North House Surgery	null	 Ripon	 United Kingdom
+NCT02781064	Beechtree Surgery	null	 Selby	 United Kingdom
+NCT02781064	Snaith & Rawcliffe Medical Group (The Marshes Surgery)	null	 Snaith	 United Kingdom
+NCT02781064	Kings Road Surgery	null	 Swansea	 United Kingdom
+NCT02781064	Strawberry Place Surgery	null	 Swansea	 United Kingdom
+NCT02781064	School Lane Surgery	null	 Thetford	 United Kingdom
+NCT02781064	Brigstock & South Norwood Partnership	null	 Thornton Heath	 United Kingdom
+NCT02781064	Village Practice Thornton	null	 Thornton-Cleveleys	 United Kingdom
+NCT02781064	Cleveleys Group Practice	null	 Thornton-Cleveleys	 United Kingdom
+NCT02781064	Wallington Family Practice	null	 Wallington	 United Kingdom
+NCT02781064	Windermere & Bowness Surgery	null	 Windermere	 United Kingdom
+NCT02781064	Hope Family Medical Centre	null	 Wrexham	 United Kingdom
+NCT02781064	Jorvik Gillygate Practice	null	 York	 United Kingdom
 NCT03664934	Linköping University	 Linköping	 Östergötland	 Sweden
 NCT03584490	Northwestern University	 Chicago	 Illinois	 United States
 NCT03558828	Rush University College of Nursing	 Chicago	 Illinois	 United States
 NCT03556371	Centro Terapéutico Anün	 Coronel	 Concepción	 Chile
 NCT03556371	COSAM Lota	 Lota	 Concepción	 Chile
-NCT03556371	COSAM Concepción		 Concepción	 Chile
-NCT03556371	Psychiatry Service of Hospital Guillermo Grant Benavente		 Concepción	 Chile
+NCT03556371	COSAM Concepción	null	 Concepción	 Chile
+NCT03556371	Psychiatry Service of Hospital Guillermo Grant Benavente	null	 Concepción	 Chile
 NCT03529981	Western Psychiatric Institute and Clinic	 Pittsburgh	 Pennsylvania	 United States
 NCT03422562	Foothills Medical Centre	 Calgary	 Alberta	 Canada
-NCT03394495	Justina Liu		 Hong Kong	 Hong Kong
+NCT03394495	Justina Liu	null	 Hong Kong	 Hong Kong
 NCT03304444	Abington Hospital Jefferson Health	 Abington	 Pennsylvania	 United States
 NCT03686748	Cincinnati Children's Hospital Medical Center	 Cincinnati	 Ohio	 United States
 NCT02018367	Baylor College of Medicine	 Houston	 Texas	 United States
-NCT03538418	The Hong Kong Polytechnic Universtiy		 Hong Kong	 Hong Kong
+NCT03538418	The Hong Kong Polytechnic Universtiy	null	 Hong Kong	 Hong Kong
 NCT03397160	San Francisco VA Medical Center	 San Francisco	 California	 United States
 NCT03397160	University of California San Francisco	 San Francisco	 California	 United States
 NCT03397160	CentraCare Clinic Adult & Pediatric Urology	 Sartell	 Minnesota	 United States
