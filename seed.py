@@ -5,8 +5,8 @@ from model import Study, Age, Phase, Condition, Site, PhaseXref, CondXref, Inter
 from datetime import datetime as dt
 
 from model import connect_to_db, db
-from flask import Flask #delete this when you have server.py
-#from server import app #uncomment this when you have server.py
+from server import app 
+
 
 def load_study():
     """Load studies from study.tsv into database."""
@@ -103,7 +103,6 @@ def load_phase():
     print("Phase Table Added")
 
 
-
 def load_condition():
     """Load phases from u.studies into database."""
 
@@ -135,7 +134,6 @@ def load_condition():
     print("Condition Table Added")
 
 
-
 def load_intervention():
     """Load phases from u.studies into database."""
 
@@ -165,7 +163,6 @@ def load_intervention():
                 # Once we're done, we should commit our work
                 db.session.commit()
     print("Interventions Table Added")
-
 
 
 def load_sites():
@@ -205,33 +202,60 @@ def load_sites():
     print("Sites Table Added")
 
 
-def clean_sites():
+def clean_korea_sites():
 
-    koreasites = Site.query.filter_by(site_country = 'Republic of').all()
+    koreasites = Site.query.filter(Site.site_country.ilike('%Republic of%')).all()
     for record in koreasites:
-        site_country = site_state
-        site_state = site_city
-        site_city = null
+        record.site_country = record.site_state
+        record.site_state = None
 
-    departmentname = Site.query.filter(Site.site_name.like = ('%department%')).all()
-    for record in departmentname:
-        site_name = site_city
-        site_city = null
+    db.session.commit()
+    print("Korea sites cleaned")
 
-    cityfix = Site.query.filter(Site.site_city.like = ('%university%' | '%college%' 
-        '%hospital%' | '%academy%' | '%center%' | '%centre%' | '%department%' \
-        | '%trust%' | '%board%' | '%NHS%' | "p.o.")).all()
+
+def clean_dept_name():
+
+    departmentname = Site.query.filter(Site.site_name.ilike('%department%')).all()
     for record in departmentname:
-        if site_state == 'Cherkasy':
-            site_city = null
+        if record.site_country == "Ukraine":
+            record.site_city = None
         else:
-            site_name = site_city
-            site_city = null
+            record.site_name = record.site_city
+            record.site_city = None
+    
+    db.session.commit()
+    print("Department name sites cleaned")
 
-    citynullfix = Site.query.filter(Site.site_city.like = ('%institution%' | \
-        '%ambulancia%' | '%laboratory%' | '%surgery%' | '%llc%')).all()
+
+def clean_city_fix():
+
+    cityfix = Site.query.filter(Site.site_city.ilike('%university%') | Site.site_city.ilike('%college%') | \
+            Site.site_city.ilike('%hospital%') | Site.site_city.ilike('%academy%') | \
+            Site.site_city.ilike('%center%') |  Site.site_city.ilike('%centre%') | \
+            Site.site_city.ilike('%department%') | Site.site_city.ilike('%trust%') | \
+            Site.site_city.ilike('%board%') |  Site.site_city.ilike('%nhs%') | \
+            Site.site_city.ilike('%p.o.%')).all()
+    for record in cityfix:
+        if record.site_country == "Ukraine":
+            record.site_city = None
+        else:
+            record.site_name = record.site_city
+            record.site_city = None
+
+    db.session.commit()
+    print("City sites cleaned")
+
+
+def clean_city_null():
+
+    citynullfix = Site.query.filter(Site.site_city.ilike('%institution%') | \
+        Site.site_city.ilike('%ambulancia%') | Site.site_city.ilike('%laboratory%') | \
+        Site.site_city.ilike('%surgery%') | Site.site_city.ilike('%llc%')).all()
     for record in citynullfix:
-        site_city = null
+        record.site_city = None
+
+    db.session.commit()
+    print("City nulls cleaned")
 
 
 # def set_val_user_id():
@@ -248,7 +272,6 @@ def clean_sites():
 
 
 if __name__ == "__main__":
-    app = Flask(__name__) #Take this out once server.py is made
     connect_to_db(app)
 
     # In case tables haven't been created, create them
@@ -261,6 +284,9 @@ if __name__ == "__main__":
     load_condition()
     load_intervention()
     load_sites()
-    clean_sites()
+    clean_korea_sites()
+    clean_dept_name()
+    clean_city_fix()
+    clean_city_null()
     
     #set_val_user_id()

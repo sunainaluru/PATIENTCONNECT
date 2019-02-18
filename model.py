@@ -1,11 +1,11 @@
 """Models and database functions for my personal project."""
 
 from flask_sqlalchemy import SQLAlchemy
-from flask import Flask #Take this out when you have server.py
 
 # This is the connection to the PostgreSQL database; we're getting this through
 # the Flask-SQLAlchemy helper library. On this, we can find the `session`
 # object, where we do most of our interactions (like committing, etc.)
+
 
 db = SQLAlchemy()
 
@@ -199,7 +199,6 @@ if __name__ == "__main__":
     # As a convenience, if we run this module interactively, it will leave
     # you in a state of being able to work with the database directly.
 
-    #from server import app
-    app = Flask(__name__) #take this out when you have server.py
+    from server import app 
     connect_to_db(app)
     print("Connected to DB.")
