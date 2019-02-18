@@ -19,7 +19,7 @@ def load_study():
     for row in open("data/study.tsv"):
         row = row.rstrip()
 
-        index, nct_number, status, study_type, title, start_date, gender, enrollment = row.split("\t")
+        index, nct_number, status, study_type, title, start_date, gender, enrollment= row.split("\t")
 
         study = Study(index=index,
                     nct_number=nct_number,
@@ -179,7 +179,7 @@ def load_sites():
     for row in open("data/sites.tsv"):
         row = row.rstrip()
 
-        nct_number, site_name, site_city, site_state, site_country = row.split("\t")
+        nct_number, site_name, site_city, site_state, site_country = row.split("|")
 
         if site_name =="null":
             site_name = None
@@ -205,10 +205,33 @@ def load_sites():
     print("Sites Table Added")
 
 
-def clean_sites()
+def clean_sites():
 
+    koreasites = Site.query.filter_by(site_country = 'Republic of').all()
+    for record in koreasites:
+        site_country = site_state
+        site_state = site_city
+        site_city = null
 
+    departmentname = Site.query.filter(Site.site_name.like = ('%department%')).all()
+    for record in departmentname:
+        site_name = site_city
+        site_city = null
 
+    cityfix = Site.query.filter(Site.site_city.like = ('%university%' | '%college%' 
+        '%hospital%' | '%academy%' | '%center%' | '%centre%' | '%department%' \
+        | '%trust%' | '%board%' | '%NHS%' | "p.o.")).all()
+    for record in departmentname:
+        if site_state == 'Cherkasy':
+            site_city = null
+        else:
+            site_name = site_city
+            site_city = null
+
+    citynullfix = Site.query.filter(Site.site_city.like = ('%institution%' | \
+        '%ambulancia%' | '%laboratory%' | '%surgery%' | '%llc%')).all()
+    for record in citynullfix:
+        site_city = null
 
 
 # def set_val_user_id():
@@ -238,5 +261,6 @@ if __name__ == "__main__":
     load_condition()
     load_intervention()
     load_sites()
+    clean_sites()
     
     #set_val_user_id()

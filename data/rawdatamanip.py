@@ -98,7 +98,7 @@ with open('conditions.tsv', 'w') as tsvfile:
             conditionfile.writerow([NCT_number, condition_detail])
 
 with open('sites.tsv', 'w') as tsvfile:
-    sitesfile = csv.writer(tsvfile, delimiter='\t')
+    sitesfile = csv.writer(tsvfile, delimiter='|')
     with open('rawdata.tsv', 'r') as file:
         lines = file.readlines()[1:]
         for line in lines:
