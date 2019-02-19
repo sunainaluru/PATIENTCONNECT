@@ -2,7 +2,6 @@
 
 from sqlalchemy import func
 from model import Study, Age, Phase, Condition, Site, PhaseXref, CondXref, InterXref, Inter, SiteXref
-from datetime import datetime as dt
 
 from model import connect_to_db, db
 from server import app 

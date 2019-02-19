@@ -105,7 +105,7 @@ class Condition(db.Model):
 
     def __repr__(self):
 
-        return f"<Condition cond_id={self.cond_id} condition_detail={self.condition_detail}>"
+        return f"<Condition cond_id={self.cond_id} condition_detail={self.cond_detail}>"
 
 class CondXref(db.Model):
 
