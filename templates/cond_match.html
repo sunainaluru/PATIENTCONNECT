@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Condition Search Match</title>
+</head>
+<body>
+    <ul>
+    {% for condition in cond_query%}
+      <li>
+        <a href="/conditions/{{condition.cond_id}}">
+          {{ condition.cond_detail}}
+        </a> 
+      </li>
+    {% endfor %}
+    </ul>
+
+</body>
+</html>    
+
+
+
+
+   

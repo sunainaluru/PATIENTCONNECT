@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trial Information</title>
+</head>
+<body>
+
+  <ul>
+    Study Info
+    <br>
+    {% for condition in current_cond %}
+        {{condition.study}}
+        <br>
+        {% for study in condition.study %}
+            Age Info
+            <br>
+            {{study.ages}}
+            <br>
+            Phase Info    
+            <br>
+            {{study.phases}}
+            <br>
+            Intervention Info
+            <br>
+            {{study.inters}}
+            <br>
+            Condition Info
+            <br>
+            {{study.conditions}}
+            <br>
+            Site Info
+            <br>
+            {{study.sites}}
+            <br>
+            {{address}}
+        {% endfor %}    
+    {% endfor %}
+  </ul>
+<div id="map"></div>
+<script src="static/patientmaps.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqm0BRaLKNN9LTKlkbb2ykCzOSOiB9bMI&callback=initMap">
+</script>
+</body>
+</html>
