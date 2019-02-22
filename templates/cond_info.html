@@ -2,6 +2,20 @@
 <html>
 <head>
     <title>Trial Information</title>
+    <style>
+        html,
+        body{
+            height: 100%;
+        margin: 0;
+        padding: 0;
+        } 
+        /*Setting the margin and padding to 0 resets the browser.*/
+          div#map {
+             height: 600px;  
+             width: 600px;   
+            }
+    </style>
+    <script src="http://code.jquery.com/jquery.js"></script>
 </head>
 <body>
 
@@ -31,15 +45,12 @@
             Site Info
             <br>
             {{study.sites}}
-            <br>
-            {{address}}
         {% endfor %}    
     {% endfor %}
   </ul>
-<div id="map"></div>
-<script src="static/patientmaps.js"></script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqm0BRaLKNN9LTKlkbb2ykCzOSOiB9bMI&callback=initMap">
-</script>
+  <div id='map'></div>
+    <script src="../static/patientmaps.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key={GoogleKey}&callback=initMap"
+    ></script>
 </body>
 </html>

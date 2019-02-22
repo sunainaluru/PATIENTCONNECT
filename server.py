@@ -3,7 +3,7 @@
 from jinja2 import StrictUndefined
 
 from flask import (Flask, render_template, redirect, request, flash,
-                   session)
+                   session, jsonify)
 from flask_debugtoolbar import DebugToolbarExtension
 from model import (Study, Age, Phase, Condition, Site, PhaseXref, CondXref,
                     InterXref, Inter, SiteXref, connect_to_db, db)
@@ -37,12 +37,28 @@ def user_info(cond_id):
 
     current_cond = Condition.query.filter_by(cond_id = cond_id).options(db.joinedload('study')).all()
 
+    return render_template("cond_info.html", current_cond=current_cond)
+
+@app.route('/conditions/<cond_id>/address.json')
+def create_address(cond_id):
+    """JSON info address."""
+    
+    current_cond_2 = Condition.query.filter_by(cond_id = cond_id).options(db.joinedload('study')).all()
     address = ''
-    for cond in current_cond:
+    address_dict = {}
+    for cond in current_cond_2:
         for study in cond.study:
-            for site in study.sites:
+             for site in study.sites:
+                if site.site_name == None:
+                    site.site_name = ''
+                if site.site_city == None:
+                    site.site_city = ''
+                if site.site_state == None:
+                    site.site_state = ''
                 address = site.site_name + ',' + site.site_city + ',' + site.site_state + ',' + site.site_country
-    return render_template("cond_info.html", current_cond=current_cond, address= address)
+                address_dict[site.site_name] = address
+
+    return jsonify(address_dict)
 
 
 if __name__ == "__main__":
