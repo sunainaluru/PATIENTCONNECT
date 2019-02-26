@@ -47,10 +47,13 @@
             {{study.sites}}
         {% endfor %}    
     {% endfor %}
+
+    <p hidden id="cond_id">{{cond_id}}</p>
+
   </ul>
   <div id='map'></div>
     <script src="../static/patientmaps.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key={GoogleKey}&callback=initMap"
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key={GOOGLEKEY}&callback=initMap"
     ></script>
 </body>
 </html>

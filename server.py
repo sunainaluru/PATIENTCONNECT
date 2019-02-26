@@ -37,25 +37,25 @@ def user_info(cond_id):
 
     current_cond = Condition.query.filter_by(cond_id = cond_id).options(db.joinedload('study')).all()
 
-    return render_template("cond_info.html", current_cond=current_cond)
+    
+    return render_template("cond_info.html", current_cond=current_cond, cond_id=cond_id)
 
 @app.route('/conditions/<cond_id>/address.json')
-def create_address(cond_id):
-    """JSON info address."""
-    
+def create_json(cond_id):
     current_cond_2 = Condition.query.filter_by(cond_id = cond_id).options(db.joinedload('study')).all()
-    address = ''
+
+    address = ""
     address_dict = {}
     for cond in current_cond_2:
         for study in cond.study:
              for site in study.sites:
                 if site.site_name == None:
-                    site.site_name = ''
+                    site.site_name = ""
                 if site.site_city == None:
-                    site.site_city = ''
+                    site.site_city = ""
                 if site.site_state == None:
-                    site.site_state = ''
-                address = site.site_name + ',' + site.site_city + ',' + site.site_state + ',' + site.site_country
+                    site.site_state = ""
+                address = site.site_name + "," + site.site_city + "," + site.site_state + "," + site.site_country
                 address_dict[site.site_name] = address
 
     return jsonify(address_dict)
