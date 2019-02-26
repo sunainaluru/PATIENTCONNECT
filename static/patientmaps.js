@@ -1,7 +1,8 @@
 "use strict";
 
-// #Change your JS to Jquery, where possible
-// #Use double quotes
+// Change your JS to Jquery, where possible
+// Use double quotes
+// For demo, condition 367 is really good OR 376 is really good!
 
 function initMap() {
     // Specify where the map is centered
@@ -13,8 +14,6 @@ function initMap() {
     // Create a map object and specify the DOM element for display.
     let map = new google.maps.Map(document.getElementById("map"), {
         center: myLatLng,
-        zoom: 8,
-        streetViewControl: false
     });
 
     make_markers(map);
@@ -33,6 +32,7 @@ function make_markers(map) {
 
             // Define the marker
             let geocoder = new google.maps.Geocoder();
+            var bounds = new google.maps.LatLngBounds();
 
             geocoder.geocode({'address': address}, function(results, status) {
                 for (let result in results) {
@@ -43,9 +43,21 @@ function make_markers(map) {
                     let marker = new google.maps.Marker({
                         position: LatLng,
                         map: map,
-                        label: "Trial Location"
+                        label: "Click to Zoom"
                     })
+                    bounds.extend(marker.getPosition());
+                    var infowindow = new google.maps.InfoWindow({
+                        content: results[result].formatted_address
+                    });
+                    marker.addListener('click', function() {
+                        map.setZoom(10);
+                        map.setCenter(marker.getPosition());
+                    });
+                    marker.addListener('click', function() {
+                        infowindow.open(map, marker);
+                    });
                 }
+                map.fitBounds(bounds);
             });
         }
     });       
