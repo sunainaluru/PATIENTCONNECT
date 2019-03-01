@@ -22,6 +22,7 @@ app.jinja_env.undefined = StrictUndefined
 @app.route("/", methods=['GET'])
 def show_homepage():
     """Show the homepage page"""
+
     return render_template("homepage.html")
 
 @app.route("/condition-match", methods=['POST'])
@@ -35,15 +36,38 @@ def condition_match():
 @app.route('/conditions/<cond_id>')
 def user_info(cond_id):
 
-    current_cond = Condition.query.filter_by(cond_id = cond_id).options(db.joinedload('study')).all()
+    current_cond = Condition.query.filter_by(cond_id=cond_id).options(db.joinedload('study')).all()
 
-    
-    return render_template("cond_info.html", current_cond=current_cond, cond_id=cond_id)
+    studies_dict = []
+    ages_dict = []
+    phases_dict = []
+    inters_dict = []
+    conds_dict = []
+    sites_dict = []
+
+    for condition in current_cond:
+        for study in condition.study:
+            studies_dict.append(study.to_json())
+            for ages in study.ages:
+                ages_dict.append(ages.to_json())
+            for phases in study.phases:
+                phases_dict.append(phases.to_json())
+            for inters in study.inters:             
+                inters_dict.append(inters.to_json())
+            for conds in study.conditions:
+                conds_dict.append(conds.to_json())
+            for sites in study.sites:
+                sites_dict.append(sites.to_json())
+
+    return render_template("cond_info.html", cond_id=cond_id, studies_dict=studies_dict
+        , ages_dict=ages_dict, phases_dict=phases_dict, inters_dict=inters_dict, 
+        conds_dict=conds_dict, sites_dict=sites_dict)
 
 @app.route('/conditions/<cond_id>/address.json')
 def create_json(cond_id):
     current_cond_2 = Condition.query.filter_by(cond_id = cond_id).options(db.joinedload('study')).all()
 
+    
     address = ""
     address_dict = {}
     for cond in current_cond_2:

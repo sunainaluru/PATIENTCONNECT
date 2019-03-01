@@ -35,28 +35,34 @@ function make_markers(map) {
             var bounds = new google.maps.LatLngBounds();
 
             geocoder.geocode({'address': address}, function(results, status) {
+                
                 for (let result in results) {
                     console.log(status)
                     console.log(results[result].geometry.location.lat(), results[result].geometry.location.lng());
                     let LatLng = {lat: results[result].geometry.location.lat(), lng: results[result].geometry.location.lng()};
-                    map.setCenter(LatLng)
+                    
                     let marker = new google.maps.Marker({
                         position: LatLng,
                         map: map,
                         label: "Click to Zoom"
                     })
+
                     bounds.extend(marker.getPosition());
+
                     var infowindow = new google.maps.InfoWindow({
                         content: results[result].formatted_address
                     });
+
                     marker.addListener('click', function() {
                         map.setZoom(10);
                         map.setCenter(marker.getPosition());
                     });
+
                     marker.addListener('click', function() {
                         infowindow.open(map, marker);
                     });
                 }
+
                 map.fitBounds(bounds);
             });
         }

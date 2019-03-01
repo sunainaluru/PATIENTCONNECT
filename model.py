@@ -32,7 +32,13 @@ class Study(db.Model):
     conditions = db.relationship("Condition", secondary = "condxref", backref = "study")
     inters = db.relationship("Inter", secondary="interxref", backref="study")
     ages = db.relationship("Age", backref="study") #Check with Ashley if this is right!
-    sites = db.relationship("Site", secondary="sitexref", backref="study") 
+    sites = db.relationship("Site", secondary="sitexref", backref="study")
+
+    def to_json(self):
+
+        return{"nct_number":self.nct_number, "status":self.status, "study_type":self.study_type,
+        "title":self.title, "start_date":self.start_date, "gender":self.gender, "enrollment":self.enrollment}
+
 
     def __repr__(self):
 
@@ -56,6 +62,11 @@ class Age(db.Model):
     age_detail_adult = db.Column(db.String(64), nullable=True)
     age_detail_older = db.Column(db.String(64), nullable=True)
 
+    def to_json(self):
+
+        return {"age_range": self.age_range, "age_detail_child": self.age_detail_child, 
+        "age_detail_adult": self.age_detail_adult, "age_detail_older": self.age_detail_adult}
+
 
     def __repr__(self):
 
@@ -72,6 +83,9 @@ class Phase(db.Model):
 
     phase_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
     phase_detail = db.Column(db.String(64), unique=True, nullable=True)
+
+    def to_json(self):
+        return {"phase_detail": self.phase_detail}
     
 
     def __repr__(self):
@@ -101,6 +115,12 @@ class Condition(db.Model):
 
     cond_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
     cond_detail = db.Column(db.String(100), unique=True, nullable=True)
+    cond_dict = {}
+
+    def to_json(self):
+
+        # return self.cond_dict.setdefault("cond_detail", []).append(self.cond_detail)
+        return {"cond_detail" : self.cond_detail}
     
 
     def __repr__(self):
@@ -131,6 +151,9 @@ class Inter(db.Model):
     inter_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
     inter_detail = db.Column(db.String(500), unique=True, nullable=True)
     
+    def to_json(self):
+
+        return {"inter_detail": self.inter_detail}
 
     def __repr__(self):
 
@@ -148,7 +171,7 @@ class InterXref(db.Model):
 
     def __repr__(self):
 
-         return f"<InerXref NCT_inter_id = {nct_inter_id} NCT_number={self.nct_number} inter_id={self.inter_id}>"
+         return f"<InterXref NCT_inter_id = {nct_inter_id} NCT_number={self.nct_number} inter_id={self.inter_id}>"
 
 
 class Site(db.Model):
@@ -161,7 +184,11 @@ class Site(db.Model):
     site_city = db.Column(db.String(500), nullable=True)
     site_state = db.Column(db.String(500), nullable=True)
     site_country = db.Column(db.String(500), nullable=True)
-    
+    site_address = db.Column(db.String(500), nullable=True)
+
+    def to_json(self):
+        return {"site_name": self.site_name, "site_city":self.site_city, "site_state":self.site_state,
+        "site_country":self.site_country}
 
     def __repr__(self):
 
