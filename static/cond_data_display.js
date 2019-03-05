@@ -11,7 +11,7 @@ var study_table = new Tabulator("#s_table", {
         {title:"Study Start Date", field:"start_date"},
         {title:"Gender", field:"gender"},
         {title:"Enrollment", field:"enrollment"},
-    ],
+    ]
 });
 
 
@@ -77,7 +77,7 @@ var sites_table = new Tabulator("#si_table", {
     selectable:true,
     pagination:"local", //enable local pagination.
     paginationSize:5,
-    paginationButtonCount:3;
+    paginationButtonCount:3
 });
 
 

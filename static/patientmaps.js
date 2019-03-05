@@ -21,50 +21,41 @@ function initMap() {
 
 function make_markers(map) {
 
-    let cond_id = $("#cond_id").text();
-    let url = `/conditions/${cond_id}/address.json`;
-    $.get(url, (address_dict) => {
+    const si_table = $('#si_table');
+    const si_dict = si_table.data('sites');
 
-      let address, marker;
 
-      for (let key in address_dict) {
-            address = address_dict[key];
+    var i;
+    for (i = 0; i < si_dict.length; i++) {
 
-            // Define the marker
-            let geocoder = new google.maps.Geocoder();
-            var bounds = new google.maps.LatLngBounds();
+        var bounds = new google.maps.LatLngBounds();
 
-            geocoder.geocode({'address': address}, function(results, status) {
+        let LatLng = {lat: si_dict[i]['site_lat'], lng: si_dict[i]['site_lng']};
                 
-                for (let result in results) {
-                    console.log(status)
-                    console.log(results[result].geometry.location.lat(), results[result].geometry.location.lng());
-                    let LatLng = {lat: results[result].geometry.location.lat(), lng: results[result].geometry.location.lng()};
-                    
-                    let marker = new google.maps.Marker({
-                        position: LatLng,
-                        map: map,
-                        label: "Click to Zoom"
-                    })
+        let marker = new google.maps.Marker({
+            position: LatLng,
+            map: map,
+            label: "Click to Zoom"
+        });
 
-                    bounds.extend(marker.getPosition());
+        bounds.extend(LatLng);
 
-                    var infowindow = new google.maps.InfoWindow({
-                        content: results[result].formatted_address
-                    });
+        // var infowindow = new google.maps.InfoWindow({
+        //     content: results[result].formatted_address
+        // });
 
-                    marker.addListener('click', function() {
-                        map.setZoom(10);
-                        map.setCenter(marker.getPosition());
-                    });
+        // marker.addListener('click', function() {
+        //     map.setZoom(10);
+        //     map.setCenter(marker.getPosition());
+        // });
 
-                    marker.addListener('click', function() {
-                        infowindow.open(map, marker);
-                    });
-                }
-
-                map.fitBounds(bounds);
-            });
-        }
-    });       
-}
+        // marker.addListener('click', function() {
+        //     infowindow.open(map, marker);
+        // });
+    }
+    map.fitBounds(bounds);
+    // let rect = new google.maps.Rectangle( {bounds: bounds, map: map} );
+    // console.log(bounds);
+    
+      
+}       

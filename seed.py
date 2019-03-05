@@ -5,7 +5,7 @@ from model import Study, Age, Phase, Condition, Site, PhaseXref, CondXref, Inter
 
 from model import connect_to_db, db
 from server import app 
-
+import googlemaps, os, requests
 
 def load_study():
     """Load studies from study.tsv into database."""
@@ -186,11 +186,20 @@ def load_sites():
         if site_country == "null":
             site_country = None
 
+        site_address = ""
+        site_lat = 0.0
+        site_lng = 0.0
+        site_zipcode = ""
+
         study_query = Study.query.get(nct_number)
         site = Site(site_name=site_name,
                     site_city=site_city,
                     site_state=site_state,
-                    site_country=site_country)
+                    site_country=site_country,
+                    site_address=site_address,
+                    site_lat = site_lat,
+                    site_lng = site_lng
+                    )
 
         # We need to add to the session or it won't ever be stored
         study_query.sites.append(site)
@@ -256,6 +265,45 @@ def clean_city_null():
     db.session.commit()
     print("City nulls cleaned")
 
+def load_address():
+
+    sites = Site.query.all()
+    for site in sites:
+        if site.site_name == None:
+            site.site_name = ""
+        if site.site_city == None:
+            site.site_city = ""
+        if site.site_state == None:
+            site.site_state = ""
+        if site.site_country == None:
+            site.site_country = ""    
+        site.site_address = site.site_name + "," + site.site_city + "," + site.site_state + "," + site.site_country
+
+    db.session.commit()
+    print("Addresses added")
+
+def load_lat_lng():
+
+    gmaps = googlemaps.Client(os.environ.get('GOOGLE_KEY'))
+
+    sites = Site.query.all()
+
+    for site in sites:
+
+        # Do the request and get the response data
+        result = gmaps.geocode(site.site_address)
+
+        try:
+            site.site_lat = result[0]['geometry']['location']['lat']
+            site.site_lng = result[0]['geometry']['location']['lng']
+            
+        except IndexError:
+            pass
+
+    db.session.commit()
+    print("Lat Long added")
+
+
 
 # def set_val_user_id():
 #     """Set value for the next user_id after seeding database"""
@@ -287,5 +335,7 @@ if __name__ == "__main__":
     clean_dept_name()
     clean_city_fix()
     clean_city_null()
+    load_address()
+    load_lat_lng()
     
     #set_val_user_id()

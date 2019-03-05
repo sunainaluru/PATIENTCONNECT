@@ -185,15 +185,20 @@ class Site(db.Model):
     site_state = db.Column(db.String(500), nullable=True)
     site_country = db.Column(db.String(500), nullable=True)
     site_address = db.Column(db.String(500), nullable=True)
+    site_lat = db.Column(db.Float, nullable=True)
+    site_lng = db.Column(db.Float, nullable=True)
 
     def to_json(self):
-        return {"site_name": self.site_name, "site_city":self.site_city, "site_state":self.site_state,
-        "site_country":self.site_country}
+        
+        return {"site_name": self.site_name, "site_city":self.site_city, 
+        "site_state":self.site_state, "site_country":self.site_country,
+        "site_lat":self.site_lat, "site_lng":self.site_lng}
 
     def __repr__(self):
 
         return f"<Site site_id={self.site_id} site_name={self.site_name} \
-        site_city={self.site_city} site_state={self.site_state} site_country={self.site_country}>"
+        site_city={self.site_city} site_state={self.site_state} site_country={self.site_country} \
+        site_address={self.site_address} site_lat={self.site_lat} site_lng={self.site_lng}>"
 
 class SiteXref(db.Model):
 

@@ -8,6 +8,9 @@ from flask_debugtoolbar import DebugToolbarExtension
 from model import (Study, Age, Phase, Condition, Site, PhaseXref, CondXref,
                     InterXref, Inter, SiteXref, connect_to_db, db)
 
+import googlemaps, os, requests
+from sqlalchemy import cast, String
+
 app = Flask(__name__)
 
 # Required to use Flask sessions and the debug toolbar
@@ -32,6 +35,48 @@ def condition_match():
     cond_query = Condition.query.filter(Condition.cond_detail.ilike('%' + cond_search + '%')).all()
 
     return render_template("cond_match.html", cond_query=cond_query)
+
+@app.route("/zipcode-match", methods=['GET'])
+def zipcode_match():
+
+    user_zipcode = str(request.form.get("zipcode"))
+    distance = str(request.form.get("distance"))
+    units = str(request.form.get("units"))
+    
+    gmaps = googlemaps.Client(os.environ.get('GOOGLE_KEY'))
+
+    #GOTTA FIX THIS URL PARAMS REQUEST
+    api_results = requests.get("https://www.zipcodeapi.com/rest/z2W6lPLrcKBPbIr6ZkHiuPi8pQEHNq6chIwfPNKxkobKSqjA3L3kMnBNGD9SVXa1/radius.json/77001/15/miles")
+
+    api_results = api_results.json()
+
+    zipcodes = []
+
+    for result in api_results['zip_codes']:
+        zipcodes.append(result['zip_code'])
+
+    query_results = []
+
+    for zipcode in zipcodes:
+        conversion = gmaps.geocode(zipcode)
+
+        try:
+            converted_lat = str(int(conversion[0]['geometry']['location']['lat'])) 
+            converted_lng = str(int(conversion[0]['geometry']['location']['lng'])) 
+        except IndexError:
+            pass
+
+        query_results = Site.query.filter(cast(Site.site_lat, String()).ilike(converted_lat + '%')).all()#.filter(cast(Site.site_lat, String()).ilike('-95' + '%')).all()
+
+
+    conds_dict = {}
+
+    for site in query_results:
+        for study in site.study:
+            for conds in study.conditions:
+                conds_dict[conds.cond_id] = conds.cond_detail
+
+    return render_template("zipcode_match.html", conds_dict = conds_dict)
 
 @app.route('/conditions/<cond_id>')
 def user_info(cond_id):
@@ -59,30 +104,11 @@ def user_info(cond_id):
             for sites in study.sites:
                 sites_dict.append(sites.to_json())
 
-    return render_template("cond_info.html", cond_id=cond_id, studies_dict=studies_dict
-        , ages_dict=ages_dict, phases_dict=phases_dict, inters_dict=inters_dict, 
+
+    return render_template("cond_info.html", cond_id=cond_id, studies_dict=studies_dict, 
+        ages_dict=ages_dict, phases_dict=phases_dict, inters_dict=inters_dict, 
         conds_dict=conds_dict, sites_dict=sites_dict)
 
-@app.route('/conditions/<cond_id>/address.json')
-def create_json(cond_id):
-    current_cond_2 = Condition.query.filter_by(cond_id = cond_id).options(db.joinedload('study')).all()
-
-    
-    address = ""
-    address_dict = {}
-    for cond in current_cond_2:
-        for study in cond.study:
-             for site in study.sites:
-                if site.site_name == None:
-                    site.site_name = ""
-                if site.site_city == None:
-                    site.site_city = ""
-                if site.site_state == None:
-                    site.site_state = ""
-                address = site.site_name + "," + site.site_city + "," + site.site_state + "," + site.site_country
-                address_dict[site.site_name] = address
-
-    return jsonify(address_dict)
 
 
 if __name__ == "__main__":

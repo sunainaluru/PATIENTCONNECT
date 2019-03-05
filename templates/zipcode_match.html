@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Condition Search Match By Zipcode</title>
+</head>
+<body>
+    <ul>
+
+    {% for id, detail in conds_dict.items() %}
+      <li>
+        <a href="/conditions/{{id}}">
+          {{detail}}
+        </a> 
+      </li>
+    {% endfor %}
+    </ul>
+
+</body>
+</html>   
