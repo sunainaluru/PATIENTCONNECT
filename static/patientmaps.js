@@ -31,31 +31,32 @@ function make_markers(map) {
         var bounds = new google.maps.LatLngBounds();
 
         let LatLng = {lat: si_dict[i]['site_lat'], lng: si_dict[i]['site_lng']};
-                
+
         let marker = new google.maps.Marker({
             position: LatLng,
             map: map,
             label: "Click to Zoom"
         });
 
-        bounds.extend(LatLng);
+        bounds.extend(marker.position);
+        console.log(bounds)
 
-        // var infowindow = new google.maps.InfoWindow({
-        //     content: results[result].formatted_address
-        // });
+        var infowindow = new google.maps.InfoWindow({
+            content: si_dict[i]['site_address']
+        });
 
-        // marker.addListener('click', function() {
-        //     map.setZoom(10);
-        //     map.setCenter(marker.getPosition());
-        // });
+        marker.addListener('click', function() {
+            map.setZoom(10);
+            map.setCenter(marker.getPosition());
+            marker = {label: ""};
+        });
 
-        // marker.addListener('click', function() {
-        //     infowindow.open(map, marker);
-        // });
-    }
-    map.fitBounds(bounds);
-    // let rect = new google.maps.Rectangle( {bounds: bounds, map: map} );
-    // console.log(bounds);
-    
-      
-}       
+        marker.addListener('click', function() {
+            infowindow.open(map, marker);
+        });
+
+    };
+
+    map.setCenter(bounds.getCenter());
+    map.fitBounds(bounds,  0);
+};       

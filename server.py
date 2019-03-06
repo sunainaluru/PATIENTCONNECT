@@ -22,7 +22,7 @@ app.secret_key = "ABC"
 app.jinja_env.undefined = StrictUndefined
 
 
-@app.route("/", methods=['GET'])
+@app.route("/")
 def show_homepage():
     """Show the homepage page"""
 
@@ -36,38 +36,31 @@ def condition_match():
 
     return render_template("cond_match.html", cond_query=cond_query)
 
-@app.route("/zipcode-match", methods=['GET'])
+@app.route("/zipcode-match", methods=['POST'])
 def zipcode_match():
+    gmaps = googlemaps.Client(os.environ.get('GOOGLE_KEY'))
+    ZIP_KEY = os.environ.get('ZIP_KEY')
 
     user_zipcode = str(request.form.get("zipcode"))
     distance = str(request.form.get("distance"))
     units = str(request.form.get("units"))
-    
-    gmaps = googlemaps.Client(os.environ.get('GOOGLE_KEY'))
 
-    #GOTTA FIX THIS URL PARAMS REQUEST
-    api_results = requests.get("https://www.zipcodeapi.com/rest/z2W6lPLrcKBPbIr6ZkHiuPi8pQEHNq6chIwfPNKxkobKSqjA3L3kMnBNGD9SVXa1/radius.json/77001/15/miles")
-
-    api_results = api_results.json()
+    url = ("https://www.zipcodeapi.com/rest/" + ZIP_KEY + "/radius.json/" + user_zipcode + "/" + distance + "/" + units)
+    api_results = requests.get(url).json()
 
     zipcodes = []
-
     for result in api_results['zip_codes']:
         zipcodes.append(result['zip_code'])
 
     query_results = []
-
     for zipcode in zipcodes:
         conversion = gmaps.geocode(zipcode)
-
         try:
             converted_lat = str(int(conversion[0]['geometry']['location']['lat'])) 
             converted_lng = str(int(conversion[0]['geometry']['location']['lng'])) 
         except IndexError:
             pass
-
-        query_results = Site.query.filter(cast(Site.site_lat, String()).ilike(converted_lat + '%')).all()#.filter(cast(Site.site_lat, String()).ilike('-95' + '%')).all()
-
+        query_results = Site.query.filter(cast(Site.site_lat, String()).ilike(converted_lat + '.%'), cast(Site.site_lng, String()).ilike(converted_lng + '.%')).all()
 
     conds_dict = {}
 

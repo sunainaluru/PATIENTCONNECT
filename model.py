@@ -119,7 +119,6 @@ class Condition(db.Model):
 
     def to_json(self):
 
-        # return self.cond_dict.setdefault("cond_detail", []).append(self.cond_detail)
         return {"cond_detail" : self.cond_detail}
     
 
@@ -187,12 +186,14 @@ class Site(db.Model):
     site_address = db.Column(db.String(500), nullable=True)
     site_lat = db.Column(db.Float, nullable=True)
     site_lng = db.Column(db.Float, nullable=True)
+    site_zipcode = db.Column(db.String(500), nullable=True)
 
     def to_json(self):
         
         return {"site_name": self.site_name, "site_city":self.site_city, 
         "site_state":self.site_state, "site_country":self.site_country,
-        "site_lat":self.site_lat, "site_lng":self.site_lng}
+        "site_lat":self.site_lat, "site_lng":self.site_lng, "site_address":self.site_address,
+        "site_zipcode":self.site_zipcode}
 
     def __repr__(self):
 

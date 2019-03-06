@@ -198,8 +198,8 @@ def load_sites():
                     site_country=site_country,
                     site_address=site_address,
                     site_lat = site_lat,
-                    site_lng = site_lng
-                    )
+                    site_lng = site_lng,
+                    site_zipcode = site_zipcode)
 
         # We need to add to the session or it won't ever be stored
         study_query.sites.append(site)
@@ -292,11 +292,14 @@ def load_lat_lng():
 
         # Do the request and get the response data
         result = gmaps.geocode(site.site_address)
+        print(result)
 
         try:
             site.site_lat = result[0]['geometry']['location']['lat']
             site.site_lng = result[0]['geometry']['location']['lng']
-            
+            address = result[0]['address_components']
+            site.site_zipcode = address[len(address) - 1]['long_name']
+
         except IndexError:
             pass
 

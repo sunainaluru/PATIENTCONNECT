@@ -36,21 +36,23 @@
     <h1> Welcome to Patient Connect! </h1>
     <h2> Please search for a condition you would like to search for actively enrolling clinical trials: </h2>
     <br>
-    <form autocomplete="off" action="/condition-match" method="get">
+    <form autocomplete="off" action="/condition-match" method="post">
         <div class="autocomplete" style="width:300px;">
-            <input type="text" id="search" name="search" placeholder="Condition">
+            <input type="text" id="search" name="search" placeholder="Condition" required>
         </div>
         <input type="submit">
     </form>
 
-    <form autocomplete="off" action="/zipcode-match" method="get">
+    <form autocomplete="off" action="/zipcode-match" method="post">
     <div>
-        <input type="text" id="zipcode" name="zipcode" placeholder="Zipcode">
-        <input type="text" id="distance" name="units" placeholder="Distance">
-        <input type="text" id="units" name="units" placeholder="Units">
+        <input type="text" id="zipcode" name="zipcode" placeholder="Zipcode" required>
+        <input type="text" id="distance" name="distance" placeholder="Distance" required>
+        <select placeholder = "Units" required>
+            <option id="units" name="units">miles</option>
+            <option id="units" name="units">km</option>
+        </select>
         <input type="submit">
     </div>
-
     </form>
     
     <script src="../static/autocomplete.js"></script>
