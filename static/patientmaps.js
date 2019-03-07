@@ -21,7 +21,6 @@ function make_markers(map) {
     const si_table = $("#si_table");
     const si_dict = si_table.data("sites");
 
-
     var i;
     var bounds = new google.maps.LatLngBounds();
 
@@ -36,15 +35,12 @@ function make_markers(map) {
 
         bounds.extend(marker.position);
 
-        var infowindow = new google.maps.InfoWindow({
-            content: si_dict[i]["site_address"]
-        });
-
         marker.addListener("click", function() {
             map.setZoom(10);
             map.setCenter(marker.getPosition());
-            infowindow.open(map, marker);
         });
+
+        bindInfoWindow(marker, map, infowindow, si_dict[i]["site_name"]); 
     };
 
     map.fitBounds(bounds);
@@ -55,3 +51,12 @@ function make_markers(map) {
     });
 
 };       
+
+var infowindow = new google.maps.InfoWindow();
+
+function bindInfoWindow(marker, map, infowindow, html) {
+    marker.addListener('click', function() {
+        infowindow.setContent(html);
+        infowindow.open(map, this);
+    });
+} 

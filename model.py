@@ -39,7 +39,6 @@ class Study(db.Model):
         return{"nct_number":self.nct_number, "status":self.status, "study_type":self.study_type,
         "title":self.title, "start_date":self.start_date, "gender":self.gender, "enrollment":self.enrollment}
 
-
     def __repr__(self):
 
         return f"<Study index={self.index} NCT_number={self.nct_number} \
