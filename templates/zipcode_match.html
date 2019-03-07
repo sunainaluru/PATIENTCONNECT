@@ -4,16 +4,16 @@
     <title>Condition Search Match By Zipcode</title>
 </head>
 <body>
-    <ul>
-
-    {% for id, detail in conds_dict.items() %}
-      <li>
-        <a href="/conditions/{{id}}">
-          {{detail}}
-        </a> 
-      </li>
+    {% for cond in conds_sorted_list %}
+        {% for id, detail in conds_dict.items() %}
+            {% if cond == detail %}
+              <a href="/conditions/{{id}}">
+                {{detail}}
+                <br>
+              </a> 
+            {% endif %}
+        {% endfor %}
     {% endfor %}
-    </ul>
 
 </body>
 </html>   

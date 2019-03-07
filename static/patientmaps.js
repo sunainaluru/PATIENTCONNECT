@@ -1,9 +1,5 @@
 "use strict";
 
-// Change your JS to Jquery, where possible
-// Use double quotes
-// For demo, condition 367 is really good OR 376 is really good!
-
 function initMap() {
     // Specify where the map is centered
     // Defining this variable outside of the map optios markers
@@ -14,6 +10,7 @@ function initMap() {
     // Create a map object and specify the DOM element for display.
     let map = new google.maps.Map(document.getElementById("map"), {
         center: myLatLng,
+        disableDoubleClickZoom: true
     });
 
     make_markers(map);
@@ -21,42 +18,40 @@ function initMap() {
 
 function make_markers(map) {
 
-    const si_table = $('#si_table');
-    const si_dict = si_table.data('sites');
+    const si_table = $("#si_table");
+    const si_dict = si_table.data("sites");
 
 
     var i;
+    var bounds = new google.maps.LatLngBounds();
+
     for (i = 0; i < si_dict.length; i++) {
 
-        var bounds = new google.maps.LatLngBounds();
-
-        let LatLng = {lat: si_dict[i]['site_lat'], lng: si_dict[i]['site_lng']};
+        let LatLng = {lat: si_dict[i]["site_lat"], lng: si_dict[i]["site_lng"]};
 
         let marker = new google.maps.Marker({
             position: LatLng,
             map: map,
-            label: "Click to Zoom"
         });
 
         bounds.extend(marker.position);
-        console.log(bounds)
 
         var infowindow = new google.maps.InfoWindow({
-            content: si_dict[i]['site_address']
+            content: si_dict[i]["site_address"]
         });
 
-        marker.addListener('click', function() {
+        marker.addListener("click", function() {
             map.setZoom(10);
             map.setCenter(marker.getPosition());
-            marker = {label: ""};
-        });
-
-        marker.addListener('click', function() {
             infowindow.open(map, marker);
         });
-
     };
 
-    map.setCenter(bounds.getCenter());
-    map.fitBounds(bounds,  0);
+    map.fitBounds(bounds);
+
+    map.addListener("click", function() {
+        map.fitBounds(bounds);
+        map.setCenter(bounds.getCenter());
+    });
+
 };       

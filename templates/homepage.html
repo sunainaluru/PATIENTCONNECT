@@ -54,6 +54,12 @@
         <input type="submit">
     </div>
     </form>
+
+    <div>
+        {% for message in get_flashed_messages() %}
+            {{ message }}
+        {% endfor %}
+    </div>
     
     <script src="../static/autocomplete.js"></script>
 </body>

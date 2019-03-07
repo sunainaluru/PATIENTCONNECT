@@ -32,44 +32,45 @@ def show_homepage():
 def condition_match():
 
     cond_search = request.form.get("search")
-    cond_query = Condition.query.filter(Condition.cond_detail.ilike('%' + cond_search + '%')).all()
+    cond_query = Condition.query.filter(Condition.cond_detail.ilike('%' + cond_search + '%')).order_by(Condition.cond_detail).all()
 
     return render_template("cond_match.html", cond_query=cond_query)
 
 @app.route("/zipcode-match", methods=['POST'])
 def zipcode_match():
-    gmaps = googlemaps.Client(os.environ.get('GOOGLE_KEY'))
-    ZIP_KEY = os.environ.get('ZIP_KEY')
+    try:
+        user_zipcode = str(request.form.get("zipcode"))
+        distance = str(request.form.get("distance"))
+        units = str(request.form.get("units"))
 
-    user_zipcode = str(request.form.get("zipcode"))
-    distance = str(request.form.get("distance"))
-    units = str(request.form.get("units"))
+        gmaps = googlemaps.Client(os.environ.get('GOOGLE_KEY'))
+        ZIP_KEY = os.environ.get('ZIP_KEY')
 
-    url = ("https://www.zipcodeapi.com/rest/" + ZIP_KEY + "/radius.json/" + user_zipcode + "/" + distance + "/" + units)
-    api_results = requests.get(url).json()
 
-    zipcodes = []
-    for result in api_results['zip_codes']:
-        zipcodes.append(result['zip_code'])
+        url = ("https://www.zipcodeapi.com/rest/" + ZIP_KEY + "/radius.json/" + user_zipcode + "/" + distance + "/" + units)
+        api_results = requests.get(url).json()
+
+        zipcodes = []
+        for result in api_results['zip_codes']:
+            zipcodes.append(result['zip_code'])
+
+    except KeyError:
+        flash("Please enter a zipcode within the USA, or double check your zipcode entry!")
+        return redirect("/")
 
     query_results = []
-    for zipcode in zipcodes:
-        conversion = gmaps.geocode(zipcode)
-        try:
-            converted_lat = str(int(conversion[0]['geometry']['location']['lat'])) 
-            converted_lng = str(int(conversion[0]['geometry']['location']['lng'])) 
-        except IndexError:
-            pass
-        query_results = Site.query.filter(cast(Site.site_lat, String()).ilike(converted_lat + '.%'), cast(Site.site_lng, String()).ilike(converted_lng + '.%')).all()
-
     conds_dict = {}
+    for zipcode in zipcodes:
+        query_results = Site.query.filter(Site.site_zipcode.ilike('%' + zipcode + '%'), Site.site_country.ilike('%United%')).all()
 
-    for site in query_results:
-        for study in site.study:
-            for conds in study.conditions:
-                conds_dict[conds.cond_id] = conds.cond_detail
+        for site in query_results:
+            for study in site.study:
+                for conds in study.conditions:
+                    conds_dict[conds.cond_id] = conds.cond_detail
 
-    return render_template("zipcode_match.html", conds_dict = conds_dict)
+    conds_sorted_list = sorted(conds_dict.values())
+
+    return render_template("zipcode_match.html", conds_dict = conds_dict, conds_sorted_list = conds_sorted_list)
 
 @app.route('/conditions/<cond_id>')
 def user_info(cond_id):
@@ -97,7 +98,6 @@ def user_info(cond_id):
             for sites in study.sites:
                 sites_dict.append(sites.to_json())
 
-
     return render_template("cond_info.html", cond_id=cond_id, studies_dict=studies_dict, 
         ages_dict=ages_dict, phases_dict=phases_dict, inters_dict=inters_dict, 
         conds_dict=conds_dict, sites_dict=sites_dict)
@@ -105,9 +105,6 @@ def user_info(cond_id):
 
 
 if __name__ == "__main__":
-    # We have to set debug=True here, since it has to be True at the
-    # point that we invoke the DebugToolbarExtension
-    app.debug = True
 
     # make sure templates, etc. are not cached in debug mode
     app.jinja_env.auto_reload = app.debug
@@ -116,5 +113,6 @@ if __name__ == "__main__":
 
     # Use the DebugToolbar
     DebugToolbarExtension(app)
+    app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
 
-    app.run(debug=True, host="0.0.0.0")
+    app.run(debug=False, host="0.0.0.0")
