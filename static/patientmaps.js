@@ -40,7 +40,7 @@ function make_markers(map) {
             map.setCenter(marker.getPosition());
         });
 
-        bindInfoWindow(marker, map, infowindow, si_dict[i]["site_name"]); 
+        bindInfoWindow(si_dict[i]["site_name"], marker, map); 
     };
 
     map.fitBounds(bounds);
@@ -50,13 +50,14 @@ function make_markers(map) {
         map.setCenter(bounds.getCenter());
     });
 
-};       
+    function bindInfoWindow(content, marker, map) {
+        const infoWindow = new google.maps.InfoWindow({
+            content,
+        });
 
-var infowindow = new google.maps.InfoWindow();
+        marker.addListener('click', () => infoWindow.open(map, marker));
+    }
 
-function bindInfoWindow(marker, map, infowindow, html) {
-    marker.addListener('click', function() {
-        infowindow.setContent(html);
-        infowindow.open(map, this);
-    });
+        
 } 
+      

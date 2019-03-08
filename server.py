@@ -33,6 +33,9 @@ def condition_match():
     cond_search = request.form.get("search")
     cond_query = condition_search(cond_search)
 
+    if cond_query == "error":
+        return redirect("/")
+
     return render_template("cond_match.html", cond_query=cond_query)
 
 @app.route("/zipcode-match", methods=['POST'])
@@ -43,7 +46,11 @@ def zipcode_match():
     units = str(request.form.get("units"))
 
     results = zipcode_search(user_zipcode, distance, units)
-    conds_dict, conds_sorted_list = results
+
+    if results == "error":
+        return redirect("/")
+    else:
+        conds_dict, conds_sorted_list = results
 
     return render_template("zipcode_match.html", conds_dict = conds_dict, conds_sorted_list = conds_sorted_list)
 

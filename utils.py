@@ -1,13 +1,22 @@
 from model import (Study, Age, Phase, Condition, Site, Inter, connect_to_db, db)
 
+
+from flask import (Flask, render_template, redirect, request, flash)
+
 import os, requests
 
 from sqlalchemy import cast, String
 
 
 def condition_search(cond_search):
-    return Condition.query.filter(Condition.cond_detail.ilike('%' + cond_search + '%')).order_by(Condition.cond_detail).all()
     
+    cond_query = Condition.query.filter(Condition.cond_detail.ilike('%' + cond_search + '%')).order_by(Condition.cond_detail).all()
+    if cond_query == []:
+        flash("Please enter a valid condition. Or the condition entered doesn't exist in our database, sorry!")
+        cond_query = "error"
+        return cond_query
+    else:
+        return cond_query
 
 def zipcode_search(user_zipcode, distance, units):
     try:
@@ -22,7 +31,8 @@ def zipcode_search(user_zipcode, distance, units):
     except KeyError:
 
         flash("Please enter a zipcode within the USA, or double check your zipcode entry!")
-        return redirect("/")
+        results = "error"
+        return results
 
     query_results = []
     conds_dict = {}
