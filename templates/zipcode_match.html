@@ -1,19 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Condition Search Match By Zipcode</title>
-</head>
-<body>
-    {% for cond in conds_sorted_list %}
-        {% for id, detail in conds_dict.items() %}
-            {% if cond == detail %}
-              <a href="/conditions/{{id}}">
-                {{detail}}
-                <br>
-              </a> 
-            {% endif %}
-        {% endfor %}
-    {% endfor %}
+{% extends 'base.html' %}
 
-</body>
-</html>   
+{% block head %}
+    <title>Condition Search Match By Zipcode</title>
+{% endblock %}
+
+{% block content %}
+    <div class="zipmatch"> 
+        <br>
+        <div>Here are the studies being conducted within your zipcode search: </div> 
+        <br>
+        {% for cond in conds_sorted_list %}
+            {% for id, detail in conds_dict.items() %}
+                {% if cond == detail %}
+                  <a href="/conditions/{{id}}">
+                    {{detail}}
+                    <br>
+                  </a> 
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+
+{% endblock %}
+  

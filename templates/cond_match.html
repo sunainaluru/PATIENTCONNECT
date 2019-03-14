@@ -1,21 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
+{% extends 'base.html' %}
+
+{% block head %}
     <title>Condition Search Match</title>
-</head>
-<body>
-    <ul>
+{% endblock %}
+
+{% block content %}
+  <div class="condmatch"> 
+    <br>
+    <div>Here are your condition search matches: </div> 
+    <br>
     {% for condition in cond_query%}
-      <li>
         <a href="/conditions/{{condition.cond_id}}">
           {{ condition.cond_detail}}
+          <br>
         </a> 
-      </li>
     {% endfor %}
-    </ul>
-
-</body>
-</html>    
+  </div>  
+{% endblock %}
 
 
 

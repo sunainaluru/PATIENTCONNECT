@@ -1,66 +1,48 @@
-<!DOCTYPE html>
-<html>
-<head>
+{% extends 'base.html' %}
+
+{% block head %}
     <title> Welcome!</title>
-    <style>
-    .autocomplete-items {
-        position: absolute;
-        border: 1px solid #d4d4d4;
-        border-bottom: none;
-        border-top: none;
-        z-index: 99;
-        /*position the autocomplete items to be the same width as the container:*/
-        top: 100%;
-        left: 0;
-        right: 0;
-    }
-
-    .autocomplete-items div {
-      padding: 10px;
-      cursor: pointer;
-      background-color: #fff; 
-      border-bottom: 1px solid #d4d4d4; 
-    }
-
-    /*when hovering an item:*/
-    .autocomplete-items div:hover {
-      background-color: #e9e9e9; 
-    }
-
-    </style>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-</head>
-<body>
-    <h1> Welcome to Patient Connect! </h1>
-    <h2> Please search for a condition you would like to search for actively enrolling clinical trials: </h2>
-    <br>
-    <form autocomplete="off" action="/condition-match" method="post">
-        <div class="autocomplete" style="width:300px;">
-            <input type="text" id="search" name="search" placeholder="Condition" required>
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <section class="col-xs-12 col-sm-12 col-md-6 col-lg-6 left">
+                <h1 id="titleleft">EMPOWER</h1>
+                <p id="desc"> Welcome to PatientConnect! Patients can use our website to search and find actively enrolling clinical trials- either by condition or a US zipcode. With this information patients can approach their healthcare providers about enrolling in these cutting-edge medical trials. Find out how you can be apart of the future of medical innovation today.
+                </p>
+            </section>
         </div>
-        <input type="submit">
-    </form>
+        <div>
+            <section class="col-xs-12 col-sm-12 col-md-6 col-lg-6 right">
+                <h1 id="titleright">PATIENTS</h1>
+                <div>
+                    <h2 id="start">SEARCH</h2>
 
-    <form autocomplete="off" action="/zipcode-match" method="post">
-    <div>
-        <input type="text" id="zipcode" name="zipcode" placeholder="Zipcode" required>
-        <input type="text" id="distance" name="distance" placeholder="Distance" required>
-        <select placeholder = "Units" required>
-            <option id="units" name="units">miles</option>
-            <option id="units" name="units">km</option>
-        </select>
-        <input type="submit">
-    </div>
-    </form>
+                    <form class= "condition" autocomplete="off" action="/condition-match" method="post">
+                        <div class="autocomplete" style="width:300px;">
+                        <input type="text" id="search" name="search" placeholder="CONDITION" required>
+                        </div>
+                        <input type="submit">
+                    </form>
 
-    <div>
-        {% for message in get_flashed_messages() %}
-            {{ message }}
-        {% endfor %}
+                    <form class= "zipcode" autocomplete="off" action="/zipcode-match" method="post">
+                            <input type="text" id="zipcode" name="zipcode" placeholder="ZIPCODE" required>
+                            <input type="text" id="distance" name="distance" placeholder="DISTANCE" required>
+                            <select class="units" placeholder = "Units" required>
+                                <option id="idmiles" name="units">miles</option>
+                                <option id="idkm" name="units">km</option>
+                            </select>
+                            <input type="submit">
+                    </form>
+
+                </div>
+            </section>
+        </div>
     </div>
     
     <script src="../static/autocomplete.js"></script>
-</body>
-</html>
+{% endblock %}

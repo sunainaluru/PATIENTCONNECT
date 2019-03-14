@@ -23,10 +23,7 @@ const table_a_data = a_table.data("ages");
 var ages_table = new Tabulator("#a_table", {
     data:table_a_data, //set initial table data
     columns:[
-        {title:"Age Range", field:"age_range"},
-        {title:"Age Detail", field:"age_detail_child"},
-        {title:"Age Detail", field:"age_detail_adult"},
-        {title:"Age Detail", field:"age_detail_older"},
+        {title:"Age Range", field:"age_range"}
     ]
 });
 

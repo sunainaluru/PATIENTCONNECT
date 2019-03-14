@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
+{% extends 'base.html' %}
+
+{% block head %}
     <title>Trial Information</title>
     <style>
         html,
@@ -10,39 +10,51 @@
             padding: 0;
         } 
         /*Setting the margin and padding to 0 resets the browser.*/
-          div#map {
-             height: 600px;  
-             width: 600px;   
-            }
+        div#map {
+             height: 400px;  
+             width: 400px%;   
+        }       
     </style>
 
     <script src="http://code.jquery.com/jquery.js"></script>
     <link href="https://unpkg.com/tabulator-tables@4.2.1/dist/css/tabulator.min.css" rel="stylesheet">
     <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.2.1/dist/js/tabulator.min.js"></script>
+{% endblock %}
 
-</head>
-
-<body>
-   
+{% block content %} 
     <p hidden id="cond_id">{{cond_id}}</p>
 
-    <div id="s_table" data-study='{{ studies_dict | tojson }}'></div>
+    <div class = "container fluid">
+        <div class="row">
+            <br>
+            <div class = "tables" id="s_table" data-study='{{ studies_dict | tojson }}'></div>
+            <br>
+        </div>
+    </div>
 
-    <div id="a_table" data-ages='{{ ages_dict | tojson }}'></div>
+    <div class = "container fluid">
+        <div class= "row vertical-center" id="tables" >
+                <div class = "tables" id="a_table" data-ages='{{ ages_dict | tojson }}'></div>
 
-    <div id="p_table" data-phases='{{ phases_dict | tojson }}'></div>
+                <div class = "tables" id="p_table" data-phases='{{ phases_dict | tojson }}'></div>
 
-    <div id="i_table" data-inters='{{ inters_dict | tojson }}'></div>
+                <div class = "tables" id="i_table" data-inters='{{ inters_dict | tojson }}'></div>
 
-    <div id="c_table" data-conds='{{ conds_dict | tojson }}'></div>
+                <div class = "tables" id="c_table" data-conds='{{ conds_dict | tojson }}'></div>
 
-    <div id="si_table" data-sites='{{ sites_dict | tojson }}'></div>
+                <div class = "tables" id="si_table" data-sites='{{ sites_dict | tojson }}'></div>
+        </div>
+    </div>
+    <br>
 
-    <div id='map'></div>
+    <div class = "map" id='map'></div>
+    <br>
+    <br>
+
+    
 
     <script src="../static/cond_data_display.js"></script>
     <script src="../static/patientmaps.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmG8_6SuOZYL-01ovL2J0rF79Kj6-JvgA&callback=initMap"
     ></script>
-</body>
-</html>
+{% endblock %}
