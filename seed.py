@@ -292,7 +292,6 @@ def load_lat_lng():
 
         # Do the request and get the response data
         result = gmaps.geocode(site.site_address)
-        print(result)
 
         try:
             site.site_lat = result[0]['geometry']['location']['lat']

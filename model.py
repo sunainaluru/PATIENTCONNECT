@@ -3,8 +3,7 @@
 from flask_sqlalchemy import SQLAlchemy
 
 # This is the connection to the PostgreSQL database; we're getting this through
-# the Flask-SQLAlchemy helper library. On this, we can find the `session`
-# object, where we do most of our interactions (like committing, etc.)
+# the Flask-SQLAlchemy helper library.
 
 
 db = SQLAlchemy()
@@ -114,7 +113,6 @@ class Condition(db.Model):
 
     cond_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
     cond_detail = db.Column(db.String(100), unique=True, nullable=True)
-    cond_dict = {}
 
     def to_json(self):
 
@@ -220,7 +218,7 @@ def connect_to_db(app):
     """Connect the database to our Flask app."""
 
     # Configure to use our PstgreSQL database
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///patientapp'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///patientconnect'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     db.app = app
     db.init_app(app)
