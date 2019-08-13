@@ -1,8 +1,6 @@
 # PATIENTCONNECT
 A full stack web application that allows users to search for currently active/enrolling clinical trials by medical condition or by zip code. PatientConnect aims to empower patients with information. With this information patients can choose to start the conversation about participating in cutting edge medical innovation, instead of waiting for their healthcare provider. PatientConnect integrates data and features from ClinicalTrials.gov API and Google Maps API.
 
-### Access
-PatientConnect has been deployed via AWS Lightsail and can be accessed via [this link](http://52.13.148.31).
 
 ### Tech Stack
 Frontend: Javascript, Jinja, jQuery, Bootstrap, HTML, CSS
